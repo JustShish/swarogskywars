@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_breath",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "nbt": "kit.a3",
+                "storage": "swrg:lang",
+                "interpret": true
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:127,rewardkit:3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

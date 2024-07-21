@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 27,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sunflower",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:127,rewardcoin:2}"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:toggle_tooltips",
+          "toggles": {
+            "minecraft:attribute_modifiers": true
+          }
+        },
+        {
+          "function": "minecraft:set_attributes",
+          "modifiers": [
+            {
+              "attribute": "minecraft:zombie.spawn_reinforcements",
+              "id": "8wagf78623g87gr",
+              "amount": {
+                "min": 0,
+                "max": 1
+              },
+              "operation": "add_value",
+              "slot": "mainhand"
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "nbt": "rare.b",
+              "storage": "swrg:lang",
+              "interpret": true
+            }
+          ],
+          "mode": "replace_all"
+        },
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": {
+            "nbt": "gui.coins",
+            "storage": "swrg:lang",
+            "interpret": true,
+            "color": "gold",
+            "extra": [
+              {
+                "text": " x50"
+              }
+            ]
+          }
+        },
+        {
+          "function": "minecraft:toggle_tooltips",
+          "toggles": {
+            "minecraft:attribute_modifiers": false
+          }
+        }
+      ]
+    }
+  ]
+}

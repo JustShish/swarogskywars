@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "nbt": "page0.s26.Name",
+                "storage": "swrg:lang",
+                "interpret": true
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "nbt": "page0.s26.Lore",
+              "storage": "swrg:lang",
+              "interpret": true
+            }
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"translate":"block.minecraft.chain","color":"light_purple","italic":false}
+            },
+            {
+              "function": "set_custom_data",
+              "tag":"{rewardbar:19}"
+            },
+            {
+              "function": "set_components",
+              "components": {"hide_additional_tooltip": {}}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

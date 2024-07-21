@@ -1,0 +1,1 @@
+$data modify storage swrg:temp prefix_temp set from storage swrg:core prefix[$(temp_int)]

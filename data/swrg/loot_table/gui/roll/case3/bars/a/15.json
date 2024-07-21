@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_stained_glass",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"translate":"block.minecraft.red_stained_glass","color":"blue","italic":false}
+            },
+            {
+              "function": "set_custom_data",
+              "tag":"{rewardbar:15}"
+            },
+            {
+              "function": "set_components",
+              "components": {"hide_additional_tooltip": {}}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

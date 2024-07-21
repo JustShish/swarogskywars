@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mall",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"translate":"entity.minecraft.chicken","color":"blue","italic":false}
+            },
+            {
+              "function": "set_custom_data",
+              "tag":"{rewardsound:6}"
+            },
+            {
+              "function": "set_components",
+              "components": {"hide_additional_tooltip": {}}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

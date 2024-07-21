@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "nbt": "lore.skill.a3.Lore[0]",
+                  "storage": "swrg:lang",
+                  "interpret": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "nbt": "skill.a3",
+                "storage": "swrg:lang",
+                "interpret": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "au8thifgjk",
+                      "type": "minecraft:generic.armor_toughness",
+                      "amount": 0,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    },
+                    {
+                      "id": "te4rilrwewrtyui",
+                      "type": "minecraft:generic.armor",
+                      "amount": 0,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

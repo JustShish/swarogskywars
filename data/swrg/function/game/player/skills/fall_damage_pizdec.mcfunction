@@ -1,0 +1,1 @@
+$execute as @e[distance=.1..6] run damage @s $(fall_damage) fall

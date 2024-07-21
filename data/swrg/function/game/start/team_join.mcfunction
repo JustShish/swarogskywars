@@ -1,0 +1,18 @@
+execute if entity @s[tag=swrg.1] run team join 1 @r[team=]
+execute if entity @s[tag=swrg.2] run team join 2 @r[team=]
+execute if entity @s[tag=swrg.3] run team join 3 @r[team=]
+execute if entity @s[tag=swrg.4] run team join 4 @r[team=]
+execute if entity @s[tag=swrg.5] run team join 5 @r[team=]
+execute if entity @s[tag=swrg.6] run team join 6 @r[team=]
+execute if entity @s[tag=swrg.7] run team join 7 @r[team=]
+execute if entity @s[tag=swrg.8] run team join 8 @r[team=]
+
+execute if entity @s[tag=swrg.9] run team join 9 @r[team=]
+execute if entity @s[tag=swrg.10] run team join 10 @r[team=]
+execute if entity @s[tag=swrg.11] run team join 11 @r[team=]
+execute if entity @s[tag=swrg.12] run team join 12 @r[team=]
+execute if entity @s[tag=swrg.13] run team join 13 @r[team=]
+execute if entity @s[tag=swrg.14] run team join 14 @r[team=]
+execute if entity @s[tag=swrg.15] run team join 15 @r[team=]
+execute if entity @s[tag=swrg.16] run team join 16 @r[team=]
+kill @s

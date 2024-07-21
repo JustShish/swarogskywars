@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:copy_nbt",
+                "source": {
+                  "type": "minecraft:storage",
+                  "source": "swrg:lang"
+                },
+                "ops": [
+                  {
+                    "source": "page0.s20",
+                    "target": "display{}",
+                    "op": "merge"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{HideFlags:127,CustomModelData:743}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

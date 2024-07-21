@@ -1,0 +1,8 @@
+loot replace entity @s[scores={swrg.case_id=1}] enderchest.11 5 mine 10241024 1 10241024 stone[custom_data={a:1}]
+loot replace entity @s[scores={swrg.case_id=2}] enderchest.11 5 mine 10241024 2 10241024 stone[custom_data={a:1}]
+loot replace entity @s[scores={swrg.case_id=3}] enderchest.11 5 mine 10241024 3 10241024 stone[custom_data={a:1}]
+loot replace entity @s[scores={swrg.case_id=4}] enderchest.11 5 mine 10241024 4 10241024 stone[custom_data={a:1}]
+loot replace entity @s[scores={swrg.case_id=5}] enderchest.11 5 mine 10241024 5 10241024 stone[custom_data={a:1}]
+loot replace entity @s[scores={swrg.case_id=6}] enderchest.11 5 mine 10241024 6 10241024 stone[custom_data={a:1}]
+loot replace entity @s[scores={swrg.case_id=7}] enderchest.11 5 mine 10241024 7 10241024 stone[custom_data={a:1}]
+loot replace entity @s[scores={swrg.case_id=8}] enderchest.11 5 mine 10241024 8 10241024 stone[custom_data={a:1}]

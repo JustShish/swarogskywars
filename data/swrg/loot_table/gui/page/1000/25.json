@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": {
+            "nbt": "page1000.s25.Name",
+            "storage": "swrg:lang",
+            "interpret": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "nbt": "gui.locked",
+      "storage": "swrg:lang",
+      "interpret": true
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "nbt": "gui.locked",
+        "storage": "swrg:lang",
+        "interpret": true
+      }
+    ],
+    "mode": "replace_section"
+  }
+]

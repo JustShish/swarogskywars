@@ -41,7 +41,7 @@ data modify storage swrg:lang title.stage1.event8 set value '{"text":"All player
 
 data modify storage swrg:lang title.stage2.event1 set value '{"text":"Withers was summoned!","color":"red"}'
 data modify storage swrg:lang title.stage2.event2 set value '{"text":"Ender dragons was summoned!","color":"red"}'
-data modify storage swrg:lang title.stage2.event3 set value '{"text":"The Withering Death event has begun!","color":"red"}'
+data modify storage swrg:lang title.stage2.event3 set value '{"text":"The Withering Analfication event has begun!","color":"red"}'
 data modify storage swrg:lang title.stage2.event4 set value '{"text":"The Dynamite Rain event has started!","color":"red"}'
 data modify storage swrg:lang title.stage2.event5 set value '{"text":"The Narrowing of the Zone event has begun!","color":"red"}'
 data modify storage swrg:lang title.stage2.event6 set value '{"text":"All players get a Levitation effect","color":"red"}'

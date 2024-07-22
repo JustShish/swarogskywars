@@ -8,18 +8,13 @@
             "name": "minecraft:chest",
             "functions": [
               {
-                "function": "minecraft:copy_nbt",
-                "source": {
-                  "type": "minecraft:storage",
-                  "source": "swrg:lang"
-                },
-                "ops": [
-                  {
-                    "source": "page0.s22",
-                    "target": "display{}",
-                    "op": "merge"
-                  }
-                ]
+                "function": "minecraft:set_name",
+                "entity":"this",
+                "name": {
+                  "nbt": "page0.s22.Name",
+                  "storage": "swrg:lang",
+                  "interpret": true
+                }
               },
               {
                 "function": "minecraft:set_custom_data",

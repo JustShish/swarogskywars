@@ -8,22 +8,20 @@
             "name": "minecraft:carrot_on_a_stick",
             "functions": [
               {
-                "function": "minecraft:copy_nbt",
-                "source": {
-                  "type": "minecraft:storage",
-                  "source": "swrg:lang"
-                },
-                "ops": [
-                  {
-                    "source": "page0.s24",
-                    "target": "display{}",
-                    "op": "merge"
-                  }
-                ]
+                "function": "minecraft:set_name",
+                "entity":"this",
+                "name": {
+                  "nbt": "page0.s24.Name",
+                  "storage": "swrg:lang",
+                  "interpret": true
+                }
               },
               {
-                "function": "minecraft:set_custom_data",
-                "tag": "{HideFlags:127,CustomModelData:744}"
+                "function": "minecraft:set_components",
+                "components": {
+                  "custom_model_data": 744,
+                  "hide_additional_tooltip": {}
+                }
               }
             ]
           }

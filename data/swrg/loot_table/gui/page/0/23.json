@@ -8,18 +8,13 @@
             "name": "minecraft:dragon_breath",
             "functions": [
               {
-                "function": "minecraft:copy_nbt",
-                "source": {
-                  "type": "minecraft:storage",
-                  "source": "swrg:lang"
-                },
-                "ops": [
-                  {
-                    "source": "page0.s23",
-                    "target": "display{}",
-                    "op": "merge"
-                  }
-                ]
+                "function": "minecraft:set_name",
+                "entity":"this",
+                "name": {
+                  "nbt": "page0.s23.Name",
+                  "storage": "swrg:lang",
+                  "interpret": true
+                }
               },
               {
                 "function": "minecraft:set_custom_data",

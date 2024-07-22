@@ -13,11 +13,11 @@ execute as @s[scores={swrg.gui_page=6000}] run function swrg:gui/page/6000
 execute as @s[scores={swrg.gui_page=7000}] run function swrg:gui/page/7000
 execute as @s[scores={swrg.gui_page=7100}] run function swrg:gui/page/7100
 execute as @s[scores={swrg.gui_page=7200}] run function swrg:gui/page/7200
-#execute as @s[scores={swrg.gui_page=8000}] run function lbc:swrg_kit_integration/gui/page/8000
-#execute as @s[scores={swrg.gui_page=9000}] run function lbc:swrg_kit_integration/gui/page/9000
-#execute as @s[scores={swrg.gui_page=10000}] run function lbc:swrg_kit_integration/gui/page/10000
-#execute as @s[scores={swrg.gui_page=8100}] run function lbc:swrg_kit_integration/gui/page/8100
-#execute as @s[scores={swrg.gui_page=9100}] run function lbc:swrg_kit_integration/gui/page/9100
-#execute as @s[scores={swrg.gui_page=10100}] run function lbc:swrg_kit_integration/gui/page/10100
+execute as @s[scores={swrg.gui_page=8000}] run function lbc:swrg_kit_integration/gui/page/8000
+execute as @s[scores={swrg.gui_page=9000}] run function lbc:swrg_kit_integration/gui/page/9000
+execute as @s[scores={swrg.gui_page=10000}] run function lbc:swrg_kit_integration/gui/page/10000
+execute as @s[scores={swrg.gui_page=8100}] run function lbc:swrg_kit_integration/gui/page/8100
+execute as @s[scores={swrg.gui_page=9100}] run function lbc:swrg_kit_integration/gui/page/9100
+execute as @s[scores={swrg.gui_page=10100}] run function lbc:swrg_kit_integration/gui/page/10100
 #
 function swrg:gui/fill

@@ -25,7 +25,22 @@
           "entity": "this",
           "lore": [
             {
-              "nbt": "page0.s26.Lore",
+              "nbt": "page0.s26.Lore[0]",
+              "storage": "swrg:lang",
+              "interpret": true
+            },
+            {
+              "nbt": "page0.s26.Lore[1]",
+              "storage": "swrg:lang",
+              "interpret": true
+            },
+            {
+              "nbt": "page0.s26.Lore[2]",
+              "storage": "swrg:lang",
+              "interpret": true
+            },
+            {
+              "nbt": "page0.s26.Lore[3]",
               "storage": "swrg:lang",
               "interpret": true
             }

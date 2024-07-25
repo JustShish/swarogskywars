@@ -1,6 +1,5 @@
 {
-  "minecraft:custom_data": {
-    "type": "minecraft:chest",
+"type": "minecraft:chest",
     "pools": [
       {
         "rolls": 1,
@@ -27,4 +26,3 @@
       }
     ]
   }
-}

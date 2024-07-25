@@ -103,18 +103,12 @@
           "name": "minecraft:compass",
           "functions": [
             {
-              "function": "minecraft:copy_nbt",
-              "source": {
-                "type": "minecraft:storage",
-                "source": "swrg:lang"
-              },
-              "ops": [
-                {
-                  "source": "item.compass",
-                  "target": "display{}",
-                  "op": "merge"
-                }
-              ]
+              "function": "set_name",
+              "name":{
+                "nbt":"item.compass.Name",
+                "storage":"swrg:lang",
+                "interpret":true
+              }
             }
           ]
         }

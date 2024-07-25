@@ -34,12 +34,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id": "count",
                   "amount": {
                     "min": 3,
                     "max": 7
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -118,12 +118,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id": "count",
                   "amount": {
                     "min": 4,
                     "max": 11
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -151,12 +151,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id": "count",
                   "amount": {
                     "min": 2,
                     "max": 7
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -178,12 +178,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id": "count",
                   "amount": {
                     "min": 5,
                     "max": 13
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -211,12 +211,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id": "count",
                   "amount": {
                     "min": 20,
                     "max": 33
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -233,12 +233,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id": "count",
                   "amount": {
                     "min": 16,
                     "max": 31
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]

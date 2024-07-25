@@ -14,9 +14,9 @@
                 "modifiers": [
                   {
                     "attribute": "minecraft:zombie.spawn_reinforcements",
-                    "name": "count",
+                    "id": "count",
                     "amount": 0,
-                    "operation": "addition",
+                    "operation": "add_value",
                     "slot": "mainhand"
                   }
                 ]

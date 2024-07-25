@@ -12,7 +12,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 3,
                     "max": 17
@@ -159,7 +159,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 8,
                     "max": 13
@@ -192,7 +192,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 4,
                     "max": 17
@@ -214,7 +214,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 3,
                     "max": 10
@@ -236,7 +236,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 1,
                     "max": 2
@@ -312,7 +312,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 20,
                     "max": 47
@@ -334,7 +334,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 16,
                     "max": 33

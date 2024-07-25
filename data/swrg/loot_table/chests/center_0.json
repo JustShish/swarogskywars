@@ -12,7 +12,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"trew4ertt",
+                  "id": "count",
                   "amount": {
                     "min": 16,
                     "max": 29
@@ -44,7 +44,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id": "auhwe3hfhj38d",
+                  "id": "count",
                   "amount": {
                     "min": 1,
                     "max": 3
@@ -225,7 +225,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 1,
                     "max": 3
@@ -258,7 +258,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 40,
                     "max": 65
@@ -280,7 +280,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id":"count",
+                  "id": "count",
                   "amount": {
                     "min": 20,
                     "max": 65

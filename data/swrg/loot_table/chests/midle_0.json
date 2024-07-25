@@ -12,12 +12,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id":"count",
                   "amount": {
                     "min": 3,
                     "max": 17
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -103,18 +103,12 @@
           "name": "minecraft:compass",
           "functions": [
             {
-              "function": "minecraft:copy_nbt",
-              "source": {
-                "type": "minecraft:storage",
-                "source": "swrg:lang"
-              },
-              "ops": [
-                {
-                  "source": "item.compass",
-                  "target": "display{}",
-                  "op": "merge"
-                }
-              ]
+              "function": "set_name",
+              "name":{
+                "nbt":"item.compass.Name",
+                "storage":"swrg:lang",
+                "interpret":true
+              }
             }
           ]
         }
@@ -165,12 +159,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id":"count",
                   "amount": {
                     "min": 8,
                     "max": 13
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -198,12 +192,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id":"count",
                   "amount": {
                     "min": 4,
                     "max": 17
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -220,12 +214,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id":"count",
                   "amount": {
                     "min": 3,
                     "max": 10
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -242,12 +236,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id":"count",
                   "amount": {
                     "min": 1,
                     "max": 2
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -318,12 +312,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id":"count",
                   "amount": {
                     "min": 20,
                     "max": 47
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]
@@ -340,12 +334,12 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "count",
+                  "id":"count",
                   "amount": {
                     "min": 16,
                     "max": 33
                   },
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand"
                 }
               ]

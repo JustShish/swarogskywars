@@ -23,7 +23,14 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 520
+                  "minecraft:custom_model_data": 520,"minecraft:block_state": {
+                  "down": "false",
+                  "up": "false",
+                  "south": "false",
+                  "north": "false",
+                  "east": "false",
+                  "west": "false"
+                }
                 }
               },
               {

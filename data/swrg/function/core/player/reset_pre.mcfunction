@@ -10,7 +10,6 @@ execute if score @s swrg.death matches 1.. if score @s swrg.lives matches ..0 un
 
 execute if score @s swrg.death matches 1.. if entity @s[tag=indolence_active] run tag @s add dead
 execute if score @s swrg.death matches 1.. if entity @s[tag=sin_vanity] run tag @s add dead
-
-advancement revoke @s only swrg:core/player_reset
+execute if score debug swrg.math matches 1 run say core/player/reset_pre
 tellraw @s[scores={swrg.lives=1..}] [{"text": "Осталось жизней: "},{"score":{"objective": "swrg.lives","name": "@s"}}]
 scoreboard players set @s swrg.death 0

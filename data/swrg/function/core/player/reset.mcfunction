@@ -22,4 +22,4 @@ scoreboard players set @s swrg.roll_timer 0
 scoreboard players set @s swrg.leave 0
 scoreboard players set @s swrg.death 0
 
-
+execute if score debug swrg.math matches 1 run say core/player/reset

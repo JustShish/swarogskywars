@@ -8,7 +8,7 @@ data modify storage swrg:lang item.kit12_0 set value {Name: '{"text":"Взрыв
 data modify storage swrg:lang item.kit12_1 set value {Name: '{"text":"Взрывное зелье тошноты","italic":false}'}
 data modify storage swrg:lang item.kit12_2 set value {Name: '{"text":"Взрывное зелье слепоты","italic":false}'}
 
-data modify storage swrg:lang item.kit18 set value {Name:'{"text":"Маска анонима","color":"aqua","italic":false}'}
+data modify storage swrg:lang item.kit18 set value '{"text":"Маска анонима","color":"aqua","italic":false}'
 #                                            gui
 data modify storage swrg:lang gui.balance set value '{"text":"Баланс: ","color":"white","italic":false}'
 data modify storage swrg:lang gui.reset set value {Name: '{"text":"Сброс","color":"red","italic":false}'}

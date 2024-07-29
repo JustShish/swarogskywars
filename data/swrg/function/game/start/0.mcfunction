@@ -13,6 +13,7 @@ execute as @a run function swrg:gui/clear
 function swrg:developer/bars
 execute as @a run function swrg:core/player/reset_attributes
 execute as @a run function lbc:resets
+function lbc:end_resets
 execute if score #gamemode swrg.math matches 2 run function lbc:start
 
 scoreboard players add @a swrg.stat_games 1

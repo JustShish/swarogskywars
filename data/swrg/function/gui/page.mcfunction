@@ -21,3 +21,4 @@ execute as @s[scores={swrg.gui_page=9100}] run function lbc:swrg_kit_integration
 execute as @s[scores={swrg.gui_page=10100}] run function lbc:swrg_kit_integration/gui/page/10100
 #
 function swrg:gui/fill
+function swrg:gui/set_slot_id

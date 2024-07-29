@@ -34,13 +34,15 @@ execute if score @s swrg.roll matches 2..20 run item replace block ~ ~ ~ contain
 execute if score @s swrg.roll matches 2..20 run item replace block ~ ~ ~ container.24 from block ~ ~ ~ container.25
 execute if score @s swrg.roll matches 2..20 run item replace block ~ ~ ~ container.25 from block ~ ~ ~ container.26
 #
-execute if score @s swrg.roll matches 20 run function swrg:gui/roll/fill1
+#execute if score @s swrg.roll matches 20 run function swrg:gui/roll/fill1
 #
 execute if score @s swrg.roll matches 20 run function swrg:gui/roll/have1
 #
 execute if score @s swrg.roll matches 2..20 at @s run playsound minecraft:ui.button.click player @s ~ ~ ~ 0.5 1
-execute if score @s swrg.roll matches 2..20 run scoreboard players set @s swrg.roll_timer 1
-execute if score @s swrg.roll matches 18..20 run scoreboard players set @s swrg.roll_timer 2
+execute if score @s swrg.roll matches 2..14 run scoreboard players set @s swrg.roll_timer 1
+execute if score @s swrg.roll matches 15..18 run scoreboard players set @s swrg.roll_timer 2
+execute if score @s swrg.roll matches 19 run scoreboard players set @s swrg.roll_timer 3
+execute if score @s swrg.roll matches 20 run scoreboard players set @s swrg.roll_timer 4
 execute if score @s swrg.roll matches 2.. run scoreboard players add @s swrg.roll 1
 execute if score @s swrg.roll matches 25 run function swrg:gui/roll/reward/1
 execute if score @s swrg.roll matches 25 at @s run playsound minecraft:block.anvil.place player @s ~ ~ ~ 1

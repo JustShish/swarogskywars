@@ -1,6 +1,6 @@
 effect clear @a[tag=!developer]
 effect give @a weakness 2 100 true
-effect give @a regeneration 2 10 true
+effect give @a regeneration 2 100 true
 effect give @a saturation 40 0 true
 effect give @a resistance 2 4 true
 

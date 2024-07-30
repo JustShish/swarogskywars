@@ -18,5 +18,5 @@ execute as @s[scores={swrg.gui_page=8100}] run function lbc:swrg_kit_integration
 execute as @s[scores={swrg.gui_page=9100}] run function lbc:swrg_kit_integration/gui/select/9100
 execute as @s[scores={swrg.gui_page=10100}] run function lbc:swrg_kit_integration/gui/select/10100
 
-execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 2 2
+execute at @s[tag=!developer] run playsound minecraft:ui.button.click master @s ~ ~ ~ 2 2
 function swrg:gui/page

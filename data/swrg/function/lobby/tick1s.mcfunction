@@ -6,7 +6,6 @@ effect give @a resistance 2 4 true
 
 xp add @a -10000 levels
 
-execute unless entity @a[tag=admin] run tag @a add op
 execute unless block 0 126 0 bedrock run function swrg:maploader/lobby
 place template swrg:lobby_light -5 127 -5
 

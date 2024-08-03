@@ -1,6 +1,8 @@
 loot replace entity @s enderchest.0 loot swrg:gui/page/0/0
 loot replace entity @s[tag=admin] enderchest.1 loot swrg:gui/page/0/1
 loot replace entity @s[tag=admin] enderchest.2 loot swrg:gui/page/0/2
+execute unless entity @a[tag=admin] run loot replace entity @s enderchest.1 loot swrg:gui/page/0/1
+execute unless entity @a[tag=admin] run loot replace entity @s enderchest.2 loot swrg:gui/page/0/2
 loot replace entity @s enderchest.6 loot swrg:gui/page/0/6
 loot replace entity @s enderchest.7 loot swrg:gui/page/0/7
 loot replace entity @s enderchest.8 loot swrg:gui/page/0/8

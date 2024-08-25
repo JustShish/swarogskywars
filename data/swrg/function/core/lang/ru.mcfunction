@@ -284,4 +284,6 @@ data modify storage swrg:lang page1000.s16-7 set value {Name: '{"text":"Макс
 data modify storage swrg:lang page1000.s16-8 set value {Name: '{"text":"Макс. кол-во улучшений персонажа - 8","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s16-9 set value {Name: '{"text":"Макс. кол-во улучшений персонажа - 9","color":"white","italic":false}'}
 
+data modify storage swrg:lang title.quickstart set value '{"text":"Быстрая игра запущена!","color":"green","italic":false}'
+
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby

@@ -270,4 +270,6 @@ data modify storage swrg:lang page1000.s16-7 set value {Name: '{"text":"Lucky le
 data modify storage swrg:lang page1000.s16-8 set value {Name: '{"text":"Lucky level-ups per player - 8","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s16-9 set value {Name: '{"text":"Lucky level-ups per player - 9","color":"white","italic":false}'}
 
+data modify storage swrg:lang title.quickstart set value '{"text":"Quick start launched!","color":"green","italic":false}'
+
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby

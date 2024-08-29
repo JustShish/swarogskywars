@@ -272,4 +272,9 @@ data modify storage swrg:lang page1000.s16-9 set value {Name: '{"text":"Lucky le
 
 data modify storage swrg:lang title.quickstart set value '{"text":"Quick start launched!","color":"green","italic":false}'
 
+data modify storage swrg:lang page1000.s20-0 set value {Name: '{"text":"Server Auto-Restart (every 10 games): OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s20-1 set value {Name: '{"text":"Server Auto-Restart (every 10 games): ON","color":"white","italic":false}'}
+
+data modify storage swrg:lang page1000.s21 set value {Name: '{"text":"RESTART SERVER IMMEDIATELY (IF LAGGY!)","color":"white","italic":false}'}
+
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby

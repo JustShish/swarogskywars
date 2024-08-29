@@ -92,3 +92,8 @@ execute if score #lbclevelupmax swrg.math matches 6 run data modify storage swrg
 execute if score #lbclevelupmax swrg.math matches 7 run data modify storage swrg:lang page1000.s16 set from storage swrg:lang page1000.s16-7
 execute if score #lbclevelupmax swrg.math matches 8 run data modify storage swrg:lang page1000.s16 set from storage swrg:lang page1000.s16-8
 execute if score #lbclevelupmax swrg.math matches 9 run data modify storage swrg:lang page1000.s16 set from storage swrg:lang page1000.s16-9
+
+execute if score #auto_restart swrg.math matches 0 run data modify storage swrg:lang page1000.s20 set from storage swrg:lang page1000.s20-0
+execute if score #auto_restart swrg.math matches 1 run data modify storage swrg:lang page1000.s20 set from storage swrg:lang page1000.s20-1
+
+data modify storage swrg:lang page1000.s21 set from storage swrg:lang page1000.s21

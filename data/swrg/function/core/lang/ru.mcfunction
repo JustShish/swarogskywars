@@ -286,4 +286,9 @@ data modify storage swrg:lang page1000.s16-9 set value {Name: '{"text":"Макс
 
 data modify storage swrg:lang title.quickstart set value '{"text":"Быстрая игра запущена!","color":"green","italic":false}'
 
+data modify storage swrg:lang page1000.s20-0 set value {Name: '{"text":"Авто-Рестарт сервера (каждые 10 каток): ВЫКЛ","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s20-1 set value {Name: '{"text":"Авто-Рестарт сервера (каждые 10 каток): ВКЛ","color":"white","italic":false}'}
+
+data modify storage swrg:lang page1000.s21 set value {Name: '{"text":"РЕСТАРТ СЕРВЕРА (ЕСЛИ ЛАГИ!)","color":"white","italic":false}'}
+
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby

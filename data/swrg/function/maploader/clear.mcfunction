@@ -103,4 +103,10 @@ execute at @e[type=marker,tag=swrg.clear] run fill ~ 308 ~ ~48 317 ~48 air
 execute at @e[type=marker,tag=swrg.clear] run fill ~ 318 ~ ~48 319 ~48 air
 #
 kill @e[predicate=swrg:core/maploader]
+kill @e[predicate=!swrg:core/lobby,type=!player]
+kill @e[predicate=!swrg:core/lobby,type=!player]
+kill @e[predicate=!swrg:core/lobby,type=!player]
+kill @e[predicate=!swrg:core/lobby,type=!player]
+kill @e[predicate=!swrg:core/lobby,type=!player]
+kill @e[predicate=!swrg:core/lobby,type=!player]
 scoreboard players set #mapstat swrg.math 1

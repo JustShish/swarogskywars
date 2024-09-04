@@ -271,8 +271,8 @@ data modify storage swrg:lang page1000.s14-1 set value {Name: '{"text":"Лаки
 data modify storage swrg:lang page1000.s15-0 set value {Name: '{"text":"Лаки-Прокачка персонажа - ВЫКЛ","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s15-1 set value {Name: '{"text":"Лаки-Прокачка персонажа - ВКЛ","color":"white","italic":false}'}
 
-data modify storage swrg:lang page0.s20 set value {Name:'{"text":"Открывается за выполнение ДОСТИЖЕНИЙ","color":"aqua","italic":false}'}
-data modify storage swrg:lang page0.s24 set value {Name:'{"text":"Открывается за выполнение ДОСТИЖЕНИЙ","color":"aqua","italic":false}'}
+data modify storage swrg:lang page0.s19 set value {Name:'{"text":"Открывается за выполнение ДОСТИЖЕНИЙ","color":"aqua","italic":false}'}
+data modify storage swrg:lang page0.s25 set value {Name:'{"text":"Открывается за выполнение ДОСТИЖЕНИЙ","color":"aqua","italic":false}'}
 
 data modify storage swrg:lang page1000.s16-1 set value {Name: '{"text":"Макс. кол-во улучшений персонажа - 1","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s16-2 set value {Name: '{"text":"Макс. кол-во улучшений персонажа - 2","color":"white","italic":false}'}
@@ -291,4 +291,16 @@ data modify storage swrg:lang page1000.s20-1 set value {Name: '{"text":"Авто
 
 data modify storage swrg:lang page1000.s21 set value {Name: '{"text":"РЕСТАРТ СЕРВЕРА (ЕСЛИ ЛАГИ!)","color":"white","italic":false}'}
 
+data modify storage swrg:lang page1000.s17-0 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - ВЫКЛ","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-1 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - 1","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-2 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - 2","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-3 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - 3","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-4 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - 4","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-5 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - 5","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-6 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - 6","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-7 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - 7","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-8 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - 8","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-9 set value {Name: '{"text":"Макс. кол-во тринкетов для выбора - 9","color":"white","italic":false}'}
+
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby
+function lbc:swrg_kit_integration/lang_ru

@@ -70,6 +70,10 @@ execute if entity @s[scores={swrg.gui_select=16},tag=admin] run scoreboard playe
 execute if score #lbclevelupmax swrg.math matches 10.. run scoreboard players set #lbclevelupmax swrg.math 1
 
 
+execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=17}] run scoreboard players add #lbctrinket swrg.math 1
+execute if entity @s[scores={swrg.gui_select=17},tag=admin] run scoreboard players add #lbctrinket swrg.math 1
+execute if score #lbctrinket swrg.math matches 10.. run scoreboard players set #lbctrinket swrg.math 0
+
 execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=25}] run scoreboard players set @s swrg.gui_page 1100
 execute if entity @s[scores={swrg.gui_select=25},tag=admin] run scoreboard players set @s swrg.gui_page 1100
 

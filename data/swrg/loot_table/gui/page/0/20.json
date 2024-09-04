@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
+          "name": "minecraft:dragon_egg",
           "functions": [
             {
               "function": "minecraft:set_name",
-              "entity": "this",
+              "entity":"this",
               "name": {
                 "nbt": "page0.s20.Name",
                 "storage": "swrg:lang",
@@ -17,11 +17,8 @@
               }
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "custom_model_data": 743,
-                "hide_additional_tooltip": {}
-              }
+              "function": "minecraft:set_custom_data",
+              "tag": "{Enchantments:[{id:\"minecraft:fortune\",lvl:5}]}"
             }
           ]
         }

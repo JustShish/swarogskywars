@@ -277,4 +277,17 @@ data modify storage swrg:lang page1000.s20-1 set value {Name: '{"text":"Server A
 
 data modify storage swrg:lang page1000.s21 set value {Name: '{"text":"RESTART SERVER IMMEDIATELY (IF LAGGY!)","color":"white","italic":false}'}
 
+
+data modify storage swrg:lang page1000.s17-0 set value {Name: '{"text":"Lucky Trinkets per player - 0","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-1 set value {Name: '{"text":"Lucky Trinkets per player - 1","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-2 set value {Name: '{"text":"Lucky Trinkets per player - 2","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-3 set value {Name: '{"text":"Lucky Trinkets per player - 3","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-4 set value {Name: '{"text":"Lucky Trinkets per player - 4","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-5 set value {Name: '{"text":"Lucky Trinkets per player - 5","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-6 set value {Name: '{"text":"Lucky Trinkets per player - 6","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-7 set value {Name: '{"text":"Lucky Trinkets per player - 7","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-8 set value {Name: '{"text":"Lucky Trinkets per player - 8","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-9 set value {Name: '{"text":"Lucky Trinkets per player - 9","color":"white","italic":false}'}
+
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby
+function lbc:swrg_kit_integration/lang_en

@@ -107,4 +107,7 @@ execute if score #lbctrinket swrg.math matches 7 run data modify storage swrg:la
 execute if score #lbctrinket swrg.math matches 8 run data modify storage swrg:lang page1000.s17 set from storage swrg:lang page1000.s17-8
 execute if score #lbctrinket swrg.math matches 9 run data modify storage swrg:lang page1000.s17 set from storage swrg:lang page1000.s17-9
 
+execute if score #lbc.tweaks swrg.math matches 0 run data modify storage swrg:lang page1000.s22 set from storage swrg:lang page1000.s22-0
+execute if score #lbc.tweaks swrg.math matches 1 run data modify storage swrg:lang page1000.s22 set from storage swrg:lang page1000.s22-1
+
 data modify storage swrg:lang page1000.s21 set from storage swrg:lang page1000.s21

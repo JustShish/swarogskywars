@@ -140,7 +140,7 @@ data modify storage swrg:lang page6000.s9 set value {Name:'{"text":"Кейс с 
 data modify storage swrg:lang page6000.s10 set value {Name:'{"text":"Кейс с косметикой","color":"light_purple","italic":false}',Lore:['{"text":"Ключи х5","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"800 ","color":"gold","italic":false},{"text":"1000","color":"gold","italic":false,"strikethrough":true}]']}
 data modify storage swrg:lang page6000.s11 set value {Name:'{"text":"Кейс с косметикой","color":"light_purple","italic":false}',Lore:['{"text":"Ключи х10","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"1400 ","color":"gold","italic":false},{"text":"2000","color":"gold","italic":false,"strikethrough":true}]']}
 
-data modify storage swrg:lang page6000.s12 set value {Name:'{"text":"Лаки-Токен","color":"light_purple","italic":false}',Lore:['{"text":"Используется, чтобы активировать Лаки-Подкрутку","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"100 ","color":"gold","italic":false}]']}
+data modify storage swrg:lang page6000.s12 set value {Name:'{"text":"Лаки-Токен","color":"light_purple","italic":false}',Lore:['{"text":"Используется, чтобы активировать Лаки-Подкрутку","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"50 ","color":"gold","italic":false}]']}
 
 # page 7000
 data modify storage swrg:lang page7000.s12 set value {Name: '{"text":"Предсмертные звуки","color":"gray","italic":false}'}
@@ -291,6 +291,9 @@ data modify storage swrg:lang title.quickstart set value '{"text":"Быстра�
 
 data modify storage swrg:lang page1000.s20-0 set value {Name: '{"text":"Авто-Рестарт сервера (каждые 10 каток): ВЫКЛ","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s20-1 set value {Name: '{"text":"Авто-Рестарт сервера (каждые 10 каток): ВКЛ","color":"white","italic":false}'}
+
+data modify storage swrg:lang page1000.s22-0 set value {Name: '{"text":"Лаки-Подкрутка: ВЫКЛ","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s22-1 set value {Name: '{"text":"Лаки-Подкрутка: ВКЛ","color":"white","italic":false}'}
 
 data modify storage swrg:lang page1000.s21 set value {Name: '{"text":"РЕСТАРТ СЕРВЕРА (ЕСЛИ ЛАГИ!)","color":"white","italic":false}'}
 

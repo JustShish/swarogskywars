@@ -21,6 +21,7 @@ loot replace entity @s enderchest.17 loot swrg:gui/page/1000/17
 
 loot replace entity @s enderchest.20 loot swrg:gui/page/1000/20
 loot replace entity @s enderchest.21 loot swrg:gui/page/1000/21
+loot replace entity @s enderchest.22 loot swrg:gui/page/1000/22
 #
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s[tag=admin] enderchest.25 loot swrg:gui/page/1000/25

@@ -85,7 +85,9 @@ execute if score #auto_restart swrg.math matches 2.. run scoreboard players set 
 execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=21}] if score #games_in_a_row swrg.math matches 1.. run function swrg:core/autorestart_1
 execute if entity @s[scores={swrg.gui_select=21},tag=admin] if score #games_in_a_row swrg.math matches 1.. run function swrg:core/autorestart_1
 
-
+execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=22}] run scoreboard players add #lbc.tweaks swrg.math 1
+execute if entity @s[scores={swrg.gui_select=22},tag=admin] run scoreboard players add #lbc.tweaks swrg.math 1
+execute if score #lbc.tweaks swrg.math matches 2.. run scoreboard players set #lbc.tweaks swrg.math 0
 
 scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 0
 execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=26}] run function swrg:core/default_settings

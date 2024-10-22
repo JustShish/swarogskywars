@@ -10,6 +10,7 @@ loot replace entity @s enderchest.8 loot swrg:gui/page/6000/8
 loot replace entity @s enderchest.9 loot swrg:gui/page/6000/9
 loot replace entity @s enderchest.10 loot swrg:gui/page/6000/10
 loot replace entity @s enderchest.11 loot swrg:gui/page/6000/11
+loot replace entity @s enderchest.12 loot swrg:gui/page/6000/12
 #
 item modify entity @s enderchest.0 swrg:balance
 item modify entity @s enderchest.1 swrg:balance
@@ -23,5 +24,6 @@ item modify entity @s enderchest.8 swrg:balance
 item modify entity @s enderchest.9 swrg:balance
 item modify entity @s enderchest.10 swrg:balance
 item modify entity @s enderchest.11 swrg:balance
+item modify entity @s enderchest.12 swrg:balance
 #
 loot replace entity @s enderchest.18 loot swrg:gui/back

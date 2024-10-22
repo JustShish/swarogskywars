@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "nbt": "page0.s24.Name",
+                                "storage": "swrg:lang",
+                                "interpret": true
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{Enchantments:[{id:\"minecraft:fortune\",lvl:5}]}"
+                        },
+                        {
+                            "function": "set_custom_model_data",
+                            "value": 691
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

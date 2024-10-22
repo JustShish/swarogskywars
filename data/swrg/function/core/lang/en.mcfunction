@@ -128,6 +128,9 @@ data modify storage swrg:lang page6000.s8 set value {Name:'{"text":"Skills case"
 data modify storage swrg:lang page6000.s9 set value {Name:'{"text":"Cosmetics case","color":"light_purple","italic":false}',Lore:['{"text":"Keys х1","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"200","color":"gold","italic":false}]']}
 data modify storage swrg:lang page6000.s10 set value {Name:'{"text":"Cosmetics case","color":"light_purple","italic":false}',Lore:['{"text":"Keys х5","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"800 ","color":"gold","italic":false},{"text":"1000","color":"gold","italic":false,"strikethrough":true}]']}
 data modify storage swrg:lang page6000.s11 set value {Name:'{"text":"Cosmetics case","color":"light_purple","italic":false}',Lore:['{"text":"Keys х10","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"1400 ","color":"gold","italic":false},{"text":"2000","color":"gold","italic":false,"strikethrough":true}]']}
+
+data modify storage swrg:lang page6000.s12 set value {Name:'{"text":"Lucky Token","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"100 ","color":"gold","italic":false}]']}
+
 # page 7000
 data modify storage swrg:lang page7000.s12 set value {Name: '{"text":"Death sounds","color":"gray","italic":false}'}
 data modify storage swrg:lang page7000.s14 set value {Name: '{"text":"Starting cell","color":"gray","italic":false}'}

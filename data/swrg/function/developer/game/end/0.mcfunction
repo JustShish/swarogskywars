@@ -34,3 +34,4 @@ function swrg:game/end/fireworks
 #
 execute as @a run function lbc:resets
 function lbc:end_resets
+function lbc:only_end_resets

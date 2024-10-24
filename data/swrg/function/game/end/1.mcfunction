@@ -6,7 +6,7 @@ execute as @a run function swrg:core/player/stats
 execute as @a run function swrg:gui/clear
 execute as @a run function swrg:gui/page
 function lbc:end_resets
-
+function lbc:only_end_resets
 ### БАФФЛЕД ЕБЛАН
 ### Я БАФФЛЕД И Я ЕБЛАН
 scoreboard players set @a swrg.roll 0

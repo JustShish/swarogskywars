@@ -59,7 +59,7 @@ data modify storage swrg:lang title.draw set value '{"text":"DRAW!","color":"gre
 data modify storage swrg:lang page0.s0 set value {Name: '{"text":"Settings","color":"red","italic":false}'}
 data modify storage swrg:lang page0.s1 set value {Name: '{"text":"Start game","color":"green","italic":false}'}
 data modify storage swrg:lang page0.s2 set value {Name: '{"text":"Map selection","color":"aqua","italic":false}'}
-data modify storage swrg:lang page0.s6 set value '{"text":"Key store","color":"gold","italic":false}'
+data modify storage swrg:lang page0.s6 set value '{"text":"Store","color":"gold","italic":false}'
 data modify storage swrg:lang page0.s7 set value {Name: '{"text":"Сosmetic","color":"yellow","italic":false}'}
 data modify storage swrg:lang page0.s12 set value {Name: '{"text":"Kits","color":"gold","italic":false}'}
 data modify storage swrg:lang page0.s13 set value {Name: '{"text":"Cases","color":"light_purple","italic":false}'}
@@ -130,6 +130,8 @@ data modify storage swrg:lang page6000.s10 set value {Name:'{"text":"Cosmetics c
 data modify storage swrg:lang page6000.s11 set value {Name:'{"text":"Cosmetics case","color":"light_purple","italic":false}',Lore:['{"text":"Keys х10","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"1400 ","color":"gold","italic":false},{"text":"2000","color":"gold","italic":false,"strikethrough":true}]']}
 
 data modify storage swrg:lang page6000.s12 set value {Name:'{"text":"Lucky Token","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"50 ","color":"gold","italic":false}]']}
+data modify storage swrg:lang page6000.s13 set value {Name:'{"text":"Lucky Token x10","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"400 ","color":"gold","italic":false},{"text":"500","color":"gold","italic":false,"strikethrough":true}]']}
+data modify storage swrg:lang page6000.s14 set value {Name:'{"text":"Lucky Token x100","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"3000 ","color":"gold","italic":false},{"text":"5000","color":"gold","italic":false,"strikethrough":true}]']}
 
 # page 7000
 data modify storage swrg:lang page7000.s12 set value {Name: '{"text":"Death sounds","color":"gray","italic":false}'}

@@ -61,7 +61,7 @@ data modify storage swrg:lang title.draw set value '{"text":"НИЧЬЯ","color"
 data modify storage swrg:lang page0.s0 set value {Name: '{"text":"Настройки | Settings","color":"red","italic":false}'}
 data modify storage swrg:lang page0.s1 set value {Name: '{"text":"Начать игру","color":"green","italic":false}'}
 data modify storage swrg:lang page0.s2 set value {Name: '{"text":"Выбор карты","color":"aqua","italic":false}'}
-data modify storage swrg:lang page0.s6 set value '{"text":"Магазин ключей","color":"gold","italic":false}'
+data modify storage swrg:lang page0.s6 set value '{"text":"Магазин","color":"gold","italic":false}'
 data modify storage swrg:lang page0.s7 set value {Name: '{"text":"Косметика","color":"yellow","italic":false}'}
 data modify storage swrg:lang page0.s12 set value {Name: '{"text":"Наборы","color":"gold","italic":false}'}
 data modify storage swrg:lang page0.s13 set value {Name: '{"text":"Кейсы","color":"light_purple","italic":false}'}
@@ -140,7 +140,9 @@ data modify storage swrg:lang page6000.s9 set value {Name:'{"text":"Кейс с 
 data modify storage swrg:lang page6000.s10 set value {Name:'{"text":"Кейс с косметикой","color":"light_purple","italic":false}',Lore:['{"text":"Ключи х5","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"800 ","color":"gold","italic":false},{"text":"1000","color":"gold","italic":false,"strikethrough":true}]']}
 data modify storage swrg:lang page6000.s11 set value {Name:'{"text":"Кейс с косметикой","color":"light_purple","italic":false}',Lore:['{"text":"Ключи х10","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"1400 ","color":"gold","italic":false},{"text":"2000","color":"gold","italic":false,"strikethrough":true}]']}
 
-data modify storage swrg:lang page6000.s12 set value {Name:'{"text":"Лаки-Токен","color":"light_purple","italic":false}',Lore:['{"text":"Используется, чтобы активировать Лаки-Подкрутку","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"50 ","color":"gold","italic":false}]']}
+data modify storage swrg:lang page6000.s12 set value {Name:'{"text":"Лаки-Токен x1","color":"light_purple","italic":false}',Lore:['{"text":"Используется, чтобы активировать Лаки-Подкрутку","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"50 ","color":"gold","italic":false}]']}
+data modify storage swrg:lang page6000.s13 set value {Name:'{"text":"Лаки-Токен x10","color":"light_purple","italic":false}',Lore:['{"text":"Используется, чтобы активировать Лаки-Подкрутку","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"400 ","color":"gold","italic":false},{"text":"500","color":"gold","italic":false,"strikethrough":true}]']}
+data modify storage swrg:lang page6000.s14 set value {Name:'{"text":"Лаки-Токен x100","color":"light_purple","italic":false}',Lore:['{"text":"Используется, чтобы активировать Лаки-Подкрутку","color":"white","italic":false}','[{"text":"Цена: ","color":"white","italic":false},{"text":"3000 ","color":"gold","italic":false},{"text":"5000","color":"gold","italic":false,"strikethrough":true}]']}
 
 # page 7000
 data modify storage swrg:lang page7000.s12 set value {Name: '{"text":"Предсмертные звуки","color":"gray","italic":false}'}

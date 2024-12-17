@@ -26,5 +26,3 @@ place template swrg:48-11up 0 72 0
 place template swrg:48-12up 48 72 0
 place template swrg:48-14up -48 72 48
 place template swrg:48-15up 0 72 48
-tellraw @s {"nbt":"title.mapload_complete","storage":"swrg:lang","interpret":true}
-function swrg:maploader/lobby

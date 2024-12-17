@@ -15,14 +15,14 @@
                   "modifiers": [
                     {
                       "id": "damag2341231q24",
-                      "type": "minecraft:generic.attack_damage",
+                      "type": "minecraft:attack_damage",
                       "amount": 0,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
                       "id": "3uli4teyytetyerg",
-                      "type": "minecraft:generic.attack_speed",
+                      "type": "minecraft:attack_speed",
                       "amount": 0,
                       "operation": "add_value",
                       "slot": "mainhand"

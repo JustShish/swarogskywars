@@ -1,3 +1,5 @@
+execute as @s[scores={swrg.gui_select=1..25}] unless score @s swrg.gui_select matches 18 run function swrg:maploader/map/alwayspre
+
 execute as @s[scores={swrg.gui_select=0}] run function swrg:maploader/map/26
 execute as @s[scores={swrg.gui_select=1}] run function swrg:maploader/map/27
 execute as @s[scores={swrg.gui_select=2}] run function swrg:maploader/map/28
@@ -24,7 +26,7 @@ execute as @s[scores={swrg.gui_select=23}] run function swrg:maploader/map/48
 execute as @s[scores={swrg.gui_select=24}] run function swrg:maploader/map/49
 execute as @s[scores={swrg.gui_select=25}] run function swrg:maploader/map/50
 
-
+execute as @s[scores={swrg.gui_select=1..25}] unless score @s swrg.gui_select matches 18 run function swrg:maploader/map/alwayspast
 #
 scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 2000
 scoreboard players set @s[scores={swrg.gui_select=26}] swrg.gui_page 2200

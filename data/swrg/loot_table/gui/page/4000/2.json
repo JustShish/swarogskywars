@@ -35,14 +35,14 @@
                   "modifiers": [
                     {
                       "id": "au8thifgjk",
-                      "type": "minecraft:generic.armor_toughness",
+                      "type": "minecraft:armor_toughness",
                       "amount": 0,
                       "operation": "add_value",
                       "slot": "feet"
                     },
                     {
                       "id": "te4rilrwewrtyui",
-                      "type": "minecraft:generic.armor",
+                      "type": "minecraft:armor",
                       "amount": 0,
                       "operation": "add_value",
                       "slot": "feet"

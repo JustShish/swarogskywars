@@ -18,7 +18,7 @@ give @a[scores={swrg.kit=5}] golden_carrot 2
 #
 give @a[scores={swrg.kit=6}] chainmail_chestplate[enchantments={thorns:1}]
 #
-give @a[scores={swrg.kit=7}] golden_chestplate[enchantments={levels:{"minecraft:protection":4}},attribute_modifiers=[{id:"34f9eab4-c40b-4ae2-be4e-501ae2e4d57a",type:"generic.knockback_resistance",amount:3,operation:"add_value",slot:"chest"},{id:"2b4d9ea4-5855-4792-90d8-0338c0e6492b",type:"generic.armor",amount:5,operation:"add_value",slot:"chest"}]]
+give @a[scores={swrg.kit=7}] golden_chestplate[enchantments={levels:{"minecraft:protection":4}},attribute_modifiers=[{id:"34f9eab4-c40b-4ae2-be4e-501ae2e4d57a",type:"knockback_resistance",amount:3,operation:"add_value",slot:"chest"},{id:"2b4d9ea4-5855-4792-90d8-0338c0e6492b",type:"armor",amount:5,operation:"add_value",slot:"chest"}]]
 #
 give @a[scores={swrg.kit=8}] splash_potion[potion_contents="poison"]
 give @a[scores={swrg.kit=8}] cobweb 7

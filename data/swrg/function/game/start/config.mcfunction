@@ -1,14 +1,5 @@
 execute as @a run function swrg:core/player/reset_attributes
-# pvp
-execute if score #pvp swrg.math matches 1 as @a run attribute @s minecraft:attack_speed base set 100
-execute if score #pvp swrg.math matches 2 as @a run attribute @s minecraft:attack_speed base reset
 
-
-execute if score #health swrg.math matches 0 as @a run attribute @s minecraft:attack_speed base set 1
-execute if score #health swrg.math matches 1 as @a run attribute @s minecraft:attack_speed base set 10
-execute if score #health swrg.math matches 2 as @a run attribute @s minecraft:attack_speed base reset
-execute if score #health swrg.math matches 3 as @a run attribute @s minecraft:attack_speed base set 40
-execute if score #health swrg.math matches 4 as @a run attribute @s minecraft:attack_speed base set 60
 # day time
 execute if score #day swrg.math matches 1 as @a run time set day
 execute if score #day swrg.math matches 2 as @a run time set night

@@ -1,6 +1,4 @@
-# pvp
-execute if score #pvp swrg.math matches 1 as @a run attribute @s minecraft:attack_speed base set 100
-execute if score #pvp swrg.math matches 2 as @a run attribute @s minecraft:attack_speed base reset
+
 # day time
 execute if score #day swrg.math matches 1 as @a run time set day
 execute if score #day swrg.math matches 2 as @a run time set night

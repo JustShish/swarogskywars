@@ -78,6 +78,15 @@ execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=25}] ru
 execute if entity @s[tag=admin,scores={swrg.gui_select=25}] run scoreboard players set @s swrg.gui_page 1100
 
 
+
+
+execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=19}] run function swrg:gui/select/1000_change_prefix
+execute if entity @s[tag=admin,scores={swrg.gui_select=19}] run function swrg:gui/select/1000_change_prefix
+
+
+
+
+
 execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=20}] run scoreboard players add #auto_restart swrg.math 1
 execute if entity @s[tag=admin,scores={swrg.gui_select=20}] run scoreboard players add #auto_restart swrg.math 1
 execute if score #auto_restart swrg.math matches 2.. run scoreboard players set #auto_restart swrg.math 0

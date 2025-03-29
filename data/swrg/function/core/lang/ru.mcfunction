@@ -118,6 +118,7 @@ data modify storage swrg:lang page1000.s12-3 set value {Name:'{"text":"Урон 
 data modify storage swrg:lang page1000.s12-4 set value {Name:'{"text":"Урон от динамита - защита 4","color":"white","italic":false}'}
 
 data modify storage swrg:lang page1000.s25 set value {Name:'{"text":"Язык | Language","color":"green","italic":false}',Lore:['{"text":"Эта глобальная функция применяется ко всей карте","color":"red","bold":true,"italic":false}']}
+data modify storage swrg:lang page1000.s26 set value {Name:'{"text":"Восстановить настройки","color":"green","italic":false}'}
 # page 5000
 data modify storage swrg:lang page5000.s0 set value '{"text":"Классический кейс","color":"green","italic":false}'
 data modify storage swrg:lang page5000.s1 set value '{"text":"Кейс с наборами","color":"yellow","italic":false}'
@@ -290,6 +291,12 @@ data modify storage swrg:lang page1000.s16-8 set value {Name:'{"text":"Макс.
 data modify storage swrg:lang page1000.s16-9 set value {Name:'{"text":"Макс. кол-во улучшений персонажа - 9","color":"white","italic":false}'}
 
 data modify storage swrg:lang title.quickstart set value '{"text":"Быстрая игра запущена!","color":"green","italic":false}'
+
+data modify storage swrg:lang page1000.s19-0 set value {Name:'{"text":"Префиксы: Случайные SFW","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s19-1 set value {Name:'{"text":"Префиксы: Cлучайные NSFW","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s19-2 set value {Name:'{"text":"Префиксы: Случайные","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s19-3 set value {Name:'{"text":"Префиксы: Выключены","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s19-4 set value {Name:'{"text":"Префиксы: Нужно открывать (WIP)","color":"white","italic":false}'}
 
 data modify storage swrg:lang page1000.s20-0 set value {Name:'{"text":"Авто-Рестарт сервера (каждые 10 каток): ВЫКЛ","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s20-1 set value {Name:'{"text":"Авто-Рестарт сервера (каждые 10 каток): ВКЛ","color":"white","italic":false}'}

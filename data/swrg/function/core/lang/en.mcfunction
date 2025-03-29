@@ -107,6 +107,7 @@ data modify storage swrg:lang page1000.s7-1 set value {Name:'{"text":"Displaying
 data modify storage swrg:lang page1000.s7-2 set value {Name:'{"text":"Displaying HP - Tab-list","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s7-3 set value {Name:'{"text":"Displaying HP - Under nickname and tab-list","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s25 set value {Name:'{"text":"Language","color":"green","italic":false}',Lore:['{"text":"This global function applies to the entire map","color":"red","bold":true,"italic":false}']}
+data modify storage swrg:lang page1000.s26 set value {Name:'{"text":"Restore settings","color":"green","italic":false}'}
 # page 5000
 data modify storage swrg:lang page5000.s0 set value '{"text":"Classic case","color":"green","italic":false}'
 data modify storage swrg:lang page5000.s1 set value '{"text":"Kits case","color":"yellow","italic":false}'
@@ -276,6 +277,12 @@ data modify storage swrg:lang page1000.s16-8 set value {Name:'{"text":"Lucky lev
 data modify storage swrg:lang page1000.s16-9 set value {Name:'{"text":"Lucky level-ups per player - 9","color":"white","italic":false}'}
 
 data modify storage swrg:lang title.quickstart set value '{"text":"Quick start launched!","color":"green","italic":false}'
+
+data modify storage swrg:lang page1000.s19-0 set value {Name:'{"text":"Prefixes: Random SFW only","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s19-1 set value {Name:'{"text":"Prefixes: Random NSFW only","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s19-2 set value {Name:'{"text":"Prefixes: Random Mixed","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s19-3 set value {Name:'{"text":"Prefixes: Disabled","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s19-4 set value {Name:'{"text":"Prefixes: Cosmetics unlock (WIP)","color":"white","italic":false}'}
 
 data modify storage swrg:lang page1000.s20-0 set value {Name:'{"text":"Server Auto-Restart (every 10 games): OFF","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s20-1 set value {Name:'{"text":"Server Auto-Restart (every 10 games): ON","color":"white","italic":false}'}

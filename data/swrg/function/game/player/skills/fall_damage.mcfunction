@@ -4,5 +4,5 @@ execute store result storage swrg:temp fall_damage float 0.00915 run scoreboard 
 data modify storage swrg:temp ht set from entity @s HurtTime
 
 data modify storage swrg:temp fall_damage set string storage swrg:temp fall_damage 0 -1
-playsound block.anvil.land block @a ~ ~ ~
+playsound minecraft:block.anvil.land block @a ~ ~ ~
 function swrg:game/player/skills/fall_damage_pizdec with storage swrg:temp

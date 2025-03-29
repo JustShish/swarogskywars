@@ -1,16 +1,15 @@
 {
     "criteria": {
-      "food": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "item": {
-            "items": "#swrg:food"
-          }
+        "food": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "#swrg:food"
+                }
+            }
         }
-      }
     },
     "rewards": {
-      "function": "swrg:game/player/skills/food"
+        "function": "swrg:game/player/skills/food"
     }
-  }
-  
+}

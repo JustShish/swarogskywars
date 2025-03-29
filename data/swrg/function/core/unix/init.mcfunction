@@ -1,7 +1,7 @@
 #tellraw @p [{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}]
 scoreboard players set #first_year swrg.math 1970
 scoreboard players set #seconds_in_year swrg.math 31436000
-scoreboard players set #days_from_1970 swrg.math 86400 
+scoreboard players set #days_from_1970 swrg.math 86400
 scoreboard players set #days_in_year swrg.math 365
 scoreboard players set #4 swrg.math 4
 
@@ -39,12 +39,12 @@ scoreboard players set #month swrg.math 1
 #tellraw @p {"score":{"name":"#temp0","objective":"swrg.math"}}
 ###
 #январь
-tellraw @p {"score":{"name":"#temp0","objective":"swrg.math"}}
+tellraw @p {"score":{"name":"#temp0","objective":"swrg.math"},"type":"score"}
 scoreboard players add #temp0 swrg.math 1
 execute if score #temp0 swrg.math matches 32.. run scoreboard players add #month swrg.math 1
 execute if score #temp0 swrg.math matches 32.. run scoreboard players remove #temp0 swrg.math 31
 #февраль
-scoreboard players operation #temp swrg.math = #year swrg.math 
+scoreboard players operation #temp swrg.math = #year swrg.math
 scoreboard players operation #temp swrg.math %= #4 swrg.math
 
 execute if score #month swrg.math matches 2 if score #temp swrg.math matches 0 if score #temp0 swrg.math matches 30.. run scoreboard players add #month swrg.math 1
@@ -94,5 +94,5 @@ execute if score #month swrg.math matches 12 if score #temp0 swrg.math matches 3
 execute if score #temp0 swrg.math matches 0 run scoreboard players add #temp0 swrg.math 1
 ###
 #
-tellraw @p [{"score":{"name":"#temp0","objective":"swrg.math"}},{"text":"."},{"score":{"name":"#month","objective":"swrg.math"}},{"text":"."},{"score":{"name":"#year","objective":"swrg.math"}}]
+tellraw @p [{"score":{"name":"#temp0","objective":"swrg.math"},"type":"score"},{"text":".","type":"text"},{"score":{"name":"#month","objective":"swrg.math"},"type":"score"},{"text":".","type":"text"},{"score":{"name":"#year","objective":"swrg.math"},"type":"score"}]
 #

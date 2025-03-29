@@ -1,11 +1,11 @@
-item replace entity @s enderchest.0 with dragon_egg[custom_name= '{"text":"The End - Chapter II: Void Valley (8)","color":"yellow","italic":false}']
-item replace entity @s enderchest.1 with dragon_egg[custom_name= '{"text":"The End - Chapter III: End Wilds (8)","color":"yellow","italic":false}']
-item replace entity @s enderchest.2 with dragon_egg[custom_name= '{"text":"The End - Chapter IV: Outer Islands & The Oasis (8)","color":"yellow","italic":false}']
-item replace entity @s enderchest.3 with tnt[custom_name= '{"text":"TNT (16)","color":"yellow","italic":false}']
-item replace entity @s enderchest.4 with sugar_cane[custom_name= '{"text":"China (12)","color":"yellow","italic":false}']
-item replace entity @s enderchest.5 with purple_stained_glass[custom_name= '{"text":"End (12)","color":"yellow","italic":false}']
-item replace entity @s enderchest.6 with stone[custom_name= '{"text":"Stonehenge (12)","color":"gray","italic":false}']
-item replace entity @s enderchest.7 with cherry_sapling[custom_name= '{"text":"Japan (8)","color":"gray","italic":false}']
+item replace entity @s enderchest.0 with minecraft:dragon_egg[minecraft:custom_name='{"color":"yellow","italic":false,"text":"The End - Chapter II: Void Valley (8)"}']
+item replace entity @s enderchest.1 with minecraft:dragon_egg[minecraft:custom_name='{"color":"yellow","italic":false,"text":"The End - Chapter III: End Wilds (8)"}']
+item replace entity @s enderchest.2 with minecraft:dragon_egg[minecraft:custom_name='{"color":"yellow","italic":false,"text":"The End - Chapter IV: Outer Islands & The Oasis (8)"}']
+item replace entity @s enderchest.3 with minecraft:tnt[minecraft:custom_name='{"color":"yellow","italic":false,"text":"TNT (16)"}']
+item replace entity @s enderchest.4 with minecraft:sugar_cane[minecraft:custom_name='{"color":"yellow","italic":false,"text":"China (12)"}']
+item replace entity @s enderchest.5 with minecraft:purple_stained_glass[minecraft:custom_name='{"color":"yellow","italic":false,"text":"End (12)"}']
+item replace entity @s enderchest.6 with minecraft:stone[minecraft:custom_name='{"color":"gray","italic":false,"text":"Stonehenge (12)"}']
+item replace entity @s enderchest.7 with minecraft:cherry_sapling[minecraft:custom_name='{"color":"gray","italic":false,"text":"Japan (8)"}']
 #
 execute if score #map swrg.math matches 50 run item modify entity @s enderchest.0 swrg:select
 execute if score #map swrg.math matches 51 run item modify entity @s enderchest.1 swrg:select

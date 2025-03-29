@@ -13,12 +13,16 @@
                             "name": {
                                 "nbt": "page1000.s22.Name",
                                 "storage": "swrg:lang",
-                                "interpret": true
+                                "interpret": true,
+                                "source": "storage",
+                                "type": "nbt"
                             }
                         },
                         {
-                            "function": "set_custom_model_data",
-                            "value": 691
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "lbc:tweak"
+                            }
                         }
                     ]
                 }

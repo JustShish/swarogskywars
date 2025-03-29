@@ -24,26 +24,26 @@
 #execute as @e[type=marker,tag=swrg.center] at @s unless entity @e[type=armor_stand,tag=marker,distance=..1] run summon armor_stand ~ ~ ~ {Glowing:1b,ArmorItems:[{},{},{},{id:"minecraft:glass",Count:1b}],Invisible:1b,Marker:1b,NoAI:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b,Team:"marker_center"}
 
 ### Falling Block
-execute as @e[type=marker,tag=swrg.spawn] at @s unless entity @e[type=falling_block,tag=marker,distance=..1] run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:yellow_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b,}
-execute as @e[type=marker,tag=swrg.look] at @s unless entity @e[type=falling_block,tag=marker,distance=..1] run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:white_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b,}
+execute as @e[type=minecraft:marker,tag=swrg.spawn] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:yellow_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=swrg.look] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:white_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
 
 
-execute as @e[type=marker,tag=swrg.default] at @s unless entity @e[type=falling_block,tag=marker,distance=..1] run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:lime_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b,}
-execute as @e[type=marker,tag=swrg.midle] at @s unless entity @e[type=falling_block,tag=marker,distance=..1] run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:red_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
-execute as @e[type=marker,tag=swrg.center] at @s unless entity @e[type=falling_block,tag=marker,distance=..1] run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:light_blue_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=swrg.default] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:lime_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=swrg.midle] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:red_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=swrg.center] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:light_blue_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
 
-execute at @e[type=marker,tag=swrg.spawn] run team join marker_spawn @e[type=falling_block,distance=..1]
-execute at @e[type=marker,tag=swrg.look] run team join marker_look @e[type=falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=swrg.spawn] run team join marker_spawn @e[type=minecraft:falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=swrg.look] run team join marker_look @e[type=minecraft:falling_block,distance=..1]
 
-execute at @e[type=marker,tag=swrg.default] run team join marker_default @e[type=falling_block,distance=..1]
-execute at @e[type=marker,tag=swrg.midle] run team join marker_midle @e[type=falling_block,distance=..1]
-execute at @e[type=marker,tag=swrg.center] run team join marker_center @e[type=falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=swrg.default] run team join marker_default @e[type=minecraft:falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=swrg.midle] run team join marker_midle @e[type=minecraft:falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=swrg.center] run team join marker_center @e[type=minecraft:falling_block,distance=..1]
 
-execute as @e[type=falling_block] run data merge entity @s {Time:1}
+execute as @e[type=minecraft:falling_block] run data merge entity @s {Time:1}
 ###
-execute as @e[type=marker,tag=swrg.delete] at @s run particle dust{color:[0.0,0.0,0.0],scale:1} ~ ~ ~ 0.7 0.7 0.7 0 10 force @a
-execute as @e[type=marker,tag=swrg.delete] at @s run kill @e[tag=marker,distance=..3]
-execute as @e[type=marker,tag=swrg.delete] at @s run kill @e[type=marker,distance=..3]
+execute as @e[type=minecraft:marker,tag=swrg.delete] at @s run particle minecraft:dust{color:[0.0,0.0,0.0],scale:1.0f} ~ ~ ~ 0.7 0.7 0.7 0 10 force @a
+execute as @e[type=minecraft:marker,tag=swrg.delete] at @s run kill @e[distance=..3,tag=marker]
+execute as @e[type=minecraft:marker,tag=swrg.delete] at @s run kill @e[type=minecraft:marker,distance=..3]
 
 
 schedule function swrg:developer/markers/5t 5t

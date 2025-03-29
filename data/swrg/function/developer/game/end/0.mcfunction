@@ -1,14 +1,14 @@
 bossbar set swrg:gametimer visible false
 
-execute if score #count swrg.math matches 0 run tellraw @a {"nbt":"title.draw","storage":"swrg:lang","interpret":true}
-execute if score #count swrg.math matches 1 run tellraw @a {"nbt":"title.player_win","storage":"swrg:lang","interpret":true}
+execute if score #count swrg.math matches 0 run tellraw @a {"nbt":"title.draw","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
+execute if score #count swrg.math matches 1 run tellraw @a {"nbt":"title.player_win","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 #
 gamerule doMobLoot false
 gamerule doTileDrops false
 gamerule doEntityDrops false
 #
 # reward
-tellraw @p[gamemode=survival] {"nbt":"reward.win","storage":"swrg:lang","interpret":true}
+tellraw @p[gamemode=survival] {"nbt":"reward.win","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 #scoreboard players add @p[gamemode=survival] swrg.stat_wins 1
 #scoreboard players add @p[gamemode=survival] swrg.coins 100
 #scoreboard players set #random_min swrg.math 1
@@ -24,7 +24,7 @@ schedule clear swrg:game/stage2/select
 #
 
 scoreboard players set #gamestat swrg.math 5
-tp @a @e[limit=1,tag=swrg.look]
+tp @a @e[tag=swrg.look,limit=1]
 clear @a
 team leave @a
 gamemode spectator @a

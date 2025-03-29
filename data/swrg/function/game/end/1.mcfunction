@@ -13,7 +13,7 @@ scoreboard players set @a swrg.roll 0
 scoreboard players set @a swrg.roll_timer 0
 scoreboard players set @a swrg.case_id 0
 ###
-effect give @a absorption 1 0 true
+effect give @a minecraft:absorption 1 0 true
 gamemode adventure @a
 gamerule fallDamage false
 worldborder set 2000000

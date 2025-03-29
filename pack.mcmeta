@@ -1,6 +1,14 @@
 {
-	"pack": {
-		"pack_format": 48,
-		"description": "Made by _Swarog"
-	}
+    "pack": {
+        "pack_format": 61,
+        "description": "Made by _Swarog"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancement/.*"
+            }
+        ]
+    }
 }

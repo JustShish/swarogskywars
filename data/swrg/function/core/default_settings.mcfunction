@@ -15,4 +15,4 @@ scoreboard players set lefthand swrg.math 1
 scoreboard players set no_borders swrg.math 1
 scoreboard players set #lbclevelupmax swrg.math 4
 #
-tellraw @s {"nbt":"title.reset_settings","storage":"swrg:lang","interpret":true}
+tellraw @s {"nbt":"title.reset_settings","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}

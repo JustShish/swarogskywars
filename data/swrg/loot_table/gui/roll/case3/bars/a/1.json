@@ -1,27 +1,33 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:white_stained_glass",
-          "functions": [
-            {
-              "function": "set_name",
-              "name": {"translate":"block.minecraft.white_stained_glass","color":"blue","italic":false}
-            },
-            {
-              "function": "set_custom_data",
-              "tag":"{rewardbar:1}"
-            },
-            {
-              "function": "set_components",
-              "components": {"hide_additional_tooltip": {}}
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:white_stained_glass",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "block.minecraft.white_stained_glass",
+                                "color": "blue",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{rewardbar:1}"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:hide_additional_tooltip": {}
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

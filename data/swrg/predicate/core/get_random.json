@@ -1,14 +1,14 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "minecraft:item",
-    "nbt": "{Item:{tag:{AttributeModifiers:[{Name:\"random\"}]}}}",
-    "distance": {
-      "absolute": {
-        "min": 0,
-        "max": 0.1
-      }
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:item",
+        "nbt": "{Item:{components:{\"minecraft:attribute_modifiers\":{modifiers:[{type:\"minecraft:random\",operation:\"add_value\"}]}}}}",
+        "distance": {
+            "absolute": {
+                "min": 0,
+                "max": 0.1
+            }
+        }
     }
-  }
 }

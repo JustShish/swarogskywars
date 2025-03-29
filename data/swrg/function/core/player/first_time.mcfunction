@@ -1,5 +1,5 @@
 execute if score #gamestat swrg.math matches 1..4 run gamemode spectator @s
-execute if score #gamestat swrg.math matches 1..4 run tp @s @e[limit=1,tag=swrg.look]
+execute if score #gamestat swrg.math matches 1..4 run tp @s @e[tag=swrg.look,limit=1]
 
 scoreboard players set @s swrg.bars 0
 scoreboard players set @s swrg.case_id 0

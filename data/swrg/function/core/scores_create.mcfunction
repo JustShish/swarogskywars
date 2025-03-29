@@ -5,7 +5,7 @@ scoreboard objectives add swrg.death deathCount
 scoreboard objectives add swrg.lives dummy
 scoreboard objectives add swrg.leave custom:leave_game
 scoreboard objectives add swrg.fall_damage custom:fall_one_cm
-scoreboard objectives add swrg.hp health {"text":"♥","color": "dark_red"}
+scoreboard objectives add swrg.hp health {"text":"♥","color":"dark_red","type":"text"}
 scoreboard objectives add swrg.sound dummy
 scoreboard objectives add swrg.bars dummy
 scoreboard objectives add swrg.kit dummy

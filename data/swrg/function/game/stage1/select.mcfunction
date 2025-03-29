@@ -3,7 +3,7 @@ bossbar set swrg:gametimer max 240
 bossbar set swrg:gametimer color red
 scoreboard players set #gametimer swrg.math 240
 #
-execute unless score #stage1 swrg.math matches 0 run tellraw @a[gamemode=survival] {"nbt":"reward.stage1","storage":"swrg:lang","interpret":true}
+execute unless score #stage1 swrg.math matches 0 run tellraw @a[gamemode=survival] {"nbt":"reward.stage1","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 execute unless score #stage1 swrg.math matches 0 run scoreboard players add @a[gamemode=survival] swrg.coins 20
 #
 scoreboard players set #random_min swrg.math 1
@@ -29,4 +29,4 @@ execute if score #stage1 swrg.math matches 7 run function swrg:game/stage1/event
 execute if score #stage1 swrg.math matches 8 run function swrg:game/stage1/event7
 execute if score #stage1 swrg.math matches 9 run function swrg:game/stage1/event8
 #
-scoreboard players set #gamestat swrg.math 3 
+scoreboard players set #gamestat swrg.math 3

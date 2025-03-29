@@ -1,4 +1,4 @@
-tellraw @a {"nbt":"title.quickstart","storage":"swrg:lang","interpret":true}
+tellraw @a {"nbt":"title.quickstart","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 execute store result score plcnt swrg.math if entity @a
 execute if score plcnt swrg.math matches ..4 run function swrg:game/quickstart/1_players_4
 execute if score plcnt swrg.math matches 5..8 run function swrg:game/quickstart/1_players_8

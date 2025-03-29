@@ -1,66 +1,68 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "nbt": "lore.kit.d1.Lore[0]",
-                  "storage": "swrg:lang",
-                  "interpret": true
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "nbt": "lore.kit.d1.Lore[0]",
+                                    "storage": "swrg:lang",
+                                    "interpret": true,
+                                    "source": "storage",
+                                    "type": "nbt"
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [],
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:dyed_color": {
+                                    "rgb": 0,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:profile": {
+                                    "id": [
+                                        -295757097,
+                                        2052798124,
+                                        -1369498921,
+                                        2052806316
+                                    ],
+                                    "properties": [
+                                        {
+                                            "name": "textures",
+                                            "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM5OGYxMzNhMWYxYjQ1NWEwMWE2ZTFhY2RmYjVhMDg4YWMxMWZkY2I5YTcyZDYyMjYwOTY0OWZiYjEzODljIn19fQ=="
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "nbt": "kit.d1",
+                                "storage": "swrg:lang",
+                                "interpret": true,
+                                "source": "storage",
+                                "type": "nbt"
+                            }
+                        }
+                    ]
                 }
-              ],
-              "mode": "replace_all"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
-                },
-                
-              
-                "minecraft:hide_additional_tooltip": {},
-                "minecraft:dyed_color": {
-                  "rgb": 0,
-                  "show_in_tooltip": false
-                },
-                "minecraft:profile": {
-                  "id": [
-                    -295757097,
-                    2052798124,
-                    -1369498921,
-                    2052806316
-                  ],
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM5OGYxMzNhMWYxYjQ1NWEwMWE2ZTFhY2RmYjVhMDg4YWMxMWZkY2I5YTcyZDYyMjYwOTY0OWZiYjEzODljIn19fQ=="
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "nbt": "kit.d1",
-                "storage": "swrg:lang",
-                "interpret": true
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

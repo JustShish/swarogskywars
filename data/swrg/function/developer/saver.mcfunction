@@ -36,43 +36,43 @@ setblock ~-48 ~1 ~96 minecraft:structure_block[mode=save]{ignoreEntities:0b,auth
 setblock ~0 ~1 ~96 minecraft:structure_block[mode=save]{ignoreEntities:0b,author:"_Swarog",posX:0,mode:"SAVE",posY:1,sizeX:48,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:58-35",sizeY:48,sizeZ:48,showboundingbox:1b}
 setblock ~48 ~1 ~96 minecraft:structure_block[mode=save]{ignoreEntities:0b,author:"_Swarog",posX:0,mode:"SAVE",posY:1,sizeX:48,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:58-36",sizeY:48,sizeZ:48,showboundingbox:1b}
 
-summon marker ~-96 ~1 ~-96 {Tags:["saver_marker"]}
-summon marker ~-48 ~1 ~-96 {Tags:["saver_marker"]}
-summon marker ~0 ~1 ~-96 {Tags:["saver_marker"]}
-summon marker ~48 ~1 ~-96 {Tags:["saver_marker"]}
-summon marker ~-96 ~1 ~-48 {Tags:["saver_marker"]}
-summon marker ~-48 ~1 ~-48 {Tags:["saver_marker"]}
-summon marker ~0 ~1 ~-48 {Tags:["saver_marker"]}
-summon marker ~48 ~1 ~-48 {Tags:["saver_marker"]}
-summon marker ~-96 ~1 ~0 {Tags:["saver_marker"]}
-summon marker ~-48 ~1 ~0 {Tags:["saver_marker"]}
-summon marker ~0 ~1 ~0 {Tags:["saver_marker"]}
-summon marker ~48 ~1 ~0 {Tags:["saver_marker"]}
-summon marker ~-96 ~1 ~48 {Tags:["saver_marker"]}
-summon marker ~-48 ~1 ~48 {Tags:["saver_marker"]}
-summon marker ~0 ~1 ~48 {Tags:["saver_marker"]}
-summon marker ~48 ~1 ~48 {Tags:["saver_marker"]}
+summon minecraft:marker ~-96 ~1 ~-96 {Tags:["saver_marker"]}
+summon minecraft:marker ~-48 ~1 ~-96 {Tags:["saver_marker"]}
+summon minecraft:marker ~0 ~1 ~-96 {Tags:["saver_marker"]}
+summon minecraft:marker ~48 ~1 ~-96 {Tags:["saver_marker"]}
+summon minecraft:marker ~-96 ~1 ~-48 {Tags:["saver_marker"]}
+summon minecraft:marker ~-48 ~1 ~-48 {Tags:["saver_marker"]}
+summon minecraft:marker ~0 ~1 ~-48 {Tags:["saver_marker"]}
+summon minecraft:marker ~48 ~1 ~-48 {Tags:["saver_marker"]}
+summon minecraft:marker ~-96 ~1 ~0 {Tags:["saver_marker"]}
+summon minecraft:marker ~-48 ~1 ~0 {Tags:["saver_marker"]}
+summon minecraft:marker ~0 ~1 ~0 {Tags:["saver_marker"]}
+summon minecraft:marker ~48 ~1 ~0 {Tags:["saver_marker"]}
+summon minecraft:marker ~-96 ~1 ~48 {Tags:["saver_marker"]}
+summon minecraft:marker ~-48 ~1 ~48 {Tags:["saver_marker"]}
+summon minecraft:marker ~0 ~1 ~48 {Tags:["saver_marker"]}
+summon minecraft:marker ~48 ~1 ~48 {Tags:["saver_marker"]}
 
-summon marker ~-144 ~1 ~-144 {Tags:["saver_marker"]}
-summon marker ~-144 ~1 ~-96 {Tags:["saver_marker"]}
-summon marker ~-144 ~1 ~-48 {Tags:["saver_marker"]}
-summon marker ~-144 ~1 ~0 {Tags:["saver_marker"]}
-summon marker ~-144 ~1 ~48 {Tags:["saver_marker"]}
-summon marker ~-144 ~1 ~96 {Tags:["saver_marker"]}
-summon marker ~96 ~1 ~-144 {Tags:["saver_marker"]}
-summon marker ~96 ~1 ~-96 {Tags:["saver_marker"]}
-summon marker ~96 ~1 ~-48 {Tags:["saver_marker"]}
-summon marker ~96 ~1 ~0 {Tags:["saver_marker"]}
-summon marker ~96 ~1 ~48 {Tags:["saver_marker"]}
-summon marker ~96 ~1 ~96 {Tags:["saver_marker"]}
-summon marker ~-96 ~1 ~-144 {Tags:["saver_marker"]}
-summon marker ~-48 ~1 ~-144 {Tags:["saver_marker"]}
-summon marker ~0 ~1 ~-144 {Tags:["saver_marker"]}
-summon marker ~48 ~1 ~-144 {Tags:["saver_marker"]}
-summon marker ~-96 ~1 ~96 {Tags:["saver_marker"]}
-summon marker ~-48 ~1 ~96 {Tags:["saver_marker"]}
-summon marker ~0 ~1 ~96 {Tags:["saver_marker"]}
-summon marker ~48 ~1 ~96 {Tags:["saver_marker"]}
+summon minecraft:marker ~-144 ~1 ~-144 {Tags:["saver_marker"]}
+summon minecraft:marker ~-144 ~1 ~-96 {Tags:["saver_marker"]}
+summon minecraft:marker ~-144 ~1 ~-48 {Tags:["saver_marker"]}
+summon minecraft:marker ~-144 ~1 ~0 {Tags:["saver_marker"]}
+summon minecraft:marker ~-144 ~1 ~48 {Tags:["saver_marker"]}
+summon minecraft:marker ~-144 ~1 ~96 {Tags:["saver_marker"]}
+summon minecraft:marker ~96 ~1 ~-144 {Tags:["saver_marker"]}
+summon minecraft:marker ~96 ~1 ~-96 {Tags:["saver_marker"]}
+summon minecraft:marker ~96 ~1 ~-48 {Tags:["saver_marker"]}
+summon minecraft:marker ~96 ~1 ~0 {Tags:["saver_marker"]}
+summon minecraft:marker ~96 ~1 ~48 {Tags:["saver_marker"]}
+summon minecraft:marker ~96 ~1 ~96 {Tags:["saver_marker"]}
+summon minecraft:marker ~-96 ~1 ~-144 {Tags:["saver_marker"]}
+summon minecraft:marker ~-48 ~1 ~-144 {Tags:["saver_marker"]}
+summon minecraft:marker ~0 ~1 ~-144 {Tags:["saver_marker"]}
+summon minecraft:marker ~48 ~1 ~-144 {Tags:["saver_marker"]}
+summon minecraft:marker ~-96 ~1 ~96 {Tags:["saver_marker"]}
+summon minecraft:marker ~-48 ~1 ~96 {Tags:["saver_marker"]}
+summon minecraft:marker ~0 ~1 ~96 {Tags:["saver_marker"]}
+summon minecraft:marker ~48 ~1 ~96 {Tags:["saver_marker"]}
 
 
 

@@ -2,19 +2,19 @@ scoreboard players set #lang swrg.math 2
 data modify storage swrg:lang lang set value "en"
 #                                            game
 data modify storage swrg:lang entity.lobby set value '{"text":"SkyWars Menu","color":"green","italic":false}'
-data modify storage swrg:lang item.compass set value {Name: '{"text":"Locator","color":"yellow","italic":false}'}
+data modify storage swrg:lang item.compass set value {Name:'{"text":"Locator","color":"yellow","italic":false}'}
 
-data modify storage swrg:lang item.kit12_0 set value {Name: '{"text":"Splash potion of desiccation","italic":false}'}
-data modify storage swrg:lang item.kit12_1 set value {Name: '{"text":"Splash potion of nausea","italic":false}'}
-data modify storage swrg:lang item.kit12_2 set value {Name: '{"text":"Splash potion blindness","italic":false}'}
+data modify storage swrg:lang item.kit12_0 set value {Name:'{"text":"Splash potion of desiccation","italic":false}'}
+data modify storage swrg:lang item.kit12_1 set value {Name:'{"text":"Splash potion of nausea","italic":false}'}
+data modify storage swrg:lang item.kit12_2 set value {Name:'{"text":"Splash potion blindness","italic":false}'}
 
 data modify storage swrg:lang item.kit18 set value {Name:'{"text":"Anonymous mask","color":"aqua","italic":false}'}
 #                                            gui
 data modify storage swrg:lang gui.balance set value '{"text":"Balance: ","color":"white","italic":false}'
-data modify storage swrg:lang gui.reset set value {Name: '{"text":"Reset","color":"red","italic":false}'}
+data modify storage swrg:lang gui.reset set value {Name:'{"text":"Reset","color":"red","italic":false}'}
 data modify storage swrg:lang gui.keys set value '{"text":"Keys","color":"white","italic":false}'
-data modify storage swrg:lang gui.previous set value {Name: '{"text":"Previous","color":"red","italic":false}'}
-data modify storage swrg:lang gui.next set value {Name: '{"text":"Next","color":"red","italic":false}'}
+data modify storage swrg:lang gui.previous set value {Name:'{"text":"Previous","color":"red","italic":false}'}
+data modify storage swrg:lang gui.next set value {Name:'{"text":"Next","color":"red","italic":false}'}
 data modify storage swrg:lang gui.select set value '{"text":"Selected","color":"green","italic":false}'
 data modify storage swrg:lang gui.locked set value '{"text":"Locked","color":"red","italic":false}'
 data modify storage swrg:lang gui.coins set value '{"text":"Coins","italic":false}'
@@ -56,51 +56,51 @@ data modify storage swrg:lang title.gametimer set value '[{"text":"Game event in
 data modify storage swrg:lang title.player_win set value '[{"text":"Player ","color":"dark_green"},{"selector":"@p[gamemode=survival]","bold": true,"color":"white"},{"text":" wins the game"}]'
 data modify storage swrg:lang title.draw set value '{"text":"DRAW!","color":"green"}'
 # page 0
-data modify storage swrg:lang page0.s0 set value {Name: '{"text":"Settings","color":"red","italic":false}'}
-data modify storage swrg:lang page0.s1 set value {Name: '{"text":"Start game","color":"green","italic":false}'}
-data modify storage swrg:lang page0.s2 set value {Name: '{"text":"Map selection","color":"aqua","italic":false}'}
+data modify storage swrg:lang page0.s0 set value {Name:'{"text":"Settings","color":"red","italic":false}'}
+data modify storage swrg:lang page0.s1 set value {Name:'{"text":"Start game","color":"green","italic":false}'}
+data modify storage swrg:lang page0.s2 set value {Name:'{"text":"Map selection","color":"aqua","italic":false}'}
 data modify storage swrg:lang page0.s6 set value '{"text":"Store","color":"gold","italic":false}'
-data modify storage swrg:lang page0.s7 set value {Name: '{"text":"Сosmetic","color":"yellow","italic":false}'}
-data modify storage swrg:lang page0.s12 set value {Name: '{"text":"Kits","color":"gold","italic":false}'}
-data modify storage swrg:lang page0.s13 set value {Name: '{"text":"Cases","color":"light_purple","italic":false}'}
-data modify storage swrg:lang page0.s14 set value {Name: '{"text":"Skills","color":"aqua","italic":false}'}
+data modify storage swrg:lang page0.s7 set value {Name:'{"text":"Сosmetic","color":"yellow","italic":false}'}
+data modify storage swrg:lang page0.s12 set value {Name:'{"text":"Kits","color":"gold","italic":false}'}
+data modify storage swrg:lang page0.s13 set value {Name:'{"text":"Cases","color":"light_purple","italic":false}'}
+data modify storage swrg:lang page0.s14 set value {Name:'{"text":"Skills","color":"aqua","italic":false}'}
 data modify storage swrg:lang page0.s26 set value {Name:'{"text":"Map information","color":"aqua","italic":false}',Lore:['[{"text":"Main developer - ","color":"green","italic":false},{"text":"_Swarog","color":"aqua","italic":false}]','[{"text":"Developer of lucky blocks - ","color":"green","italic":false},{"text":"BaffledHedgehog","color":"aqua","italic":false}]','{"text":"Discord Server: https://discord.gg/RVqrP3ZaYV","color":"blue","italic":false,"underlined":true}','{"text":"Planet Minecraft: planetminecraft.com/member/swarog","color":"dark_green","italic":false,"underlined":true}']}
 # page 1000
-data modify storage swrg:lang page1000.s0-1 set value {Name: '[{"text":"PvP system - 1.8","color":"white","italic":false},{"text":" "}]'}
-data modify storage swrg:lang page1000.s0-2 set value {Name: '[{"text":"PvP system - 1.9","color":"white","italic":false},{"text":" "}]'}
+data modify storage swrg:lang page1000.s0-1 set value {Name:'[{"text":"PvP system - 1.8","color":"white","italic":false},{"text":" "}]'}
+data modify storage swrg:lang page1000.s0-2 set value {Name:'[{"text":"PvP system - 1.9","color":"white","italic":false},{"text":" "}]'}
 
-data modify storage swrg:lang page1000.s1-1 set value {Name: '{"text":"Time - day","italic":false}'}
-data modify storage swrg:lang page1000.s1-2 set value {Name: '{"text":"Time - evening","italic":false}'}
-data modify storage swrg:lang page1000.s1-3 set value {Name: '{"text":"Time - night","italic":false}'}
+data modify storage swrg:lang page1000.s1-1 set value {Name:'{"text":"Time - day","italic":false}'}
+data modify storage swrg:lang page1000.s1-2 set value {Name:'{"text":"Time - evening","italic":false}'}
+data modify storage swrg:lang page1000.s1-3 set value {Name:'{"text":"Time - night","italic":false}'}
 
 data modify storage swrg:lang page1000.s2-1 set value {Name:'{"text":"Gamemode - Vanilla","italic":false}'}
 data modify storage swrg:lang page1000.s2-2 set value {Name:'{"text":"Gamemode - Lucky Blocks","italic":false}',Lore:['[{"text":"Author: ","color":"white","italic":false},{"text":"BaffledHedgehog","color":"green","italic":false}]','{"text":"Resource pack required!","color":"red","bold":true,"italic":false}']}
 
-data modify storage swrg:lang page1000.s3-0 set value {Name: '{"text":"Kits - OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s3-1 set value {Name: '{"text":"Kits - ON","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s3-0 set value {Name:'{"text":"Kits - OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s3-1 set value {Name:'{"text":"Kits - ON","color":"white","italic":false}'}
 
-data modify storage swrg:lang page1000.s4-0 set value {Name: '{"text":"Skills - OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s4-1 set value {Name: '{"text":"Skills - On","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s4-0 set value {Name:'{"text":"Skills - OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s4-1 set value {Name:'{"text":"Skills - On","color":"white","italic":false}'}
 
-data modify storage swrg:lang page1000.s5-0 set value {Name: '{"text":"First event - OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s5-1 set value {Name: '{"text":"First event - Random","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s5-2 set value {Name: '{"text":"First event - Speed II","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s5-3 set value {Name: '{"text":"First event - Haste II","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s5-4 set value {Name: '{"text":"First event - Filling chests","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s5-5 set value {Name: '{"text":"First event - Jump Boost IV","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s5-6 set value {Name: '{"text":"First event - Heath Boost V","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s5-7 set value {Name: '{"text":"First event - Top loot in chests","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s5-8 set value {Name: '{"text":"First event - Invisibility","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s5-9 set value {Name: '{"text":"First event - Glowing","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-0 set value {Name:'{"text":"First event - OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-1 set value {Name:'{"text":"First event - Random","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-2 set value {Name:'{"text":"First event - Speed II","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-3 set value {Name:'{"text":"First event - Haste II","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-4 set value {Name:'{"text":"First event - Filling chests","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-5 set value {Name:'{"text":"First event - Jump Boost IV","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-6 set value {Name:'{"text":"First event - Heath Boost V","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-7 set value {Name:'{"text":"First event - Top loot in chests","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-8 set value {Name:'{"text":"First event - Invisibility","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s5-9 set value {Name:'{"text":"First event - Glowing","color":"white","italic":false}'}
 
-data modify storage swrg:lang page1000.s6-0 set value {Name: '{"text":"Second event - OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s6-1 set value {Name: '{"text":"Second event - Random","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s6-2 set value {Name: '{"text":"Second event - Withers summoning","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s6-3 set value {Name: '{"text":"Second event - Ender dragons summoning","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s6-4 set value {Name: '{"text":"Second event - Withering Death","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s6-5 set value {Name: '{"text":"Second event - Dynamite Rain","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s6-6 set value {Name: '{"text":"Second event - Narrowing of the Zone","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s6-7 set value {Name: '{"text":"Second event - Levitation","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s6-0 set value {Name:'{"text":"Second event - OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s6-1 set value {Name:'{"text":"Second event - Random","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s6-2 set value {Name:'{"text":"Second event - Withers summoning","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s6-3 set value {Name:'{"text":"Second event - Ender dragons summoning","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s6-4 set value {Name:'{"text":"Second event - Withering Death","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s6-5 set value {Name:'{"text":"Second event - Dynamite Rain","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s6-6 set value {Name:'{"text":"Second event - Narrowing of the Zone","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s6-7 set value {Name:'{"text":"Second event - Levitation","color":"white","italic":false}'}
 
 data modify storage swrg:lang page1000.s7-0 set value {Name:'{"text":"Displaying HP - OFF","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s7-1 set value {Name:'{"text":"Displaying HP - Under nickname","color":"white","italic":false}'}
@@ -134,10 +134,10 @@ data modify storage swrg:lang page6000.s13 set value {Name:'{"text":"Lucky Token
 data modify storage swrg:lang page6000.s14 set value {Name:'{"text":"Lucky Token x100","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"3000 ","color":"gold","italic":false},{"text":"5000","color":"gold","italic":false,"strikethrough":true}]']}
 
 # page 7000
-data modify storage swrg:lang page7000.s12 set value {Name: '{"text":"Death sounds","color":"gray","italic":false}'}
-data modify storage swrg:lang page7000.s14 set value {Name: '{"text":"Starting cell","color":"gray","italic":false}'}
+data modify storage swrg:lang page7000.s12 set value {Name:'{"text":"Death sounds","color":"gray","italic":false}'}
+data modify storage swrg:lang page7000.s14 set value {Name:'{"text":"Starting cell","color":"gray","italic":false}'}
 # page 7200
-data modify storage swrg:lang page7200.s0 set value {Name: '{"text":"Classic","color":"white","italic":false}'}
+data modify storage swrg:lang page7200.s0 set value {Name:'{"text":"Classic","color":"white","italic":false}'}
 
 # kits
 data modify storage swrg:lang rare.a set value '{"text":"Common","color":"blue","italic":false}'
@@ -169,29 +169,29 @@ data modify storage swrg:lang kit.d1 set value '{"text":"Anonymous","color":"aqu
 data modify storage swrg:lang kit.d2 set value '{"text":"Golden Fighter","color":"aqua","italic":false}'
 data modify storage swrg:lang kit.d3 set value '{"text":"Half-blocks","color":"aqua","italic":false}'
 ####
-data modify storage swrg:lang lore.kit.a1 set value {Lore: ['{"text":"- TNT x8","color":"gray","italic":false}', '{"text":"- Flint and steel","color":"gray","italic":false}', '{"text":"- Golden chestplate","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.a2 set value {Lore: ['{"text":"- Wolf spawn egg x2","color":"gray","italic":false}', '{"text":"- Bone x16","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.a3 set value {Lore: ['{"text":"- Potion of swiftness","color":"gray","italic":false}', '{"text":"- Potion of regeneration","color":"gray","italic":false}', '{"text":"- Potion of healing","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.a4 set value {Lore: ['{"text":"- Wooden sword (Knockback I)","color":"gray","italic":false}', '{"text":"- Leather Tunic","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.a5 set value {Lore: ['{"text":"- Golden apple","color":"gray","italic":false}', '{"text":"- Bread х6","color":"gray","italic":false}', '{"text":"- Golden carrot х2","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.a6 set value {Lore: ['{"text":"- Chainmail chestplate (Thorns IV)","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.a7 set value {Lore: ['{"text":"- Golden chestplate (Protection IV Knockback Resistance)","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.a1 set value {Lore:['{"text":"- TNT x8","color":"gray","italic":false}','{"text":"- Flint and steel","color":"gray","italic":false}','{"text":"- Golden chestplate","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.a2 set value {Lore:['{"text":"- Wolf spawn egg x2","color":"gray","italic":false}','{"text":"- Bone x16","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.a3 set value {Lore:['{"text":"- Potion of swiftness","color":"gray","italic":false}','{"text":"- Potion of regeneration","color":"gray","italic":false}','{"text":"- Potion of healing","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.a4 set value {Lore:['{"text":"- Wooden sword (Knockback I)","color":"gray","italic":false}','{"text":"- Leather Tunic","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.a5 set value {Lore:['{"text":"- Golden apple","color":"gray","italic":false}','{"text":"- Bread х6","color":"gray","italic":false}','{"text":"- Golden carrot х2","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.a6 set value {Lore:['{"text":"- Chainmail chestplate (Thorns IV)","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.a7 set value {Lore:['{"text":"- Golden chestplate (Protection IV Knockback Resistance)","color":"gray","italic":false}']}
 
-data modify storage swrg:lang lore.kit.b1 set value {Lore: ['{"text":"- Potion of poison","color":"gray","italic":false}', '{"text":"- Cobweb x7","color":"gray","italic":false}', '{"text":"- String x64","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.b2 set value {Lore: ['{"text":"- Gilded blackstone х8","color":"gray","italic":false}', '{"text":"- Gravel х16","color":"gray","italic":false}', '{"text":"- Gold ingot х16","color":"gray","italic":false}', '{"text":"- Potion of fire resistance","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.b3 set value {Lore: ['{"text":"- Shield","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.b4 set value {Lore: ['{"text":"- Enchanting table","color":"gray","italic":false}', '{"text":"- Bookshelf х6","color":"gray","italic":false}', '{"text":"- Lapis х20","color":"gray","italic":false}', '{"text":"- "20 levels of xp","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.b5 set value {Lore: ['{"text":"- Splash potion of poison","color":"gray","italic":false}', '{"text":"- Splash potion of withering ","color":"gray","italic":false}', '{"text":"- Splash potion of nausea","color":"gray","italic":false}', '{"text":"- Splash potion of blindness","color":"gray","italic":false}', '{"text":"- Milk bucket х2","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.b1 set value {Lore:['{"text":"- Potion of poison","color":"gray","italic":false}','{"text":"- Cobweb x7","color":"gray","italic":false}','{"text":"- String x64","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.b2 set value {Lore:['{"text":"- Gilded blackstone х8","color":"gray","italic":false}','{"text":"- Gravel х16","color":"gray","italic":false}','{"text":"- Gold ingot х16","color":"gray","italic":false}','{"text":"- Potion of fire resistance","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.b3 set value {Lore:['{"text":"- Shield","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.b4 set value {Lore:['{"text":"- Enchanting table","color":"gray","italic":false}','{"text":"- Bookshelf х6","color":"gray","italic":false}','{"text":"- Lapis х20","color":"gray","italic":false}','{"text":"- "20 levels of xp","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.b5 set value {Lore:['{"text":"- Splash potion of poison","color":"gray","italic":false}','{"text":"- Splash potion of withering ","color":"gray","italic":false}','{"text":"- Splash potion of nausea","color":"gray","italic":false}','{"text":"- Splash potion of blindness","color":"gray","italic":false}','{"text":"- Milk bucket х2","color":"gray","italic":false}']}
 
-data modify storage swrg:lang lore.kit.c1 set value {Lore: ['{"text":"- Golden axe","color":"gray","italic":false}', '{"text":"- Golden pickaxe","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.c2 set value {Lore: ['{"text":"- Crossbow","color":"gray","italic":false}', '{"text":"- Fireworks Crafting Kit","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.c3 set value {Lore: ['{"text":"- Potion of invisibility","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.c4 set value {Lore: ['{"text":"- Stone sword (Fire Aspect II)","color":"gray","italic":false}', '{"text":"- Potion of fire resistance","color":"gray","italic":false}', '{"text":"- Lava bucket","color":"gray","italic":false}', '{"text":"- Flint and Steel","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.c5 set value {Lore: ['{"text":"- Cake x2","color":"gray","italic":false}', '{"text":"- Slime block х8","color":"gray","italic":false}', '{"text":"- Honey block х8","color":"gray","italic":false}', '{"text":"- Fireworks х8","color":"gray","italic":false}', '{"text":"- Golden sword","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.c1 set value {Lore:['{"text":"- Golden axe","color":"gray","italic":false}','{"text":"- Golden pickaxe","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.c2 set value {Lore:['{"text":"- Crossbow","color":"gray","italic":false}','{"text":"- Fireworks Crafting Kit","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.c3 set value {Lore:['{"text":"- Potion of invisibility","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.c4 set value {Lore:['{"text":"- Stone sword (Fire Aspect II)","color":"gray","italic":false}','{"text":"- Potion of fire resistance","color":"gray","italic":false}','{"text":"- Lava bucket","color":"gray","italic":false}','{"text":"- Flint and Steel","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.c5 set value {Lore:['{"text":"- Cake x2","color":"gray","italic":false}','{"text":"- Slime block х8","color":"gray","italic":false}','{"text":"- Honey block х8","color":"gray","italic":false}','{"text":"- Fireworks х8","color":"gray","italic":false}','{"text":"- Golden sword","color":"gray","italic":false}']}
 
-data modify storage swrg:lang lore.kit.d1 set value {Lore: ['{"text":"- Anonymous mask","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.d2 set value {Lore: ['{"text":"- Golden sword (Fire Aspect I)","color":"gray","italic":false}', '{"text":"- Golden apple","color":"gray","italic":false}', '{"text":"- Golden armor","color":"gray","italic":false}', '{"text":"- Gold ore x10","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.kit.d3 set value {Lore: ['{"text":"- Oak slab (Sharpness V)","color":"gray","italic":false}', '{"text":"- Cobblestone slab x16","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.d1 set value {Lore:['{"text":"- Anonymous mask","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.d2 set value {Lore:['{"text":"- Golden sword (Fire Aspect I)","color":"gray","italic":false}','{"text":"- Golden apple","color":"gray","italic":false}','{"text":"- Golden armor","color":"gray","italic":false}','{"text":"- Gold ore x10","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.kit.d3 set value {Lore:['{"text":"- Oak slab (Sharpness V)","color":"gray","italic":false}','{"text":"- Cobblestone slab x16","color":"gray","italic":false}']}
 # skills
 data modify storage swrg:lang skill.a1 set value '{"text":"Spider","color":"blue","italic":false}'
 data modify storage swrg:lang skill.a2 set value '{"text":"Heavyweight","color":"blue","italic":false}'
@@ -208,20 +208,20 @@ data modify storage swrg:lang skill.c2 set value '{"text":"Maniac","color":"ligh
 data modify storage swrg:lang skill.d1 set value '{"text":"Thunderer","color":"aqua","italic":false}'
 data modify storage swrg:lang skill.d2 set value '{"text":"Vampire","color":"aqua","italic":false}'
 #
-data modify storage swrg:lang lore.skill.a1 set value {Lore: ['{"text":"- Imposes the effect of poisoning on the offender","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.skill.a2 set value {Lore: ['{"text":"- Causes damage to enemies when falling","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.skill.a3 set value {Lore: ['{"text":"- Gets a speed effect when taking damag","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.skill.a4 set value {Lore: ['{"text":"- Any food eaten gives satiety and relieves hunger","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.a1 set value {Lore:['{"text":"- Imposes the effect of poisoning on the offender","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.a2 set value {Lore:['{"text":"- Causes damage to enemies when falling","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.a3 set value {Lore:['{"text":"- Gets a speed effect when taking damag","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.a4 set value {Lore:['{"text":"- Any food eaten gives satiety and relieves hunger","color":"gray","italic":false}']}
 
-data modify storage swrg:lang lore.skill.b1 set value {Lore: ['{"text":"- Gains resistance to damage with a small amount o","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.skill.b2 set value {Lore: ['{"text":"- Gets an arrow when it hits the target","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.skill.b3 set value {Lore: ['{"text":"-Gets the effect of force with a small amount of hp","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.b1 set value {Lore:['{"text":"- Gains resistance to damage with a small amount o","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.b2 set value {Lore:['{"text":"- Gets an arrow when it hits the target","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.b3 set value {Lore:['{"text":"-Gets the effect of force with a small amount of hp","color":"gray","italic":false}']}
 
-data modify storage swrg:lang lore.skill.c1 set value {Lore: ['{"text":"-Gains strength and resistance to damage when lit","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.skill.c2 set value {Lore: ['{"text":"- With a 100% chance, it blinds the victim when attacking","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.c1 set value {Lore:['{"text":"-Gains strength and resistance to damage when lit","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.c2 set value {Lore:['{"text":"- With a 100% chance, it blinds the victim when attacking","color":"gray","italic":false}']}
 
-data modify storage swrg:lang lore.skill.d1 set value {Lore: ['{"text":"- Summons lightning when taking damage and when attacking","color":"gray","italic":false}']}
-data modify storage swrg:lang lore.skill.d2 set value {Lore: ['{"text":"- With a 20% chance, it restores health when attacking","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.d1 set value {Lore:['{"text":"- Summons lightning when taking damage and when attacking","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.skill.d2 set value {Lore:['{"text":"- With a 20% chance, it restores health when attacking","color":"gray","italic":false}']}
 #
 data modify storage swrg:lang reward.kit set value '[{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" kit "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]'
 data modify storage swrg:lang reward.skill set value '[{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" skill "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]'
@@ -256,47 +256,47 @@ data modify storage swrg:lang cfg_lucky_modifier_10 set value {Name:'{"text":"Lu
 data modify storage swrg:lang cfg_lucky_modifier_11 set value {Name:'{"text":"Luck Modifier: Trees!","color":"white","italic":false}'}
 data modify storage swrg:lang cfg_lucky_modifier_12 set value {Name:'{"text":"Luck Modifier: Lucky Block Imba Version","color":"white","italic":false}'}
 
-data modify storage swrg:lang page1000.s13-0 set value {Name: '{"text":"Lucky Kits - OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s13-1 set value {Name: '{"text":"Lucky Kits - ON","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s13-0 set value {Name:'{"text":"Lucky Kits - OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s13-1 set value {Name:'{"text":"Lucky Kits - ON","color":"white","italic":false}'}
 
-data modify storage swrg:lang page1000.s14-0 set value {Name: '{"text":"Lucky Skills - OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s14-1 set value {Name: '{"text":"Lucky Skills - On","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s14-0 set value {Name:'{"text":"Lucky Skills - OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s14-1 set value {Name:'{"text":"Lucky Skills - On","color":"white","italic":false}'}
 
-data modify storage swrg:lang page1000.s15-0 set value {Name: '{"text":"Lucky level-ups - OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s15-1 set value {Name: '{"text":"Lucky level-ups - On","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s15-0 set value {Name:'{"text":"Lucky level-ups - OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s15-1 set value {Name:'{"text":"Lucky level-ups - On","color":"white","italic":false}'}
 
-data modify storage swrg:lang page1000.s16-1 set value {Name: '{"text":"Lucky level-ups per player - 1","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s16-2 set value {Name: '{"text":"Lucky level-ups per player - 2","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s16-3 set value {Name: '{"text":"Lucky level-ups per player - 3","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s16-4 set value {Name: '{"text":"Lucky level-ups per player - 4","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s16-5 set value {Name: '{"text":"Lucky level-ups per player - 5","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s16-6 set value {Name: '{"text":"Lucky level-ups per player - 6","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s16-7 set value {Name: '{"text":"Lucky level-ups per player - 7","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s16-8 set value {Name: '{"text":"Lucky level-ups per player - 8","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s16-9 set value {Name: '{"text":"Lucky level-ups per player - 9","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s16-1 set value {Name:'{"text":"Lucky level-ups per player - 1","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s16-2 set value {Name:'{"text":"Lucky level-ups per player - 2","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s16-3 set value {Name:'{"text":"Lucky level-ups per player - 3","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s16-4 set value {Name:'{"text":"Lucky level-ups per player - 4","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s16-5 set value {Name:'{"text":"Lucky level-ups per player - 5","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s16-6 set value {Name:'{"text":"Lucky level-ups per player - 6","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s16-7 set value {Name:'{"text":"Lucky level-ups per player - 7","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s16-8 set value {Name:'{"text":"Lucky level-ups per player - 8","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s16-9 set value {Name:'{"text":"Lucky level-ups per player - 9","color":"white","italic":false}'}
 
 data modify storage swrg:lang title.quickstart set value '{"text":"Quick start launched!","color":"green","italic":false}'
 
-data modify storage swrg:lang page1000.s20-0 set value {Name: '{"text":"Server Auto-Restart (every 10 games): OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s20-1 set value {Name: '{"text":"Server Auto-Restart (every 10 games): ON","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s20-0 set value {Name:'{"text":"Server Auto-Restart (every 10 games): OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s20-1 set value {Name:'{"text":"Server Auto-Restart (every 10 games): ON","color":"white","italic":false}'}
 
-data modify storage swrg:lang page1000.s22-0 set value {Name: '{"text":"Lucky-Tweaks: OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s22-1 set value {Name: '{"text":"Lucky-Tweaks: ON","color":"white","italic":false}'}
-
-
-data modify storage swrg:lang page1000.s21 set value {Name: '{"text":"RESTART SERVER IMMEDIATELY (IF LAGGY!)","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s22-0 set value {Name:'{"text":"Lucky-Tweaks: OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s22-1 set value {Name:'{"text":"Lucky-Tweaks: ON","color":"white","italic":false}'}
 
 
-data modify storage swrg:lang page1000.s17-0 set value {Name: '{"text":"Lucky Trinkets per player - 0","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s17-1 set value {Name: '{"text":"Lucky Trinkets per player - 1","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s17-2 set value {Name: '{"text":"Lucky Trinkets per player - 2","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s17-3 set value {Name: '{"text":"Lucky Trinkets per player - 3","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s17-4 set value {Name: '{"text":"Lucky Trinkets per player - 4","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s17-5 set value {Name: '{"text":"Lucky Trinkets per player - 5","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s17-6 set value {Name: '{"text":"Lucky Trinkets per player - 6","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s17-7 set value {Name: '{"text":"Lucky Trinkets per player - 7","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s17-8 set value {Name: '{"text":"Lucky Trinkets per player - 8","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s17-9 set value {Name: '{"text":"Lucky Trinkets per player - 9","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s21 set value {Name:'{"text":"RESTART SERVER IMMEDIATELY (IF LAGGY!)","color":"white","italic":false}'}
+
+
+data modify storage swrg:lang page1000.s17-0 set value {Name:'{"text":"Lucky Trinkets per player - 0","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-1 set value {Name:'{"text":"Lucky Trinkets per player - 1","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-2 set value {Name:'{"text":"Lucky Trinkets per player - 2","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-3 set value {Name:'{"text":"Lucky Trinkets per player - 3","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-4 set value {Name:'{"text":"Lucky Trinkets per player - 4","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-5 set value {Name:'{"text":"Lucky Trinkets per player - 5","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-6 set value {Name:'{"text":"Lucky Trinkets per player - 6","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-7 set value {Name:'{"text":"Lucky Trinkets per player - 7","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-8 set value {Name:'{"text":"Lucky Trinkets per player - 8","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s17-9 set value {Name:'{"text":"Lucky Trinkets per player - 9","color":"white","italic":false}'}
 
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby
 function lbc:swrg_kit_integration/lang_en

@@ -22,21 +22,19 @@ item modify entity @s[scores={swrg.skill=8}] enderchest.7 swrg:select
 item modify entity @s[scores={swrg.skill=9}] enderchest.8 swrg:select
 item modify entity @s[scores={swrg.skill=10}] enderchest.9 swrg:select
 item modify entity @s[scores={swrg.skill=11}] enderchest.10 swrg:select
-#item modify entity @s[scores={swrg.skill=12}] enderchest.11 swrg:select
 #
 
-item replace entity @s[tag=!swrg.skill1] enderchest.0 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill2] enderchest.1 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill3] enderchest.2 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill4] enderchest.3 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill5] enderchest.4 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill6] enderchest.5 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill7] enderchest.6 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill8] enderchest.7 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill9] enderchest.8 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill10] enderchest.9 with repeating_command_block[custom_model_data=669]
-item replace entity @s[tag=!swrg.skill11] enderchest.10 with repeating_command_block[custom_model_data=669]
-#item replace entity @s[tag=!swrg.skill12] enderchest.11 with repeating_command_block[custom_model_data=669]
+item replace entity @s[tag=!swrg.skill1] enderchest.0 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill2] enderchest.1 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill3] enderchest.2 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill4] enderchest.3 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill5] enderchest.4 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill6] enderchest.5 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill7] enderchest.6 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill8] enderchest.7 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill9] enderchest.8 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill10] enderchest.9 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[tag=!swrg.skill11] enderchest.10 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 
 item modify entity @s[tag=!swrg.skill1] enderchest.0 swrg:locked
 item modify entity @s[tag=!swrg.skill2] enderchest.1 swrg:locked
@@ -49,7 +47,6 @@ item modify entity @s[tag=!swrg.skill8] enderchest.7 swrg:locked
 item modify entity @s[tag=!swrg.skill9] enderchest.8 swrg:locked
 item modify entity @s[tag=!swrg.skill10] enderchest.9 swrg:locked
 item modify entity @s[tag=!swrg.skill11] enderchest.10 swrg:locked
-#item modify entity @s[tag=!swrg.skill12] enderchest.11 swrg:locked
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.26 loot swrg:gui/reset

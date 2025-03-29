@@ -23,6 +23,7 @@ scoreboard players set #lbclevelup swrg.math 1
 scoreboard players set #lbcskill swrg.math 1
 scoreboard players set #lbckit swrg.math 1
 scoreboard players set cfg_lucky_modifier swrg.math 0
+scoreboard players set #health swrg.math 2
 
 #
 tellraw @s {"nbt":"title.reset_settings","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}

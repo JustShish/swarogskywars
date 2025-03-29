@@ -106,6 +106,9 @@ data modify storage swrg:lang page1000.s7-0 set value {Name:'{"text":"Displaying
 data modify storage swrg:lang page1000.s7-1 set value {Name:'{"text":"Displaying HP - Under nickname","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s7-2 set value {Name:'{"text":"Displaying HP - Tab-list","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s7-3 set value {Name:'{"text":"Displaying HP - Under nickname and tab-list","color":"white","italic":false}'}
+
+
+
 data modify storage swrg:lang page1000.s25 set value {Name:'{"text":"Language","color":"green","italic":false}',Lore:['{"text":"This global function applies to the entire map","color":"red","bold":true,"italic":false}']}
 data modify storage swrg:lang page1000.s26 set value {Name:'{"text":"Restore settings","color":"green","italic":false}'}
 # page 5000
@@ -289,6 +292,12 @@ data modify storage swrg:lang page1000.s20-1 set value {Name:'{"text":"Server Au
 
 data modify storage swrg:lang page1000.s22-0 set value {Name:'{"text":"Lucky-Tweaks: OFF","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s22-1 set value {Name:'{"text":"Lucky-Tweaks: ON","color":"white","italic":false}'}
+
+data modify storage swrg:lang page1000.s24-0 set value {Name:'{"text":"Default Health: 2","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s24-1 set value {Name:'{"text":"Default Health: 10","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s24-2 set value {Name:'{"text":"Default Health: 20","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s24-3 set value {Name:'{"text":"Default Health: 40","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s24-4 set value {Name:'{"text":"Default Health: 60","color":"white","italic":false}'}
 
 
 data modify storage swrg:lang page1000.s21 set value {Name:'{"text":"RESTART SERVER IMMEDIATELY (IF LAGGY!)","color":"white","italic":false}'}

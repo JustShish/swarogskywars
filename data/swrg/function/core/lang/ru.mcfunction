@@ -317,5 +317,12 @@ data modify storage swrg:lang page1000.s17-7 set value {Name:'{"text":"Макс.
 data modify storage swrg:lang page1000.s17-8 set value {Name:'{"text":"Макс. кол-во тринкетов для выбора - 8","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s17-9 set value {Name:'{"text":"Макс. кол-во тринкетов для выбора - 9","color":"white","italic":false}'}
 
+
+data modify storage swrg:lang page1000.s24-0 set value {Name:'{"text":"Здоровье игроков: 2","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s24-1 set value {Name:'{"text":"Здоровье игроков: 10","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s24-2 set value {Name:'{"text":"Здоровье игроков: 20","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s24-3 set value {Name:'{"text":"Здоровье игроков: 40","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s24-4 set value {Name:'{"text":"Здоровье игроков: 60","color":"white","italic":false}'}
+
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby
 function lbc:swrg_kit_integration/lang_ru

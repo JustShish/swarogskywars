@@ -98,6 +98,12 @@ execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=22}] ru
 execute if entity @s[tag=admin,scores={swrg.gui_select=22}] run scoreboard players add #lbc.tweaks swrg.math 1
 execute if score #lbc.tweaks swrg.math matches 2.. run scoreboard players set #lbc.tweaks swrg.math 0
 
+
+execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=24}] run scoreboard players add #health swrg.math 1
+execute if entity @s[tag=admin,scores={swrg.gui_select=24}] run scoreboard players add #health swrg.math 1
+execute if score #health swrg.math matches 5.. run scoreboard players set #health swrg.math 0
+
+
 scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 0
 execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=26}] run function swrg:core/default_settings
 execute if entity @s[tag=admin,scores={swrg.gui_select=26}] run function swrg:core/default_settings

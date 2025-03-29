@@ -39,6 +39,7 @@ execute if score #health swrg.math matches 1 run attribute @s minecraft:max_heal
 execute if score #health swrg.math matches 3 run attribute @s minecraft:max_health base set 40
 execute if score #health swrg.math matches 4 run attribute @s minecraft:max_health base set 60
 
+effect give @s instant_health 3 99 true
 
 scoreboard players set @s swrg.death 0
 tag @s remove dead

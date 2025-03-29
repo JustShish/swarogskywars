@@ -99,6 +99,13 @@ execute if score #prefixes swrg.math matches 2 run data modify storage swrg:lang
 execute if score #prefixes swrg.math matches 3 run data modify storage swrg:lang page1000.s19 set from storage swrg:lang page1000.s19-3
 execute if score #prefixes swrg.math matches 4 run data modify storage swrg:lang page1000.s19 set from storage swrg:lang page1000.s19-4
 
+
+execute if score #health swrg.math matches 0 run data modify storage swrg:lang page1000.s24 set from storage swrg:lang page1000.s24-0
+execute if score #health swrg.math matches 1 run data modify storage swrg:lang page1000.s24 set from storage swrg:lang page1000.s24-1
+execute if score #health swrg.math matches 2 run data modify storage swrg:lang page1000.s24 set from storage swrg:lang page1000.s24-2
+execute if score #health swrg.math matches 3 run data modify storage swrg:lang page1000.s24 set from storage swrg:lang page1000.s24-3
+execute if score #health swrg.math matches 4 run data modify storage swrg:lang page1000.s24 set from storage swrg:lang page1000.s24-4
+
 execute if score #auto_restart swrg.math matches 0 run data modify storage swrg:lang page1000.s20 set from storage swrg:lang page1000.s20-0
 execute if score #auto_restart swrg.math matches 1 run data modify storage swrg:lang page1000.s20 set from storage swrg:lang page1000.s20-1
 

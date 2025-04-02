@@ -1,6 +1,7 @@
 scoreboard players add #prefixes swrg.math 1
 execute if score #prefixes swrg.math matches 5.. run scoreboard players set #prefixes swrg.math 0
 data remove storage swrg:core prefix
+data remove storage swrg:temp prefix_temp
 team modify 1 prefix ""
 team modify 2 prefix ""
 team modify 3 prefix ""

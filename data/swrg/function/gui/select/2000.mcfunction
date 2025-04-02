@@ -24,6 +24,8 @@ execute if entity @s[scores={swrg.gui_select=23}] run function swrg:maploader/ma
 execute if entity @s[scores={swrg.gui_select=24}] run function swrg:maploader/map/24
 execute if entity @s[scores={swrg.gui_select=25}] run function swrg:maploader/map/25
 execute if entity @s[scores={swrg.gui_select=1..25}] unless score @s swrg.gui_select matches 18 run function swrg:maploader/map/alwayspast
+scoreboard players operation saved_map swrg.math = @s swrg.gui_select
+schedule function swrg:maploader/map_select_imprinted 2s
 
 #
 scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 0

@@ -1,5 +1,4 @@
 function swrg:maploader/lobby
-
 scoreboard players set #gamestat swrg.math 0
 scoreboard players set @a swrg.gui_page 0
 execute as @a run function swrg:core/player/stats

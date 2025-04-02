@@ -1,7 +1,7 @@
 kill @e[type=minecraft:area_effect_cloud,tag=swrg.lobby]
 kill @e[tag=swrg.quickstart]
 place template swrg:lobby -5 126 -5
-
+execute in minecraft:imprinted run forceload add -192 -192 192 192
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby
 scoreboard players set #quickstartstat swrg.math 1
 #

@@ -1,1 +1,1 @@
-gamerule fallDamage true
+execute in overworld run gamerule fallDamage true

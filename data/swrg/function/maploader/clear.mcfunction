@@ -102,11 +102,11 @@ execute at @e[type=minecraft:marker,tag=swrg.clear] run fill ~ 298 ~ ~48 307 ~48
 execute at @e[type=minecraft:marker,tag=swrg.clear] run fill ~ 308 ~ ~48 317 ~48 minecraft:air
 execute at @e[type=minecraft:marker,tag=swrg.clear] run fill ~ 318 ~ ~48 319 ~48 minecraft:air
 #
-kill @e[predicate=swrg:core/maploader]
-kill @e[type=!minecraft:player,predicate=!swrg:core/lobby]
-kill @e[type=!minecraft:player,predicate=!swrg:core/lobby]
-kill @e[type=!minecraft:player,predicate=!swrg:core/lobby]
-kill @e[type=!minecraft:player,predicate=!swrg:core/lobby]
-kill @e[type=!minecraft:player,predicate=!swrg:core/lobby]
-kill @e[type=!minecraft:player,predicate=!swrg:core/lobby]
+kill @e[distance=0..,predicate=swrg:core/maploader]
+kill @e[distance=0..,type=!minecraft:player,predicate=!swrg:core/lobby]
+kill @e[distance=0..,type=!minecraft:player,predicate=!swrg:core/lobby]
+kill @e[distance=0..,type=!minecraft:player,predicate=!swrg:core/lobby]
+kill @e[distance=0..,type=!minecraft:player,predicate=!swrg:core/lobby]
+kill @e[distance=0..,type=!minecraft:player,predicate=!swrg:core/lobby]
+kill @e[distance=0..,type=!minecraft:player,predicate=!swrg:core/lobby]
 scoreboard players set #mapstat swrg.math 1

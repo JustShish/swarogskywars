@@ -23,3 +23,4 @@ execute if score saved_map swrg.math matches 22 in minecraft:imprinted run funct
 execute if score saved_map swrg.math matches 23 in minecraft:imprinted run function swrg:maploader/map/48_broken
 execute if score saved_map swrg.math matches 24 in minecraft:imprinted run function swrg:maploader/map/49_broken
 execute if score saved_map swrg.math matches 25 in minecraft:imprinted run function swrg:maploader/map/50_broken
+execute in minecraft:imprinted run kill @e[distance=0..]

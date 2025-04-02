@@ -99,6 +99,11 @@ execute if entity @s[tag=admin,scores={swrg.gui_select=22}] run scoreboard playe
 execute if score #lbc.tweaks swrg.math matches 2.. run scoreboard players set #lbc.tweaks swrg.math 0
 
 
+execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=23}] run scoreboard players add #imbadrop_chance swrg.math 1
+execute if entity @s[tag=admin,scores={swrg.gui_select=23}] run scoreboard players add #imbadrop_chance swrg.math 1
+execute if score #imbadrop_chance swrg.math matches 7.. run scoreboard players set #imbadrop_chance swrg.math 0
+
+
 execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=24}] run scoreboard players add #health swrg.math 1
 execute if entity @s[tag=admin,scores={swrg.gui_select=24}] run scoreboard players add #health swrg.math 1
 execute if score #health swrg.math matches 5.. run scoreboard players set #health swrg.math 0

@@ -4,6 +4,8 @@
 execute if score #day swrg.math matches 1 run time set day
 execute if score #day swrg.math matches 2 run time set night
 execute if score #day swrg.math matches 3 run time set midnight
+
+
 ###                                        bossbar timer
 #bossbar set swrg:gametimer max 1000
 #bossbar set swrg:gametimer players @a

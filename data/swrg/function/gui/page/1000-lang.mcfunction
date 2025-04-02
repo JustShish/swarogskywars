@@ -106,6 +106,16 @@ execute if score #health swrg.math matches 2 run data modify storage swrg:lang p
 execute if score #health swrg.math matches 3 run data modify storage swrg:lang page1000.s24 set from storage swrg:lang page1000.s24-3
 execute if score #health swrg.math matches 4 run data modify storage swrg:lang page1000.s24 set from storage swrg:lang page1000.s24-4
 
+
+execute if score #imbadrop_chance swrg.math matches 0 run data modify storage swrg:lang page1000.s23 set from storage swrg:lang page1000.s23-0
+execute if score #imbadrop_chance swrg.math matches 1 run data modify storage swrg:lang page1000.s23 set from storage swrg:lang page1000.s23-1
+execute if score #imbadrop_chance swrg.math matches 2 run data modify storage swrg:lang page1000.s23 set from storage swrg:lang page1000.s23-2
+execute if score #imbadrop_chance swrg.math matches 3 run data modify storage swrg:lang page1000.s23 set from storage swrg:lang page1000.s23-3
+execute if score #imbadrop_chance swrg.math matches 4 run data modify storage swrg:lang page1000.s23 set from storage swrg:lang page1000.s23-4
+execute if score #imbadrop_chance swrg.math matches 5 run data modify storage swrg:lang page1000.s23 set from storage swrg:lang page1000.s23-5
+execute if score #imbadrop_chance swrg.math matches 6 run data modify storage swrg:lang page1000.s23 set from storage swrg:lang page1000.s23-6
+
+
 execute if score #auto_restart swrg.math matches 0 run data modify storage swrg:lang page1000.s20 set from storage swrg:lang page1000.s20-0
 execute if score #auto_restart swrg.math matches 1 run data modify storage swrg:lang page1000.s20 set from storage swrg:lang page1000.s20-1
 

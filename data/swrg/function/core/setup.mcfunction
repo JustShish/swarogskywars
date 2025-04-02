@@ -16,7 +16,7 @@ gamerule fallDamage false
 time set day
 #
 function swrg:core/select_host
-function swrg:maploader/lobby
+execute in minecraft:overworld run function swrg:maploader/lobby
 data merge storage swrg:setup {setup:1b}
 #
 function swrg:core/create_teams

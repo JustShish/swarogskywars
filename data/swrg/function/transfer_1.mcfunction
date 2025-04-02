@@ -1,0 +1,1 @@
+$$(transfer) "d12.joinserver.xyz" 25916 @s

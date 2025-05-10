@@ -11,7 +11,7 @@
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "nbt": "page0.s18.Name",
+                                "nbt": "page0.s17.Name",
                                 "storage": "swrg:lang",
                                 "interpret": true,
                                 "source": "storage",

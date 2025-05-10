@@ -10,7 +10,7 @@ loot replace entity @s enderchest.12 loot swrg:gui/page/0/12
 loot replace entity @s enderchest.13 loot swrg:gui/page/0/13
 loot replace entity @s enderchest.14 loot swrg:gui/page/0/14
 
-loot replace entity @s enderchest.18 loot swrg:gui/page/0/18
+loot replace entity @s enderchest.17 loot swrg:gui/page/0/17
 loot replace entity @s enderchest.19 loot swrg:gui/page/0/19
 loot replace entity @s enderchest.20 loot swrg:gui/page/0/20
 loot replace entity @s enderchest.21 loot swrg:gui/page/0/21

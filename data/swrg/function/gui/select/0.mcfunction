@@ -31,7 +31,7 @@ scoreboard players set @s[scores={swrg.gui_select=22}] swrg.gui_page 9000
 scoreboard players set @s[scores={swrg.gui_select=23}] swrg.gui_page 10000
 scoreboard players set @s[scores={swrg.gui_select=20}] swrg.gui_page 11000
 scoreboard players set @s[scores={swrg.gui_select=24}] swrg.gui_page 12000
-execute if entity @s[scores={swrg.gui_select=18}] run function swrg:transfer
+execute if entity @s[scores={swrg.gui_select=17}] run function swrg:transfer
 
 execute if entity @s[scores={swrg.gui_select=26}] run tellraw @s [{"text":"Discord Server: https://discord.gg/RVqrP3ZaYV","color":"blue","italic":false,"underlined":true,"clickEvent":{"action":"open_url","value":"https://discord.gg/RVqrP3ZaYV"},"type":"text"},{"text":"\nPlanet Minecraft: planetminecraft.com/member/swarog","color":"dark_green","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/swarog/"},"type":"text"}]
 scoreboard players set @s swrg.gui_select -1

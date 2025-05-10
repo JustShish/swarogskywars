@@ -19,7 +19,7 @@ for filename in os.listdir(folder_path):
             lines = file.readlines()
         
         # Обрабатываем строки
-        modified_lines = [line.rstrip() + " none none 0.5" if line.startswith("place") else line.rstrip() for line in lines]
+        modified_lines = [line.rstrip() + " none none 0.75" if line.startswith("place") else line.rstrip() for line in lines]
         
         # Записываем изменения обратно в файл
         with open(new_path, "w", encoding="utf-8") as file:

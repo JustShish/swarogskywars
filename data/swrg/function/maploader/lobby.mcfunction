@@ -5,6 +5,11 @@ execute in minecraft:imprinted run forceload add 0 0 192 192
 execute in minecraft:imprinted run forceload add 0 0 192 -192
 execute in minecraft:imprinted run forceload add 0 0 -192 192
 execute in minecraft:imprinted run forceload add 0 0 -192 -192
+
+execute in minecraft:white run forceload add 0 0 192 192
+execute in minecraft:white run forceload add 0 0 192 -192
+execute in minecraft:white run forceload add 0 0 -192 192
+execute in minecraft:white run forceload add 0 0 -192 -192
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby
 scoreboard players set #quickstartstat swrg.math 1
 #

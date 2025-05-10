@@ -23,4 +23,6 @@ execute if score saved_map swrg.math matches 22 in minecraft:white run function 
 execute if score saved_map swrg.math matches 23 in minecraft:white run function swrg:maploader/map/48
 execute if score saved_map swrg.math matches 24 in minecraft:white run function swrg:maploader/map/49
 execute if score saved_map swrg.math matches 25 in minecraft:white run function swrg:maploader/map/50
+
+execute in minecraft:white as @e[type=minecraft:marker,tag=swrg.spawn,distance=0..] at @s run fill ~-1 ~-1 ~-1 ~1 ~4 ~1 minecraft:air
 execute in minecraft:white run kill @e[distance=0..]

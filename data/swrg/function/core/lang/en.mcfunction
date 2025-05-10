@@ -323,5 +323,7 @@ data modify storage swrg:lang page1000.s17-7 set value {Name:'{"text":"Lucky Tri
 data modify storage swrg:lang page1000.s17-8 set value {Name:'{"text":"Lucky Trinkets per player - 8","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s17-9 set value {Name:'{"text":"Lucky Trinkets per player - 9","color":"white","italic":false}'}
 
+data modify storage swrg:lang page0.17 set value {Name:'{"text":"Try also Govnovevania!! (CLICK!)","color":"aqua","italic":false}'}
+
 execute as @e[tag=swrg.lobby] run data modify entity @s CustomName set from storage swrg:lang entity.lobby
 function lbc:swrg_kit_integration/lang_en

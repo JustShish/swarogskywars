@@ -6,7 +6,7 @@ data modify storage swrg:lang item.compass set value {Name:'{"text":"Locator","c
 
 data modify storage swrg:lang item.kit12_0 set value {Name:'{"text":"Splash potion of desiccation","italic":false}'}
 data modify storage swrg:lang item.kit12_1 set value {Name:'{"text":"Splash potion of nausea","italic":false}'}
-data modify storage swrg:lang item.kit12_2 set value {Name:'{"text":"Splash potion blindness","italic":false}'}
+data modify storage swrg:lang item.kit12_2 set value {Name:'{"text":"Splash potion of blindness","italic":false}'}
 
 data modify storage swrg:lang item.kit18 set value {Name:'{"text":"Anonymous mask","color":"aqua","italic":false}'}
 #                                            gui
@@ -134,9 +134,9 @@ data modify storage swrg:lang page6000.s9 set value {Name:'{"text":"Cosmetics ca
 data modify storage swrg:lang page6000.s10 set value {Name:'{"text":"Cosmetics case","color":"light_purple","italic":false}',Lore:['{"text":"Keys х5","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"800 ","color":"gold","italic":false},{"text":"1000","color":"gold","italic":false,"strikethrough":true}]']}
 data modify storage swrg:lang page6000.s11 set value {Name:'{"text":"Cosmetics case","color":"light_purple","italic":false}',Lore:['{"text":"Keys х10","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"1400 ","color":"gold","italic":false},{"text":"2000","color":"gold","italic":false,"strikethrough":true}]']}
 
-data modify storage swrg:lang page6000.s12 set value {Name:'{"text":"Lucky Token","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"50 ","color":"gold","italic":false}]']}
-data modify storage swrg:lang page6000.s13 set value {Name:'{"text":"Lucky Token x10","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"400 ","color":"gold","italic":false},{"text":"500","color":"gold","italic":false,"strikethrough":true}]']}
-data modify storage swrg:lang page6000.s14 set value {Name:'{"text":"Lucky Token x100","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"3000 ","color":"gold","italic":false},{"text":"5000","color":"gold","italic":false,"strikethrough":true}]']}
+#data modify storage swrg:lang page6000.s12 set value {Name:'{"text":"Lucky Token","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"50 ","color":"gold","italic":false}]']}
+#data modify storage swrg:lang page6000.s13 set value {Name:'{"text":"Lucky Token x10","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"400 ","color":"gold","italic":false},{"text":"500","color":"gold","italic":false,"strikethrough":true}]']}
+#data modify storage swrg:lang page6000.s14 set value {Name:'{"text":"Lucky Token x100","color":"light_purple","italic":false}',Lore:['{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false}','[{"text":"Price: ","color":"white","italic":false},{"text":"3000 ","color":"gold","italic":false},{"text":"5000","color":"gold","italic":false,"strikethrough":true}]']}
 
 # page 7000
 data modify storage swrg:lang page7000.s12 set value {Name:'{"text":"Death sounds","color":"gray","italic":false}'}
@@ -291,8 +291,8 @@ data modify storage swrg:lang page1000.s19-4 set value {Name:'{"text":"Prefixes:
 data modify storage swrg:lang page1000.s20-0 set value {Name:'{"text":"Server Auto-Restart (every 10 games): OFF","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s20-1 set value {Name:'{"text":"Server Auto-Restart (every 10 games): ON","color":"white","italic":false}'}
 
-data modify storage swrg:lang page1000.s22-0 set value {Name:'{"text":"Lucky-Tweaks: OFF","color":"white","italic":false}'}
-data modify storage swrg:lang page1000.s22-1 set value {Name:'{"text":"Lucky-Tweaks: ON","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s22-0 set value {Name:'{"text":"Lucky-Challenge Power Ups: OFF","color":"white","italic":false}'}
+data modify storage swrg:lang page1000.s22-1 set value {Name:'{"text":"Lucky-Challenge Power Ups: ON","color":"white","italic":false}'}
 
 data modify storage swrg:lang page1000.s24-0 set value {Name:'{"text":"Default Health: 2","color":"white","italic":false}'}
 data modify storage swrg:lang page1000.s24-1 set value {Name:'{"text":"Default Health: 10","color":"white","italic":false}'}

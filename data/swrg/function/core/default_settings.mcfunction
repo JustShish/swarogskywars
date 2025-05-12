@@ -16,12 +16,9 @@ scoreboard players set no_borders swrg.math 0
 scoreboard players set #lbclevelupmax swrg.math 4
 scoreboard players set #prefixes swrg.math 3
 scoreboard players set #lbctrinket swrg.math 9
-scoreboard players set #lbc.tweaks swrg.math 1
+scoreboard players set #lbc.challenge swrg.math 1
 scoreboard players set #games_in_a_row swrg.math 0
 scoreboard players set #auto_restart swrg.math 0
-scoreboard players set #lbclevelup swrg.math 1
-scoreboard players set #lbcskill swrg.math 1
-scoreboard players set #lbckit swrg.math 1
 scoreboard players set cfg_lucky_modifier swrg.math 0
 scoreboard players set #health swrg.math 2
 scoreboard players set #imbadrop_chance swrg.math 4

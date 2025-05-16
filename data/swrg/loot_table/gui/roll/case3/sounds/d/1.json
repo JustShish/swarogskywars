@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{display:{Name:'{\"translate\":\"entity.minecraft.ender_dragon\",\"color\":\"aqua\",\"italic\":false}'},HideFlags:127,rewardsound:12}"
+                            "tag": "{display:{Name:{\"translate\":\"entity.minecraft.ender_dragon\",\"color\":\"aqua\",\"italic\":false}},HideFlags:127,rewardsound:12}"
                         }
                     ]
                 }

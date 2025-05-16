@@ -1,4 +1,4 @@
-execute positioned as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{developer_menu:1b}}}}] unless entity @e[type=minecraft:chest_minecart] run summon minecraft:chest_minecart ~ ~ ~ {Tags:["developer_menu"],CustomName:'{"color":"green","text":"Developer Tools"}'}
+execute positioned as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{developer_menu:1b}}}}] unless entity @e[type=minecraft:chest_minecart] run summon minecraft:chest_minecart ~ ~ ~ {Tags:["developer_menu"],CustomName:{"color":"green","text":"Developer Tools"}}
 execute at @p[nbt={SelectedItem:{components:{"minecraft:custom_data":{developer_menu:1b}}}}] run tp @e[type=minecraft:chest_minecart,tag=developer_menu] ~ ~1 ~
 
 execute as @e[type=minecraft:chest_minecart,tag=developer_menu,tag=!ready] run function swrg:developer/tools/menu

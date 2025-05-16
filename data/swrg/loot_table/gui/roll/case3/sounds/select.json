@@ -32,10 +32,7 @@
                 {
                     "function": "minecraft:set_components",
                     "components": {
-                        "minecraft:jukebox_playable": {
-                            "song": "5",
-                            "show_in_tooltip": false
-                        }
+                        "minecraft:jukebox_playable": "5"
                     }
                 }
             ]

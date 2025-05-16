@@ -10,10 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:jukebox_playable": {
-                                    "show_in_tooltip": false,
-                                    "song": "11"
-                                }
+                                "minecraft:jukebox_playable": "11"
                             }
                         },
                         {

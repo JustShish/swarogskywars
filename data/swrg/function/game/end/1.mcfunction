@@ -7,6 +7,7 @@ execute as @a run function swrg:gui/clear
 execute as @a run function swrg:gui/page
 execute in minecraft:overworld run function lbc:end_resets
 execute in minecraft:overworld run function lbc:only_end_resets
+function lbc:only_end_resets_once
 ### БАФФЛЕД ЕБЛАН
 ### Я БАФФЛЕД И Я ЕБЛАН
 scoreboard players set @a swrg.roll 0

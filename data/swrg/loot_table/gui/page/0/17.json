@@ -21,8 +21,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "comparator",
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:item_model": "comparator"
                             }
                         }
                     ]

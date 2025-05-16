@@ -24,15 +24,13 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [],
-                                    "show_in_tooltip": false
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:attribute_modifiers",
+                                        "minecraft:dyed_color"
+                                    ]
                                 },
-                                "minecraft:hide_additional_tooltip": {},
-                                "minecraft:dyed_color": {
-                                    "rgb": 0,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:dyed_color": 0,
                                 "minecraft:profile": {
                                     "id": [
                                         -295757097,

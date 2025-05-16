@@ -8,12 +8,6 @@
                     "name": "minecraft:smooth_stone_slab",
                     "functions": [
                         {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:hide_additional_tooltip": {}
-                            }
-                        },
-                        {
                             "function": "minecraft:set_lore",
                             "entity": "this",
                             "lore": [

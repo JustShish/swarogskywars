@@ -8,12 +8,6 @@
                     "name": "minecraft:iron_bars",
                     "functions": [
                         {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:hide_additional_tooltip": {}
-                            }
-                        },
-                        {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {

@@ -8,16 +8,6 @@
                     "name": "minecraft:golden_pickaxe",
                     "functions": [
                         {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:hide_additional_tooltip": {},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [],
-                                    "show_in_tooltip": false
-                                }
-                            }
-                        },
-                        {
                             "function": "minecraft:set_lore",
                             "entity": "this",
                             "lore": [

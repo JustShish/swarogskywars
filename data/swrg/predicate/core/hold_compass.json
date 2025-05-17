@@ -68,7 +68,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "nbt": "{Inventory:[{id:\"minecraft:compass\",Slot:-106b}]}"
+                "nbt": "{equipment:{offhand:{id:\"minecraft:compass\"}}}"
             }
         }
     ]

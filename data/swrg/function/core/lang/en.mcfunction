@@ -323,7 +323,11 @@ data modify storage swrg:lang page1000.s17-7 set value {Name:{"text":"Lucky Trin
 data modify storage swrg:lang page1000.s17-8 set value {Name:{"text":"Lucky Trinkets per player - 8","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s17-9 set value {Name:{"text":"Lucky Trinkets per player - 9","color":"white","italic":false}}
 
-data modify storage swrg:lang page0.s24 set value {Name:{"text":"Challenges","color":"white","italic":false}}
+data modify storage swrg:lang page0.s20 set value {Name:{"text":"Trinkets! (Can be stacked!)","color":"white","italic":false}}
+data modify storage swrg:lang page0.s21 set value {Name:{"text":"Level-Ups! (Choose multiple!)","color":"white","italic":false}}
+data modify storage swrg:lang page0.s22 set value {Name:{"text":"Super-Kit!","color":"white","italic":false}}
+data modify storage swrg:lang page0.s23 set value {Name:{"text":"Super-Skill!","color":"white","italic":false}}
+data modify storage swrg:lang page0.s24 set value {Name:{"text":"-_\\Challenges/_-","color":"white","italic":false}}
 
 data modify storage swrg:lang page0.17 set value {Name:{"text":"Try also Govnovevania!! (CLICK!)","color":"aqua","italic":false}}
 

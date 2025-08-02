@@ -14,6 +14,7 @@ execute if score #lbclevelup swrg.math matches 1 as @a at @s run function lbc:sw
 execute if score #lbcskill swrg.math matches 1 as @a at @s run function lbc:swrg_kit_integration/game/skill_select/select
 execute if score #lbctrinket swrg.math matches 1.. as @a at @s run function lbc:swrg_kit_integration/game/trinket_select/select
 execute if score #lbc.challenge swrg.math matches 1 as @a at @s run function lbc:swrg_kit_integration/game/challenge_content_select
+function lbc:start_after_all
 execute at @e[type=minecraft:marker,tag=swrg.spawn] run gamemode survival @p[distance=..2]
 
 gamerule doMobLoot true

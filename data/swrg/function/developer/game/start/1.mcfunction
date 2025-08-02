@@ -2,7 +2,6 @@ function swrg:game/start/config
 #
 scoreboard players set #gamestat swrg.math 2
 effect give @a minecraft:instant_health 1 255 true
-recipe take @a *
 execute as @e[type=minecraft:marker,tag=swrg.spawn] at @s run fill ~-1 ~-1 ~-1 ~1 ~4 ~1 minecraft:air
 #
 schedule clear swrg:game/start/clear

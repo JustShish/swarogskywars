@@ -33,11 +33,11 @@ attribute @s minecraft:water_movement_efficiency base reset
 
 
 execute if score #pvp swrg.math matches 1 run attribute @s minecraft:attack_speed base set 100000
-
-execute if score #health swrg.math matches 0 run attribute @s minecraft:max_health base set 1
-execute if score #health swrg.math matches 1 run attribute @s minecraft:max_health base set 10
-execute if score #health swrg.math matches 3 run attribute @s minecraft:max_health base set 40
-execute if score #health swrg.math matches 4 run attribute @s minecraft:max_health base set 60
+attribute @s max_health modifier remove gamehealthmodifier
+execute if score #health swrg.math matches 0 run attribute @s minecraft:max_health modifier add gamehealthmodifier -0.95 add_multiplied_total
+execute if score #health swrg.math matches 1 run attribute @s minecraft:max_health modifier add gamehealthmodifier -0.5 add_multiplied_total
+execute if score #health swrg.math matches 3 run attribute @s minecraft:max_health modifier add gamehealthmodifier 1 add_multiplied_total
+execute if score #health swrg.math matches 4 run attribute @s minecraft:max_health modifier add gamehealthmodifier 2 add_multiplied_total
 
 effect give @s instant_health 3 99 true
 

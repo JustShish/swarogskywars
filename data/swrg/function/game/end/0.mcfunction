@@ -11,6 +11,7 @@ gamerule doEntityDrops false
 tellraw @p[gamemode=survival] {"nbt":"reward.win","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 scoreboard players add @p[gamemode=survival] swrg.stat_wins 1
 scoreboard players add @p[gamemode=survival] swrg.coins 100
+execute as @p[gamemode=survival] at @s run function lbc:win
 scoreboard players set #random_min swrg.math 1
 scoreboard players set #random_max swrg.math 4
 function swrg:core/get_random

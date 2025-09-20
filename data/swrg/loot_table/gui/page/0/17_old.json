@@ -21,7 +21,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:build_manager_icon"
+                                "minecraft:item_model": "comparator"
                             }
                         }
                     ]

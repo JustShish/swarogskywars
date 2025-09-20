@@ -23,5 +23,6 @@ execute if entity @s[scores={swrg.gui_page=11000}] run function lbc:swrg_kit_int
 execute if entity @s[scores={swrg.gui_page=12000}] run function lbc:swrg_kit_integration/gui/page/12000
 execute if entity @s[scores={swrg.gui_page=11100}] run function lbc:swrg_kit_integration/gui/page/11100
 #
+#
 function swrg:gui/fill
 function swrg:gui/set_slot_id

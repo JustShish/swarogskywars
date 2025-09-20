@@ -317,7 +317,7 @@ data modify storage swrg:lang page1000.s17-7 set value {Name:{"text":"Макс. 
 data modify storage swrg:lang page1000.s17-8 set value {Name:{"text":"Макс. кол-во тринкетов для выбора - 8","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s17-9 set value {Name:{"text":"Макс. кол-во тринкетов для выбора - 9","color":"white","italic":false}}
 
-data modify storage swrg:lang page0.s17 set value {Name:{"text":"Попробуйте так же сервер Говножевания!! (КЛИК!)","color":"aqua","italic":false}}
+data modify storage swrg:lang page0.s17 set value {Name:{"text":"Менеджер Билдов","color":"aqua","italic":false}}
 
 data modify storage swrg:lang page1000.s23-0 set value {Name:{"text":"Шанс имба-дропа: 0%","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s23-1 set value {Name:{"text":"Шанс имба-дропа: 0.001%","color":"white","italic":false}}

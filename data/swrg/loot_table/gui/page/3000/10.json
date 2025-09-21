@@ -1,5 +1,5 @@
 {
-    "pools": [
+    "type":"empty", "pools": [
         {
             "rolls": 1,
             "entries": [

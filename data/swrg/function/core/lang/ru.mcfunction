@@ -289,6 +289,9 @@ data modify storage swrg:lang page1000.s16-6 set value {Name:{"text":"Макс. 
 data modify storage swrg:lang page1000.s16-7 set value {Name:{"text":"Макс. кол-во улучшений персонажа - 7","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s16-8 set value {Name:{"text":"Макс. кол-во улучшений персонажа - 8","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s16-9 set value {Name:{"text":"Макс. кол-во улучшений персонажа - 9","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s16-10 set value {Name:{"text":"Макс. кол-во улучшений персонажа - 10","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s16-11 set value {Name:{"text":"Макс. кол-во улучшений персонажа - 11","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s16-12 set value {Name:{"text":"Макс. кол-во улучшений персонажа - 12 (МАКС)","color":"white","italic":false}}
 
 data modify storage swrg:lang title.quickstart set value {"text":"Быстрая игра запущена!","color":"green","italic":false}
 
@@ -316,6 +319,9 @@ data modify storage swrg:lang page1000.s17-6 set value {Name:{"text":"Макс. 
 data modify storage swrg:lang page1000.s17-7 set value {Name:{"text":"Макс. кол-во тринкетов для выбора - 7","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s17-8 set value {Name:{"text":"Макс. кол-во тринкетов для выбора - 8","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s17-9 set value {Name:{"text":"Макс. кол-во тринкетов для выбора - 9","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s17-10 set value {Name:{"text":"Макс. кол-во тринкетов для выбора - 10","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s17-11 set value {Name:{"text":"Макс. кол-во тринкетов для выбора - 11","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s17-12 set value {Name:{"text":"Макс. кол-во тринкетов для выбора - 12 (МАКС.)","color":"white","italic":false}}
 
 data modify storage swrg:lang page0.s17 set value {Name:{"text":"Менеджер Билдов","color":"aqua","italic":false}}
 

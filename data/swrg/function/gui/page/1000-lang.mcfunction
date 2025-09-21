@@ -92,6 +92,9 @@ execute if score #lbclevelupmax swrg.math matches 6 run data modify storage swrg
 execute if score #lbclevelupmax swrg.math matches 7 run data modify storage swrg:lang page1000.s16 set from storage swrg:lang page1000.s16-7
 execute if score #lbclevelupmax swrg.math matches 8 run data modify storage swrg:lang page1000.s16 set from storage swrg:lang page1000.s16-8
 execute if score #lbclevelupmax swrg.math matches 9 run data modify storage swrg:lang page1000.s16 set from storage swrg:lang page1000.s16-9
+execute if score #lbclevelupmax swrg.math matches 10 run data modify storage swrg:lang page1000.s16 set from storage swrg:lang page1000.s16-10
+execute if score #lbclevelupmax swrg.math matches 11 run data modify storage swrg:lang page1000.s16 set from storage swrg:lang page1000.s16-11
+execute if score #lbclevelupmax swrg.math matches 12 run data modify storage swrg:lang page1000.s16 set from storage swrg:lang page1000.s16-12
 
 execute if score #prefixes swrg.math matches 0 run data modify storage swrg:lang page1000.s19 set from storage swrg:lang page1000.s19-0
 execute if score #prefixes swrg.math matches 1 run data modify storage swrg:lang page1000.s19 set from storage swrg:lang page1000.s19-1
@@ -129,6 +132,9 @@ execute if score #lbctrinket swrg.math matches 6 run data modify storage swrg:la
 execute if score #lbctrinket swrg.math matches 7 run data modify storage swrg:lang page1000.s17 set from storage swrg:lang page1000.s17-7
 execute if score #lbctrinket swrg.math matches 8 run data modify storage swrg:lang page1000.s17 set from storage swrg:lang page1000.s17-8
 execute if score #lbctrinket swrg.math matches 9 run data modify storage swrg:lang page1000.s17 set from storage swrg:lang page1000.s17-9
+execute if score #lbctrinket swrg.math matches 10 run data modify storage swrg:lang page1000.s17 set from storage swrg:lang page1000.s17-10
+execute if score #lbctrinket swrg.math matches 11 run data modify storage swrg:lang page1000.s17 set from storage swrg:lang page1000.s17-11
+execute if score #lbctrinket swrg.math matches 12 run data modify storage swrg:lang page1000.s17 set from storage swrg:lang page1000.s17-12
 
 execute if score #lbc.challenge swrg.math matches 0 run data modify storage swrg:lang page1000.s22 set from storage swrg:lang page1000.s22-0
 execute if score #lbc.challenge swrg.math matches 1 run data modify storage swrg:lang page1000.s22 set from storage swrg:lang page1000.s22-1

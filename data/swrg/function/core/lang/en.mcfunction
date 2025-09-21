@@ -280,6 +280,9 @@ data modify storage swrg:lang page1000.s16-6 set value {Name:{"text":"Lucky leve
 data modify storage swrg:lang page1000.s16-7 set value {Name:{"text":"Lucky level-ups per player - 7","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s16-8 set value {Name:{"text":"Lucky level-ups per player - 8","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s16-9 set value {Name:{"text":"Lucky level-ups per player - 9","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s16-10 set value {Name:{"text":"Lucky level-ups per player - 10","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s16-11 set value {Name:{"text":"Lucky level-ups per player - 11","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s16-12 set value {Name:{"text":"Lucky level-ups per player - 12 (MAX)","color":"white","italic":false}}
 
 data modify storage swrg:lang title.quickstart set value {"text":"Quick start launched!","color":"green","italic":false}
 
@@ -323,6 +326,9 @@ data modify storage swrg:lang page1000.s17-6 set value {Name:{"text":"Lucky Trin
 data modify storage swrg:lang page1000.s17-7 set value {Name:{"text":"Lucky Trinkets per player - 7","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s17-8 set value {Name:{"text":"Lucky Trinkets per player - 8","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s17-9 set value {Name:{"text":"Lucky Trinkets per player - 9","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s17-10 set value {Name:{"text":"Lucky Trinkets per player - 10","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s17-11 set value {Name:{"text":"Lucky Trinkets per player - 11","color":"white","italic":false}}
+data modify storage swrg:lang page1000.s17-12 set value {Name:{"text":"Lucky Trinkets per player - 12 (MAX)","color":"white","italic":false}}
 
 data modify storage swrg:lang page0.s20 set value {Name:{"text":"Trinkets! (Can be stacked!)","color":"white","italic":false}}
 data modify storage swrg:lang page0.s21 set value {Name:{"text":"Level-Ups! (Choose multiple!)","color":"white","italic":false}}

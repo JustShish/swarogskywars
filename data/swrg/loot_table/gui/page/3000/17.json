@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_lore",
-                            "entity": "this",
+                            
                             "lore": [
                                 {
                                     "nbt": "lore.kit.d1.Lore[0]",
@@ -49,7 +49,7 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "entity": "this",
+                            
                             "name": {
                                 "nbt": "kit.d1",
                                 "storage": "swrg:lang",

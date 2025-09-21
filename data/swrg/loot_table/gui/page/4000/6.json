@@ -19,7 +19,7 @@
                         },
                         {
                             "function": "minecraft:set_lore",
-                            "entity": "this",
+                            
                             "lore": [
                                 {
                                     "nbt": "lore.skill.b3.Lore[0]",
@@ -33,7 +33,7 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "entity": "this",
+                            
                             "name": {
                                 "nbt": "skill.b3",
                                 "storage": "swrg:lang",

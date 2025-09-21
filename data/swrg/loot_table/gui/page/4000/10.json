@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_lore",
-                            "entity": "this",
+                            
                             "lore": [
                                 {
                                     "nbt": "lore.skill.d2.Lore[0]",
@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "entity": "this",
+                            
                             "name": {
                                 "nbt": "skill.d2",
                                 "storage": "swrg:lang",

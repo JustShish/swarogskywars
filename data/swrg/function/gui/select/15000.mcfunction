@@ -1,0 +1,20 @@
+team join 1 @s[scores={swrg.gui_select=0}]
+team join 2 @s[scores={swrg.gui_select=1}]
+team join 3 @s[scores={swrg.gui_select=2}]
+team join 4 @s[scores={swrg.gui_select=3}]
+team join 5 @s[scores={swrg.gui_select=4}]
+team join 6 @s[scores={swrg.gui_select=5}]
+team join 7 @s[scores={swrg.gui_select=6}]
+team join 8 @s[scores={swrg.gui_select=7}]
+team join 9 @s[scores={swrg.gui_select=8}]
+team join 10 @s[scores={swrg.gui_select=9}]
+team join 11 @s[scores={swrg.gui_select=10}]
+team join 12 @s[scores={swrg.gui_select=11}]
+team join 13 @s[scores={swrg.gui_select=12}]
+team join 14 @s[scores={swrg.gui_select=13}]
+team join 15 @s[scores={swrg.gui_select=14}]
+team join 16 @s[scores={swrg.gui_select=15}]
+team leave @s[scores={swrg.gui_select=16}]
+
+scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 0
+scoreboard players set @s swrg.gui_select -1

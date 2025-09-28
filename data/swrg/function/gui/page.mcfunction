@@ -3,6 +3,7 @@ execute if entity @s[scores={swrg.gui_page=0}] run function swrg:gui/page/0
 execute if entity @s[scores={swrg.gui_page=1000}] run function swrg:gui/page/1000
 execute if entity @s[scores={swrg.gui_page=1100}] run function swrg:gui/page/1100
 execute if entity @s[scores={swrg.gui_page=2000}] run function swrg:gui/page/2000
+execute if entity @s[scores={swrg.gui_page=20000}] run function swrg:gui/page/2000b
 execute if entity @s[scores={swrg.gui_page=2100}] run function swrg:gui/page/2100
 execute if entity @s[scores={swrg.gui_page=2200}] run function swrg:gui/page/2200
 execute if entity @s[scores={swrg.gui_page=3000}] run function swrg:gui/page/3000
@@ -22,6 +23,7 @@ execute if entity @s[scores={swrg.gui_page=10100}] run function lbc:swrg_kit_int
 execute if entity @s[scores={swrg.gui_page=11000}] run function lbc:swrg_kit_integration/gui/page/11000
 execute if entity @s[scores={swrg.gui_page=12000}] run function lbc:swrg_kit_integration/gui/page/12000
 execute if entity @s[scores={swrg.gui_page=11100}] run function lbc:swrg_kit_integration/gui/page/11100
+execute if entity @s[scores={swrg.gui_page=15000}] run function swrg:gui/page/15000
 #
 #
 function swrg:gui/fill

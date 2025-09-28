@@ -55,7 +55,8 @@ data modify storage swrg:lang title.map_not_ready set value {"text":"Для ст
 data modify storage swrg:lang title.mapload_complete set value {"text":"Карта успешно загружена","color":"green"}
 
 data modify storage swrg:lang title.gametimer set value [{"text":"Игровое событие через [","color":"gold"},{"score":{"name":"#gametimer","objective":"swrg.math"},"color":"light_purple"},{"text":"]","color":"gold"}]
-data modify storage swrg:lang title.player_win set value [{"text":"Игрок ","color":"dark_green"},{"selector":"@p[gamemode=survival]","bold": true,"color":"white"},{"text":" побеждает в игре"}]
+data modify storage swrg:lang title.gametimerb set value [{"text":"Игра длится [","color":"gold"},{"score":{"name":"#gametimer","objective":"swrg.math"},"color":"light_purple"},{"text":"]","color":"gold"}]
+data modify storage swrg:lang title.player_win set value [{"text":"Игрок ","color":"dark_green"},{"selector":"@p[gamemode=!spectator]","bold": true,"color":"white"},{"text":" побеждает в игре"}]
 data modify storage swrg:lang title.draw set value {"text":"НИЧЬЯ","color":"green"}
 # page 0
 data modify storage swrg:lang page0.s0 set value {Name:{"text":"Настройки | Settings","color":"red","italic":false}}
@@ -63,6 +64,7 @@ data modify storage swrg:lang page0.s1 set value {Name:{"text":"Начать и�
 data modify storage swrg:lang page0.s2 set value {Name:{"text":"Выбор карты","color":"aqua","italic":false}}
 data modify storage swrg:lang page0.s6 set value {"text":"Магазин","color":"gold","italic":false}
 data modify storage swrg:lang page0.s7 set value {Name:{"text":"Косметика","color":"yellow","italic":false}}
+data modify storage swrg:lang page0.s9 set value {Name:{"text":"Выбор команды (Только BEDWARS)","color":"yellow","italic":false}}
 data modify storage swrg:lang page0.s12 set value {Name:{"text":"Наборы","color":"gold","italic":false}}
 data modify storage swrg:lang page0.s13 set value {Name:{"text":"Кейсы","color":"light_purple","italic":false}}
 data modify storage swrg:lang page0.s14 set value {Name:{"text":"Навыки","color":"aqua","italic":false}}
@@ -76,8 +78,10 @@ data modify storage swrg:lang page1000.s1-1 set value {Name:{"text":"Время 
 data modify storage swrg:lang page1000.s1-2 set value {Name:{"text":"Время суток - вечер","italic":false}}
 data modify storage swrg:lang page1000.s1-3 set value {Name:{"text":"Время суток - ночь","italic":false}}
 
-data modify storage swrg:lang page1000.s2-1 set value {Name:{"text":"Режим - Ванилла","italic":false}}
-data modify storage swrg:lang page1000.s2-2 set value {Name:{"text":"Режим - Лаки Блоки","italic":false},Lore:[[{"text":"Автор: ","color":"white","italic":false},{"text":"BaffledHedgehog","color":"green","italic":false}],{"text":"Для игры необходим ресурс-пак!","color":"red","bold":true,"italic":false}]}
+data modify storage swrg:lang page1000.s2-1 set value {Name:{"text":"Режим - Скайварс","italic":false}}
+data modify storage swrg:lang page1000.s2-2 set value {Name:{"text":"Режим - Скайварс с Лаки Блоками","italic":false},Lore:[[{"text":"Автор: ","color":"white","italic":false},{"text":"BaffledHedgehog","color":"green","italic":false}],{"text":"Для игры необходим ресурс-пак!","color":"red","bold":true,"italic":false}]}
+data modify storage swrg:lang page1000.s2-3 set value {Name:{"text":"Режим - Бедварс","italic":false},Lore:[[{"text":"Автор: ","color":"white","italic":false},{"text":"BaffledHedgehog","color":"green","italic":false}],{"text":"Для игры необходим ресурс-пак!","color":"red","bold":true,"italic":false}]}
+data modify storage swrg:lang page1000.s2-4 set value {Name:{"text":"Режим - Бедварс с Лаки Блоками","italic":false},Lore:[[{"text":"Автор: ","color":"white","italic":false},{"text":"BaffledHedgehog","color":"green","italic":false}],{"text":"Для игры необходим ресурс-пак!","color":"red","bold":true,"italic":false}]}
 
 data modify storage swrg:lang page1000.s3-0 set value {Name:{"text":"Наборы - ВЫКЛ","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s3-1 set value {Name:{"text":"Наборы - ВКЛ","color":"white","italic":false}}

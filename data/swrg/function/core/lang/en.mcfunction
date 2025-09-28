@@ -53,7 +53,7 @@ data modify storage swrg:lang title.map_not_ready set value {"text":"To start, y
 data modify storage swrg:lang title.mapload_complete set value {"text":"The map was loaded successfully","color":"green"}
 
 data modify storage swrg:lang title.gametimer set value [{"text":"Game event in [","color":"gold"},{"score":{"name":"#gametimer","objective":"swrg.math"},"color":"light_purple"},{"text":"]","color":"gold"}]
-data modify storage swrg:lang title.player_win set value [{"text":"Player ","color":"dark_green"},{"selector":"@p[gamemode=survival]","bold": true,"color":"white"},{"text":" wins the game"}]
+data modify storage swrg:lang title.player_win set value [{"text":"Player ","color":"dark_green"},{"selector":"@p[gamemode=!spectator]","bold": true,"color":"white"},{"text":" wins the game"}]
 data modify storage swrg:lang title.draw set value {"text":"DRAW!","color":"green"}
 # page 0
 data modify storage swrg:lang page0.s0 set value {Name:{"text":"Settings","color":"red","italic":false}}
@@ -61,6 +61,7 @@ data modify storage swrg:lang page0.s1 set value {Name:{"text":"Start game","col
 data modify storage swrg:lang page0.s2 set value {Name:{"text":"Map selection","color":"aqua","italic":false}}
 data modify storage swrg:lang page0.s6 set value {"text":"Store","color":"gold","italic":false}
 data modify storage swrg:lang page0.s7 set value {Name:{"text":"Сosmetic","color":"yellow","italic":false}}
+data modify storage swrg:lang page0.s9 set value {Name:{"text":"Select Team (BEDWARS only)","color":"yellow","italic":false}}
 data modify storage swrg:lang page0.s12 set value {Name:{"text":"Kits","color":"gold","italic":false}}
 data modify storage swrg:lang page0.s13 set value {Name:{"text":"Cases","color":"light_purple","italic":false}}
 data modify storage swrg:lang page0.s14 set value {Name:{"text":"Skills","color":"aqua","italic":false}}
@@ -75,8 +76,10 @@ data modify storage swrg:lang page1000.s1-1 set value {Name:{"text":"Time - day"
 data modify storage swrg:lang page1000.s1-2 set value {Name:{"text":"Time - evening","italic":false}}
 data modify storage swrg:lang page1000.s1-3 set value {Name:{"text":"Time - night","italic":false}}
 
-data modify storage swrg:lang page1000.s2-1 set value {Name:{"text":"Gamemode - Vanilla","italic":false}}
-data modify storage swrg:lang page1000.s2-2 set value {Name:{"text":"Gamemode - Lucky Blocks","italic":false},Lore:[[{"text":"Author: ","color":"white","italic":false},{"text":"BaffledHedgehog","color":"green","italic":false}],{"text":"Resource pack required!","color":"red","bold":true,"italic":false}]}
+data modify storage swrg:lang page1000.s2-1 set value {Name:{"text":"Gamemode - Skywars","italic":false}}
+data modify storage swrg:lang page1000.s2-2 set value {Name:{"text":"Gamemode - Lucky Blocks Skywars","italic":false},Lore:[[{"text":"Author: ","color":"white","italic":false},{"text":"BaffledHedgehog","color":"green","italic":false}],{"text":"Resource pack required!","color":"red","bold":true,"italic":false}]}
+data modify storage swrg:lang page1000.s2-3 set value {Name:{"text":"Gamemode - Bed Wars","italic":false},Lore:[[{"text":"Author: ","color":"white","italic":false},{"text":"BaffledHedgehog","color":"green","italic":false}],{"text":"Resource pack required!","color":"red","bold":true,"italic":false}]}
+data modify storage swrg:lang page1000.s2-4 set value {Name:{"text":"Gamemode - Lucky Blocks Bed Wars","italic":false},Lore:[[{"text":"Author: ","color":"white","italic":false},{"text":"BaffledHedgehog","color":"green","italic":false}],{"text":"Resource pack required!","color":"red","bold":true,"italic":false}]}
 
 data modify storage swrg:lang page1000.s3-0 set value {Name:{"text":"Kits - OFF","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s3-1 set value {Name:{"text":"Kits - ON","color":"white","italic":false}}

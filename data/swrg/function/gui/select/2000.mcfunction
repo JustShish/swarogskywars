@@ -1,3 +1,5 @@
+
+execute if entity @s[scores={swrg.gui_select=0..25}] unless score @s swrg.gui_select matches 18 run function swrg:maploader/map/alwayspre
 execute if entity @s[scores={swrg.gui_select=0}] run function swrg:maploader/map/1
 execute if entity @s[scores={swrg.gui_select=1}] run function swrg:maploader/map/2
 execute if entity @s[scores={swrg.gui_select=2}] run function swrg:maploader/map/3
@@ -23,13 +25,15 @@ execute if entity @s[scores={swrg.gui_select=22}] run function swrg:maploader/ma
 execute if entity @s[scores={swrg.gui_select=23}] run function swrg:maploader/map/23
 execute if entity @s[scores={swrg.gui_select=24}] run function swrg:maploader/map/24
 execute if entity @s[scores={swrg.gui_select=25}] run function swrg:maploader/map/25
-execute if entity @s[scores={swrg.gui_select=1..25}] unless score @s swrg.gui_select matches 18 run function swrg:maploader/map/alwayspast
+execute if entity @s[scores={swrg.gui_select=0..25}] unless score @s swrg.gui_select matches 18 run function swrg:maploader/map/alwayspast
 scoreboard players operation saved_map swrg.math = @s swrg.gui_select
-schedule function swrg:maploader/map_select_imprinted 2s
-schedule function swrg:maploader/map_select_white 2s
-
+execute in minecraft:imprinted run function swrg:maploader/map_select_imprinted
+execute in minecraft:white run function swrg:maploader/map_select_white
+execute in minecraft:imprinted run kill @e[distance=0..]
+execute in minecraft:white run kill @e[distance=0..]
 #
 scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 0
 scoreboard players set @s[scores={swrg.gui_select=26}] swrg.gui_page 2100
 #
+clear @s
 scoreboard players set @s swrg.gui_select -1

@@ -6,6 +6,7 @@ execute unless entity @a[tag=admin] run loot replace entity @s enderchest.2 loot
 loot replace entity @s enderchest.6 loot swrg:gui/page/0/6
 loot replace entity @s enderchest.7 loot swrg:gui/page/0/7
 loot replace entity @s enderchest.8 loot swrg:gui/page/0/8
+loot replace entity @s enderchest.9 loot swrg:gui/page/0/9
 loot replace entity @s enderchest.12 loot swrg:gui/page/0/12
 loot replace entity @s enderchest.13 loot swrg:gui/page/0/13
 loot replace entity @s enderchest.14 loot swrg:gui/page/0/14

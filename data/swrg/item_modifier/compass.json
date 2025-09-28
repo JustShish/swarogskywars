@@ -2,7 +2,7 @@
     {
         "function": "minecraft:set_name",
         "name": {
-            "selector": "@p[gamemode=survival,distance=0.1..]",
+            "selector": "@p[gamemode=!spectator,distance=0.1..]",
             "italic": false,
             "type": "selector"
         }

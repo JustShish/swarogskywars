@@ -32,12 +32,30 @@ execute as @e[type=minecraft:marker,tag=swrg.default] at @s unless entity @e[typ
 execute as @e[type=minecraft:marker,tag=swrg.midle] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:red_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
 execute as @e[type=minecraft:marker,tag=swrg.center] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:light_blue_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
 
+
+execute as @e[type=minecraft:marker,tag=copper_generator] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:brown_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=iron_generator] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:light_gray_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=gold_generator] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:orange_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=diamond_generator] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:blue_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=star_generator] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:blue_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=bedwars_bed] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:green_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+
+
+
+
 execute at @e[type=minecraft:marker,tag=swrg.spawn] run team join marker_spawn @e[type=minecraft:falling_block,distance=..1]
 execute at @e[type=minecraft:marker,tag=swrg.look] run team join marker_look @e[type=minecraft:falling_block,distance=..1]
 
 execute at @e[type=minecraft:marker,tag=swrg.default] run team join marker_default @e[type=minecraft:falling_block,distance=..1]
 execute at @e[type=minecraft:marker,tag=swrg.midle] run team join marker_midle @e[type=minecraft:falling_block,distance=..1]
 execute at @e[type=minecraft:marker,tag=swrg.center] run team join marker_center @e[type=minecraft:falling_block,distance=..1]
+
+execute at @e[type=minecraft:marker,tag=copper_generator] run team join copper_generator @e[type=minecraft:falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=iron_generator] run team join iron_generator @e[type=minecraft:falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=gold_generator] run team join gold_generator @e[type=minecraft:falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=diamond_generator] run team join diamond_generator @e[type=minecraft:falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=star_generator] run team join star_generator @e[type=minecraft:falling_block,distance=..1]
+execute at @e[type=minecraft:marker,tag=bedwars_bed] run team join bedwars_bed @e[type=minecraft:falling_block,distance=..1]
 
 execute as @e[type=minecraft:falling_block] run data merge entity @s {Time:1}
 ###

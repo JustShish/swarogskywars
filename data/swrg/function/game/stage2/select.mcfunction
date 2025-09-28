@@ -1,8 +1,8 @@
 bossbar set swrg:gametimer visible false
 scoreboard players set #gametimer swrg.math 240
 #
-tellraw @a[gamemode=survival] {"nbt":"reward.stage2","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
-scoreboard players add @a[gamemode=survival] swrg.coins 40
+tellraw @a[gamemode=!spectator] {"nbt":"reward.stage2","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
+scoreboard players add @a[gamemode=!spectator] swrg.coins 40
 #
 scoreboard players set #random_min swrg.math 1
 scoreboard players set #random_max swrg.math 7

@@ -9,7 +9,7 @@ execute if score #day swrg.math matches 4 run scoreboard players set #day swrg.m
 
 execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=2}] run scoreboard players add #gamemode swrg.math 1
 execute if entity @s[tag=admin,scores={swrg.gui_select=2}] run scoreboard players add #gamemode swrg.math 1
-execute if score #gamemode swrg.math matches 3 run scoreboard players set #gamemode swrg.math 1
+execute if score #gamemode swrg.math matches 5 run scoreboard players set #gamemode swrg.math 1
 
 execute unless entity @a[tag=admin] if entity @s[scores={swrg.gui_select=3}] run scoreboard players add #kit swrg.math 1
 execute if entity @s[tag=admin,scores={swrg.gui_select=3}] run scoreboard players add #kit swrg.math 1

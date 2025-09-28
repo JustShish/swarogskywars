@@ -14,7 +14,7 @@ scoreboard players set @s swrg.roll 0
 #
 scoreboard players set @s swrg.gui_page 0
 function swrg:gui/page
-team leave @s
+execute unless score #gamemode swrg.math matches 3..4 run team leave @s
 function swrg:core/player/reset_attributes
 function lbc:resets
 #

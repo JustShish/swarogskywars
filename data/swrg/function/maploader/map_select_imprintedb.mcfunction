@@ -1,0 +1,26 @@
+execute if score saved_map swrg.math matches 0 in minecraft:imprinted run function swrg:maploader/map/1b_broken
+execute if score saved_map swrg.math matches 1 in minecraft:imprinted run function swrg:maploader/map/2b_broken
+execute if score saved_map swrg.math matches 2 in minecraft:imprinted run function swrg:maploader/map/3b_broken
+execute if score saved_map swrg.math matches 3 in minecraft:imprinted run function swrg:maploader/map/4b_broken
+execute if score saved_map swrg.math matches 4 in minecraft:imprinted run function swrg:maploader/map/5b_broken
+execute if score saved_map swrg.math matches 5 in minecraft:imprinted run function swrg:maploader/map/6b_broken
+execute if score saved_map swrg.math matches 6 in minecraft:imprinted run function swrg:maploader/map/7b_broken
+execute if score saved_map swrg.math matches 7 in minecraft:imprinted run function swrg:maploader/map/8b_broken
+execute if score saved_map swrg.math matches 8 in minecraft:imprinted run function swrg:maploader/map/9b_broken
+execute if score saved_map swrg.math matches 9 in minecraft:imprinted run function swrg:maploader/map/10b_broken
+execute if score saved_map swrg.math matches 10 in minecraft:imprinted run function swrg:maploader/map/11b_broken
+execute if score saved_map swrg.math matches 11 in minecraft:imprinted run function swrg:maploader/map/12b_broken
+execute if score saved_map swrg.math matches 12 in minecraft:imprinted run function swrg:maploader/map/13b_broken
+execute if score saved_map swrg.math matches 13 in minecraft:imprinted run function swrg:maploader/map/14b_broken
+execute if score saved_map swrg.math matches 14 in minecraft:imprinted run function swrg:maploader/map/15b_broken
+execute if score saved_map swrg.math matches 15 in minecraft:imprinted run function swrg:maploader/map/16b_broken
+execute if score saved_map swrg.math matches 16 in minecraft:imprinted run function swrg:maploader/map/17b_broken
+execute if score saved_map swrg.math matches 17 in minecraft:imprinted run function swrg:maploader/map/18b_broken
+execute if score saved_map swrg.math matches 19 in minecraft:imprinted run function swrg:maploader/map/19b_broken
+execute if score saved_map swrg.math matches 20 in minecraft:imprinted run function swrg:maploader/map/20b_broken
+execute if score saved_map swrg.math matches 21 in minecraft:imprinted run function swrg:maploader/map/21b_broken
+execute if score saved_map swrg.math matches 22 in minecraft:imprinted run function swrg:maploader/map/22b_broken
+execute if score saved_map swrg.math matches 23 in minecraft:imprinted run function swrg:maploader/map/23b_broken
+execute if score saved_map swrg.math matches 24 in minecraft:imprinted run function swrg:maploader/map/24b_broken
+execute if score saved_map swrg.math matches 25 in minecraft:imprinted run function swrg:maploader/map/25b_broken
+execute in minecraft:imprinted run kill @e[distance=0..]

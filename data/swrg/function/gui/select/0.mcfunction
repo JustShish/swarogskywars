@@ -13,18 +13,24 @@ execute if entity @s[tag=admin,scores={swrg.gui_select=1}] if score #mapstat swr
 execute if entity @s[tag=admin,scores={swrg.gui_select=1}] if score #mapstat swrg.math matches 1 if score #count swrg.math matches 2.. run tellraw @a {"nbt":"title.start_in5sec","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 execute if entity @s[tag=admin,scores={swrg.gui_select=1}] if score #mapstat swrg.math matches 0 run tellraw @s {"nbt":"title.map_not_ready","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 ###
-execute if entity @s[tag=admin,nbt={Inventory:[{components:{"minecraft:custom_data":{slot_id:1}}}]}] if score #mapstat swrg.math matches 1 run schedule function swrg:developer/game/start 3s
-execute if entity @s[tag=admin,nbt={Inventory:[{components:{"minecraft:custom_data":{slot_id:1}}}]}] if score #mapstat swrg.math matches 1 run tellraw @a {"text":"Запуск девкатки","color":"green","type":"text"}
-execute if entity @s[tag=admin,nbt={Inventory:[{components:{"minecraft:custom_data":{slot_id:1}}}]}] if score #mapstat swrg.math matches 0 run tellraw @s {"nbt":"title.map_not_ready","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
+
+#execute if entity @s[tag=admin,nbt={Inventory:[{components:{"minecraft:custom_data":{slot_id:1}}}]}] if score #mapstat swrg.math matches 1 run schedule function swrg:developer/game/start 3s
+#execute if entity @s[tag=admin,nbt={Inventory:[{components:{"minecraft:custom_data":{slot_id:1}}}]}] if score #mapstat swrg.math matches 1 run tellraw @a {"text":"Запуск девкатки","color":"green","type":"text"}
+#execute if entity @s[tag=admin,nbt={Inventory:[{components:{"minecraft:custom_data":{slot_id:1}}}]}] if score #mapstat swrg.math matches 0 run tellraw @s {"nbt":"title.map_not_ready","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 ###
-execute unless entity @a[tag=admin] run scoreboard players set @s[tag=!admin,scores={swrg.gui_select=2}] swrg.gui_page 2000
-scoreboard players set @s[tag=admin,scores={swrg.gui_select=2}] swrg.gui_page 2000
+execute unless score #gamemode swrg.math matches 3..4 unless entity @a[tag=admin] run scoreboard players set @s[tag=!admin,scores={swrg.gui_select=2}] swrg.gui_page 2000
+execute unless score #gamemode swrg.math matches 3..4 run scoreboard players set @s[tag=admin,scores={swrg.gui_select=2}] swrg.gui_page 2000
+
+execute if score #gamemode swrg.math matches 3..4 unless entity @a[tag=admin] run scoreboard players set @s[tag=!admin,scores={swrg.gui_select=2}] swrg.gui_page 20000
+execute if score #gamemode swrg.math matches 3..4 run scoreboard players set @s[tag=admin,scores={swrg.gui_select=2}] swrg.gui_page 20000
+
 
 scoreboard players set @s[scores={swrg.gui_select=12}] swrg.gui_page 3000
 scoreboard players set @s[scores={swrg.gui_select=13}] swrg.gui_page 5000
 scoreboard players set @s[scores={swrg.gui_select=14}] swrg.gui_page 4000
 scoreboard players set @s[scores={swrg.gui_select=6}] swrg.gui_page 6000
 scoreboard players set @s[scores={swrg.gui_select=7}] swrg.gui_page 7000
+scoreboard players set @s[scores={swrg.gui_select=9}] swrg.gui_page 15000
 
 scoreboard players set @s[scores={swrg.gui_select=21}] swrg.gui_page 8000
 scoreboard players set @s[scores={swrg.gui_select=22}] swrg.gui_page 9000

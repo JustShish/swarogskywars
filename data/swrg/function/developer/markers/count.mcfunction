@@ -4,4 +4,12 @@ execute store result score temp2 temp if entity @e[tag=swrg.default]
 execute store result score temp3 temp if entity @e[tag=swrg.midle]
 execute store result score temp4 temp if entity @e[tag=swrg.center]
 
-tellraw @p [{"score":{"name":"temp0","objective":"temp"},"color":"yellow","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp1","objective":"temp"},"color":"white","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp2","objective":"temp"},"color":"green","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp3","objective":"temp"},"color":"red","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp4","objective":"temp"},"color":"aqua","type":"score"},{"text":"  ","type":"text"}]
+execute store result score temp5 temp if entity @e[tag=copper_generator]
+execute store result score temp6 temp if entity @e[tag=iron_generator]
+execute store result score temp7 temp if entity @e[tag=gold_generator]
+execute store result score temp8 temp if entity @e[tag=diamond_generator]
+execute store result score temp9 temp if entity @e[tag=star_generator]
+execute store result score temp10 temp if entity @e[tag=bedwars_shop]
+execute store result score temp11 temp if entity @e[tag=bedwars_bed]
+
+tellraw @p [{"score":{"name":"temp0","objective":"temp"},"color":"yellow","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp1","objective":"temp"},"color":"white","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp2","objective":"temp"},"color":"green","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp3","objective":"temp"},"color":"red","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp4","objective":"temp"},"color":"aqua","type":"score"},{"text":" |bedwars:  ","type":"text"},{"score":{"name":"temp5","objective":"temp"},"color":"#ffa672","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp6","objective":"temp"},"color":"#acacac","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp7","objective":"temp"},"color":"#fff344","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp8","objective":"temp"},"color":"#3fdefa","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp9","objective":"temp"},"color":"#ff0000","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp10","objective":"temp"},"color":"#fac499","type":"score"},{"text":"  ","type":"text"},{"score":{"name":"temp11","objective":"temp"},"color":"#3eff38","type":"score"},{"text":"  ","type":"text"}]

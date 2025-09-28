@@ -7,6 +7,8 @@ execute if score #day swrg.math matches 3 run data modify storage swrg:lang page
 
 execute if score #gamemode swrg.math matches 1 run data modify storage swrg:lang page1000.s2 set from storage swrg:lang page1000.s2-1
 execute if score #gamemode swrg.math matches 2 run data modify storage swrg:lang page1000.s2 set from storage swrg:lang page1000.s2-2
+execute if score #gamemode swrg.math matches 3 run data modify storage swrg:lang page1000.s2 set from storage swrg:lang page1000.s2-3
+execute if score #gamemode swrg.math matches 4 run data modify storage swrg:lang page1000.s2 set from storage swrg:lang page1000.s2-4
 
 execute if score #kit swrg.math matches 0 run data modify storage swrg:lang page1000.s3 set from storage swrg:lang page1000.s3-0
 execute if score #kit swrg.math matches 1 run data modify storage swrg:lang page1000.s3 set from storage swrg:lang page1000.s3-1

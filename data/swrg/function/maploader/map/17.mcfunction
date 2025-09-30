@@ -1,4 +1,4 @@
-function swrg:maploader/clear
+
 scoreboard players set #map swrg.math 16
 #
 place template swrg:17-2 -48 48 -96

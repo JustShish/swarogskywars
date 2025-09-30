@@ -15,7 +15,7 @@ execute as @a run function swrg:core/player/reset_attributes
 execute as @a run function lbc:resets
 function lbc:end_resets
 execute if score #gamemode swrg.math matches 2 run function lbc:start
-execute if score #gamemode swrg.math matches 4 run return run function lbc:start_bedwars
+execute if score #gamemode swrg.math matches 3..4 run return run function lbc:start_bedwars
 
 scoreboard players add @a swrg.stat_games 1
 scoreboard players add #gameid swrg.math 1

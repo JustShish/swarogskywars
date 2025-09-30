@@ -4,8 +4,8 @@ execute store result score tmp1 lbc.math run data get entity @s Pos[0] 1
 execute store result score tmp2 lbc.math run data get entity @s Pos[2] 1
 execute if score tmp1 lbc.math matches ..-1 run scoreboard players operation tmp1 lbc.math *= -1 lbc.math
 execute if score tmp2 lbc.math matches ..-1 run scoreboard players operation tmp2 lbc.math *= -1 lbc.math
-scoreboard players remove tmp1 lbc.math 192
-scoreboard players remove tmp2 lbc.math 192
+scoreboard players remove tmp1 lbc.math 500
+scoreboard players remove tmp2 lbc.math 500
 execute if score tmp1 lbc.math matches ..-1 run scoreboard players set tmp1 lbc.math 0
 execute if score tmp2 lbc.math matches ..-1 run scoreboard players set tmp2 lbc.math 0
 scoreboard players operation tmp1 lbc.math /= 10 lbc.math

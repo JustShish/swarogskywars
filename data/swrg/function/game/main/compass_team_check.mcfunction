@@ -30,3 +30,5 @@ execute if entity @s[team=15] store result storage swrg:compass pos[0] int 1 run
 execute if entity @s[team=15] store result storage swrg:compass pos[2] int 1 run data get entity @p[gamemode=!spectator,distance=.1..,team=!15] Pos[2]
 execute if entity @s[team=16] store result storage swrg:compass pos[0] int 1 run data get entity @p[gamemode=!spectator,distance=.1..,team=!16] Pos[0]
 execute if entity @s[team=16] store result storage swrg:compass pos[2] int 1 run data get entity @p[gamemode=!spectator,distance=.1..,team=!16] Pos[2]
+
+function swrg:game/main/compass0 with storage swrg:compass

@@ -74,3 +74,5 @@ give @a[scores={swrg.kit=19}] minecraft:golden_apple
 #
 give @a[scores={swrg.kit=20}] minecraft:oak_slab[minecraft:enchantments={"minecraft:sharpness":5}]
 give @a[scores={swrg.kit=20}] minecraft:cobblestone_slab 16
+#
+loot give @a[scores={swrg.kit=21}] loot swrg:game/kit/halloween_pies

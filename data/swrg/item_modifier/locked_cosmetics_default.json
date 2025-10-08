@@ -4,7 +4,7 @@
         "entity": "this",
         "name": [
             {
-                "translate": "gui.locked",
+                "translate": "gui.locked1",
                 "color": "red",
                 "bold": true,
                 "italic": false

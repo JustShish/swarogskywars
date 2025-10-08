@@ -1,5 +1,5 @@
 execute if entity @s[scores={swrg.gui_select=0..25}] unless score @s swrg.gui_select matches 18 run function swrg:maploader/map/alwayspreb
-schedule function swrg:gui/select/2000b_mapselect 1s
+execute if entity @s[scores={swrg.gui_select=0..25}] unless score @s swrg.gui_select matches 18 run schedule function swrg:gui/select/2000b_mapselect 1s
 
 
 execute in minecraft:imprinted run kill @e[distance=0..]

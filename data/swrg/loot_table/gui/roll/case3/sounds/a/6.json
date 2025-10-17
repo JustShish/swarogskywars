@@ -11,7 +11,7 @@
                             "function": "minecraft:set_name",
                             "name": {
                                 "translate": "entity.minecraft.chicken",
-                                "color": "blue",
+                                "color": "aqua",
                                 "italic": false
                             }
                         },

@@ -46,17 +46,17 @@ scoreboard players add @s[scores={swrg.gui_select=11,swrg.coins=1400..}] swrg.ke
 playsound minecraft:entity.player.levelup master @s[scores={swrg.gui_select=11,swrg.coins=1400..}] ~ ~ ~ 1 2
 scoreboard players remove @s[scores={swrg.gui_select=11,swrg.coins=1400..}] swrg.coins 1400
 
-scoreboard players add @s[scores={swrg.gui_select=12,swrg.coins=50..}] lbc.tokens 1
-playsound minecraft:entity.player.levelup master @s[scores={swrg.gui_select=12,swrg.coins=50..}] ~ ~ ~ 1 2
-scoreboard players remove @s[scores={swrg.gui_select=12,swrg.coins=50..}] swrg.coins 50
+scoreboard players add @s[scores={swrg.gui_select=12,swrg.memcoins=100..}] swrg.keys4 1
+playsound minecraft:entity.player.levelup master @s[scores={swrg.gui_select=12,swrg.memcoins=100..}] ~ ~ ~ 1 2
+scoreboard players remove @s[scores={swrg.gui_select=12,swrg.memcoins=100..}] swrg.memcoins 100
 
-scoreboard players add @s[scores={swrg.gui_select=13,swrg.coins=400..}] lbc.tokens 10
-playsound minecraft:entity.player.levelup master @s[scores={swrg.gui_select=13,swrg.coins=400..}] ~ ~ ~ 1 2
-scoreboard players remove @s[scores={swrg.gui_select=13,swrg.coins=400..}] swrg.coins 400
+scoreboard players add @s[scores={swrg.gui_select=13,swrg.memcoins=400..}] swrg.keys4 5
+playsound minecraft:entity.player.levelup master @s[scores={swrg.gui_select=13,swrg.memcoins=400..}] ~ ~ ~ 1 2
+scoreboard players remove @s[scores={swrg.gui_select=13,swrg.memcoins=400..}] swrg.memcoins 400
 
-scoreboard players add @s[scores={swrg.gui_select=14,swrg.coins=3000..}] lbc.tokens 100
-playsound minecraft:entity.player.levelup master @s[scores={swrg.gui_select=14,swrg.coins=3000..}] ~ ~ ~ 1 2
-scoreboard players remove @s[scores={swrg.gui_select=14,swrg.coins=3000..}] swrg.coins 3000
+scoreboard players add @s[scores={swrg.gui_select=14,swrg.memcoins=750..}] swrg.keys4 10
+playsound minecraft:entity.player.levelup master @s[scores={swrg.gui_select=14,swrg.memcoins=750..}] ~ ~ ~ 1 2
+scoreboard players remove @s[scores={swrg.gui_select=14,swrg.memcoins=750..}] swrg.memcoins 750
 #
 scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 0
 scoreboard players set @s swrg.gui_select -1

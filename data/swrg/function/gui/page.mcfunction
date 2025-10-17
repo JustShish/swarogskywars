@@ -9,11 +9,13 @@ execute if entity @s[scores={swrg.gui_page=2200}] run function swrg:gui/page/220
 execute if entity @s[scores={swrg.gui_page=3000}] run function swrg:gui/page/3000
 execute if entity @s[scores={swrg.gui_page=4000}] run function swrg:gui/page/4000
 execute if entity @s[scores={swrg.gui_page=5000}] run function swrg:gui/page/5000
-execute if entity @s[scores={swrg.gui_page=5100..5400}] run function swrg:gui/page/5000-5400
+execute if entity @s[scores={swrg.gui_page=5100..5500}] run function swrg:gui/page/5000-5400
 execute if entity @s[scores={swrg.gui_page=6000}] run function swrg:gui/page/6000
 execute if entity @s[scores={swrg.gui_page=7000}] run function swrg:gui/page/7000
 execute if entity @s[scores={swrg.gui_page=7100}] run function swrg:gui/page/7100
 execute if entity @s[scores={swrg.gui_page=7200}] run function swrg:gui/page/7200
+execute if entity @s[scores={swrg.gui_page=7300}] run function swrg:gui/page/7300
+execute if entity @s[scores={swrg.gui_page=7310}] run function swrg:gui/page/7310
 execute if entity @s[scores={swrg.gui_page=8000}] run function lbc:swrg_kit_integration/gui/page/8000
 execute if entity @s[scores={swrg.gui_page=9000}] run function lbc:swrg_kit_integration/gui/page/9000
 execute if entity @s[scores={swrg.gui_page=10000}] run function lbc:swrg_kit_integration/gui/page/10000

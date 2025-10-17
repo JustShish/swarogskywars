@@ -19,6 +19,7 @@ loot replace entity @s enderchest.17 loot swrg:gui/page/3000/17
 loot replace entity @s enderchest.19 loot swrg:gui/page/3000/19
 loot replace entity @s enderchest.20 loot swrg:gui/page/3000/20
 loot replace entity @s enderchest.21 loot swrg:gui/page/3000/21
+loot replace entity @s enderchest.22 loot swrg:gui/page/3000/22
 ##
 item modify entity @s[scores={swrg.kit=1}] enderchest.0 swrg:select
 item modify entity @s[scores={swrg.kit=2}] enderchest.1 swrg:select
@@ -68,6 +69,11 @@ item replace entity @s[tag=!swrg.kit18] enderchest.17 with minecraft:repeating_c
 item replace entity @s[tag=!swrg.kit19] enderchest.19 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked_case"]
 item replace entity @s[tag=!swrg.kit20] enderchest.20 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked_case"]
 item replace entity @s[advancements={lbc:true_advancements/event/eat_halloween_food=false}] enderchest.21 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/event/halloween_mace=false}] enderchest.22 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+
+
+
+
 #
 item modify entity @s[tag=!swrg.kit1] enderchest.0 swrg:locked_kit_default
 item modify entity @s[tag=!swrg.kit2] enderchest.1 swrg:locked_kit_default
@@ -90,6 +96,7 @@ item modify entity @s[tag=!swrg.kit18] enderchest.17 swrg:locked_kit_default
 item modify entity @s[tag=!swrg.kit19] enderchest.19 swrg:locked_kit_default
 item modify entity @s[tag=!swrg.kit20] enderchest.20 swrg:locked_kit_default
 item modify entity @s[advancements={lbc:true_advancements/event/eat_halloween_food=false}] enderchest.21 swrg:locked/halloween_food
+item modify entity @s[advancements={lbc:true_advancements/event/halloween_mace=false}] enderchest.22 swrg:locked/halloween_mace
 
 #
 loot replace entity @s enderchest.18 loot swrg:gui/back

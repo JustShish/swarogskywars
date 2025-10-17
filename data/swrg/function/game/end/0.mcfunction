@@ -11,6 +11,7 @@ gamerule doEntityDrops false
 tellraw @a[gamemode=!spectator] {"nbt":"reward.win","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 scoreboard players add @p[gamemode=!spectator] swrg.stat_wins 1
 scoreboard players add @p[gamemode=!spectator] swrg.coins 100
+execute if score halloween lbc.event matches 1 run function swrg:game/end/event_add_memcoins_halloween
 execute as @p[gamemode=!spectator] at @s run function lbc:win
 scoreboard players set #random_min swrg.math 1
 scoreboard players set #random_max swrg.math 4

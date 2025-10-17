@@ -54,6 +54,7 @@ scoreboard players operation @a swrg.lives = live_count swrg.math
 #
 tellraw @a {"nbt":"reward.start_game","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 scoreboard players add @a swrg.coins 10
+execute as @a at @s run function swrg:game/start/player_suffix_select
 #
 execute unless score #gamemode swrg.math matches 3..4 run function swrg:game/start/timer
 execute unless score #gamemode swrg.math matches 3..4 run schedule function swrg:game/start/clear 1s

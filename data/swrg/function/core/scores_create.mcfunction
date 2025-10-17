@@ -9,6 +9,7 @@ scoreboard objectives add swrg.hp health {"text":"♥","color":"dark_red","type"
 scoreboard objectives add swrg.sound dummy
 scoreboard objectives add swrg.bars dummy
 scoreboard objectives add swrg.kit dummy
+scoreboard objectives add swrg.suffix dummy
 scoreboard objectives add swrg.skill dummy
 scoreboard objectives add swrg.hp_display dummy
 # gui
@@ -17,10 +18,12 @@ scoreboard objectives add swrg.gui_page dummy
 scoreboard objectives add swrg.gui_match dummy
 scoreboard objectives add swrg.gui_select dummy
 scoreboard objectives add swrg.coins dummy
+scoreboard objectives add swrg.memcoins dummy
 scoreboard objectives add swrg.keys0 dummy
 scoreboard objectives add swrg.keys1 dummy
 scoreboard objectives add swrg.keys2 dummy
 scoreboard objectives add swrg.keys3 dummy
+scoreboard objectives add swrg.keys4 dummy
 scoreboard objectives add swrg.roll dummy
 scoreboard objectives add swrg.roll_timer dummy
 # stats

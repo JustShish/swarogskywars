@@ -11,7 +11,7 @@
                             "function": "minecraft:set_name",
                             "name": {
                                 "translate": "entity.minecraft.zombified_piglin",
-                                "color": "blue",
+                                "color": "aqua",
                                 "italic": false
                             }
                         },

@@ -9,6 +9,7 @@ scoreboard players add @s[scores={swrg.gui_page=5100..}] swrg.keys0 1
 scoreboard players add @s[scores={swrg.gui_page=5200..}] swrg.keys1 1
 scoreboard players add @s[scores={swrg.gui_page=5300..}] swrg.keys2 1
 scoreboard players add @s[scores={swrg.gui_page=5400..}] swrg.keys3 1
+scoreboard players add @s[scores={swrg.gui_page=5500..}] swrg.keys4 1
 
 scoreboard players set @s swrg.roll 0
 #

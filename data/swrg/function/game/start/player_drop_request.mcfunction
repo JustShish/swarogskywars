@@ -1,0 +1,2 @@
+tellraw @s [{"translate":"drop_request_hint","color":"light_purple"},{"text":"https://discord.gg/eTr7Wybutc","click_event":{action:"open_url","url":"https://discord.gg/eTr7Wybutc"},"color":"blue","underlined":true}]
+tellraw @s [{"translate":"drop_request_hint_alt","color":"light_purple"},{"text":"@BaffledHedgehog","click_event":{action:"open_url","url":"http://t.me/@BaffledHedgehog"},"color":"blue","underlined":true}]

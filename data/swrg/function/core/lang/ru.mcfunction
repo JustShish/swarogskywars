@@ -8,7 +8,7 @@ data modify storage swrg:lang item.kit12_0 set value {Name:{"text":"Взрывн
 data modify storage swrg:lang item.kit12_1 set value {Name:{"text":"Взрывное зелье тошноты","italic":false}}
 data modify storage swrg:lang item.kit12_2 set value {Name:{"text":"Взрывное зелье слепоты","italic":false}}
 
-data modify storage swrg:lang item.kit18 set value {"text":"Маска анонима","color":"aqua","italic":false}
+data modify storage swrg:lang item.kit18 set value {"text":"Маска анонима","color":"red","italic":false}
 #                                            gui
 data modify storage swrg:lang gui.balance set value {"text":"Баланс: ","color":"white","italic":false}
 data modify storage swrg:lang gui.reset set value {Name:{"text":"Сброс","color":"red","italic":false}}
@@ -18,6 +18,7 @@ data modify storage swrg:lang gui.next set value {Name:{"text":"Вперёд","c
 data modify storage swrg:lang gui.select set value {"text":"Выбрано","color":"green","italic":false}
 data modify storage swrg:lang gui.locked set value {"text":"Недоступно","color":"red","italic":false}
 data modify storage swrg:lang gui.coins set value {"text":"Монеты","italic":false}
+data modify storage swrg:lang gui.memcoins set value {"text":"Мемкоины","italic":false}
 #                                            stats
 data modify storage swrg:lang stat.profile set value {"text":"Статистика игрока ","color":"green","italic":false}
 data modify storage swrg:lang stat.game_played set value {"text":"Сыграно игр: ","color":"green","italic":false}
@@ -145,9 +146,9 @@ data modify storage swrg:lang page6000.s9 set value {Name:{"text":"Кейс с �
 data modify storage swrg:lang page6000.s10 set value {Name:{"text":"Кейс с косметикой","color":"light_purple","italic":false},Lore:[{"text":"Ключи х5","color":"white","italic":false},[{"text":"Цена: ","color":"white","italic":false},{"text":"800 ","color":"gold","italic":false},{"text":"1000","color":"gold","italic":false,"strikethrough":true}]]}
 data modify storage swrg:lang page6000.s11 set value {Name:{"text":"Кейс с косметикой","color":"light_purple","italic":false},Lore:[{"text":"Ключи х10","color":"white","italic":false},[{"text":"Цена: ","color":"white","italic":false},{"text":"1400 ","color":"gold","italic":false},{"text":"2000","color":"gold","italic":false,"strikethrough":true}]]}
 
-#data modify storage swrg:lang page6000.s12 set value {Name:{"text":"Лаки-Токен x1","color":"light_purple","italic":false},Lore:[{"text":"Используется, чтобы активировать Лаки-Подкрутку","color":"white","italic":false},[{"text":"Цена: ","color":"white","italic":false},{"text":"50 ","color":"gold","italic":false}]]}
-#data modify storage swrg:lang page6000.s13 set value {Name:{"text":"Лаки-Токен x10","color":"light_purple","italic":false},Lore:[{"text":"Используется, чтобы активировать Лаки-Подкрутку","color":"white","italic":false},[{"text":"Цена: ","color":"white","italic":false},{"text":"400 ","color":"gold","italic":false},{"text":"500","color":"gold","italic":false,"strikethrough":true}]]}
-#data modify storage swrg:lang page6000.s14 set value {Name:{"text":"Лаки-Токен x100","color":"light_purple","italic":false},Lore:[{"text":"Используется, чтобы активировать Лаки-Подкрутку","color":"white","italic":false},[{"text":"Цена: ","color":"white","italic":false},{"text":"3000 ","color":"gold","italic":false},{"text":"5000","color":"gold","italic":false,"strikethrough":true}]]}
+data modify storage swrg:lang page6000.s12 set value {Name:{"text":"Ключ Пандоры x1","color":"light_purple","italic":false},Lore:[{"text":"Используется, чтобы открыть Ивент-Ящик","color":"white","italic":false},[{"text":"Цена: ","color":"white","italic":false},{"text":"100 Мемкоинов","color":"gold","italic":false}]]}
+data modify storage swrg:lang page6000.s13 set value {Name:{"text":"Ключ Пандоры x5","color":"light_purple","italic":false},Lore:[{"text":"Используется, чтобы открыть Ивент-Ящик","color":"white","italic":false},[{"text":"Цена: ","color":"white","italic":false},{"text":"400 ","color":"gold","italic":false},{"text":"500","color":"gold","italic":false,"strikethrough":true},{"text":" Мемкоинов","color":"gold","italic":false,"strikethrough":false}]]}
+data modify storage swrg:lang page6000.s14 set value {Name:{"text":"Ключ Пандоры x10","color":"light_purple","italic":false},Lore:[{"text":"Используется, чтобы открыть Ивент-Ящик","color":"white","italic":false},[{"text":"Цена: ","color":"white","italic":false},{"text":"750 ","color":"gold","italic":false},{"text":"1000","color":"gold","italic":false,"strikethrough":true},{"text":" Мемкоинов","color":"gold","italic":false,"strikethrough":false}]]}
 
 # page 7000
 data modify storage swrg:lang page7000.s12 set value {Name:{"text":"Предсмертные звуки","color":"gray","italic":false}}
@@ -156,18 +157,18 @@ data modify storage swrg:lang page7000.s14 set value {Name:{"text":"Старто
 data modify storage swrg:lang page7200.s0 set value {Name:{"text":"Классика","color":"white","italic":false}}
 
 # kits
-data modify storage swrg:lang rare.a set value {"text":"Обычный","color":"blue","italic":false}
+data modify storage swrg:lang rare.a set value {"text":"Обычный","color":"aqua","italic":false}
 data modify storage swrg:lang rare.b set value {"text":"Редкий","color":"gold","italic":false}
 data modify storage swrg:lang rare.c set value {"text":"Эпический","color":"light_purple","italic":false}
-data modify storage swrg:lang rare.d set value {"text":"Легендарный","color":"aqua","italic":false}
+data modify storage swrg:lang rare.d set value {"text":"Легендарный","color":"red","italic":false}
 
-data modify storage swrg:lang kit.a1 set value {"text":"Подрывник","color":"blue","italic":false}
-data modify storage swrg:lang kit.a2 set value {"text":"Собачник","color":"blue","italic":false}
-data modify storage swrg:lang kit.a3 set value {"text":"Алхимик","color":"blue","italic":false}
-data modify storage swrg:lang kit.a4 set value {"text":"Отбивающий","color":"blue","italic":false}
-data modify storage swrg:lang kit.a5 set value {"text":"Обжора","color":"blue","italic":false}
-data modify storage swrg:lang kit.a6 set value {"text":"Ёж","color":"blue","italic":false}
-data modify storage swrg:lang kit.a7 set value {"text":"Стойкий","color":"blue","italic":false}
+data modify storage swrg:lang kit.a1 set value {"text":"Подрывник","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a2 set value {"text":"Собачник","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a3 set value {"text":"Алхимик","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a4 set value {"text":"Отбивающий","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a5 set value {"text":"Обжора","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a6 set value {"text":"Ёж","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a7 set value {"text":"Стойкий","color":"aqua","italic":false}
 
 data modify storage swrg:lang kit.b1 set value {"text":"Паук","color":"gold","italic":false}
 data modify storage swrg:lang kit.b2 set value {"text":"Пиглин","color":"gold","italic":false}
@@ -181,9 +182,9 @@ data modify storage swrg:lang kit.c3 set value {"text":"Скрытный уби�
 data modify storage swrg:lang kit.c4 set value {"text":"Феникс","color":"light_purple","italic":false}
 data modify storage swrg:lang kit.c5 set value {"text":"Король вечеринок","color":"light_purple","italic":false}
 
-data modify storage swrg:lang kit.d1 set value {"text":"Аноним","color":"aqua","italic":false}
-data modify storage swrg:lang kit.d2 set value {"text":"Златой боец","color":"aqua","italic":false}
-data modify storage swrg:lang kit.d3 set value {"text":"Полублоки","color":"aqua","italic":false}
+data modify storage swrg:lang kit.d1 set value {"text":"Аноним","color":"red","italic":false}
+data modify storage swrg:lang kit.d2 set value {"text":"Златой боец","color":"red","italic":false}
+data modify storage swrg:lang kit.d3 set value {"text":"Полублоки","color":"red","italic":false}
 ####
 data modify storage swrg:lang lore.kit.a1 set value {Lore:[{"text":"- Динамит x8","color":"gray","italic":false},{"text":"- Зажигалка","color":"gray","italic":false},{"text":"- Золотой нагрудник","color":"gray","italic":false}]}
 data modify storage swrg:lang lore.kit.a2 set value {Lore:[{"text":"- Яйцо призыва волка x2","color":"gray","italic":false},{"text":"- Кости x16","color":"gray","italic":false}]}
@@ -209,10 +210,10 @@ data modify storage swrg:lang lore.kit.d1 set value {Lore:[{"text":"- Маска
 data modify storage swrg:lang lore.kit.d2 set value {Lore:[{"text":"- Золотой меч (Заговор огня I)","color":"gray","italic":false},{"text":"- Золотое яблоко","color":"gray","italic":false},{"text":"- Набор золотой брони","color":"gray","italic":false},{"text":"- Золотая руда x10","color":"gray","italic":false}]}
 data modify storage swrg:lang lore.kit.d3 set value {Lore:[{"text":"- Дубовая плита (Острота V)","color":"gray","italic":false},{"text":"- Булыжная плита x16","color":"gray","italic":false}]}
 # skills
-data modify storage swrg:lang skill.a1 set value {"text":"Паук","color":"blue","italic":false}
-data modify storage swrg:lang skill.a2 set value {"text":"Тяжеловес","color":"blue","italic":false}
-data modify storage swrg:lang skill.a3 set value {"text":"Бегун","color":"blue","italic":false}
-data modify storage swrg:lang skill.a4 set value {"text":"Всеядный","color":"blue","italic":false}
+data modify storage swrg:lang skill.a1 set value {"text":"Паук","color":"aqua","italic":false}
+data modify storage swrg:lang skill.a2 set value {"text":"Тяжеловес","color":"aqua","italic":false}
+data modify storage swrg:lang skill.a3 set value {"text":"Бегун","color":"aqua","italic":false}
+data modify storage swrg:lang skill.a4 set value {"text":"Всеядный","color":"aqua","italic":false}
 
 data modify storage swrg:lang skill.b1 set value {"text":"Берсерк","color":"gold","italic":false}
 data modify storage swrg:lang skill.b2 set value {"text":"Стрелок","color":"gold","italic":false}
@@ -221,8 +222,8 @@ data modify storage swrg:lang skill.b3 set value {"text":"Яростный","col
 data modify storage swrg:lang skill.c1 set value {"text":"Феникс","color":"light_purple","italic":false}
 data modify storage swrg:lang skill.c2 set value {"text":"Маньяк","color":"light_purple","italic":false}
 
-data modify storage swrg:lang skill.d1 set value {"text":"Громовержец","color":"aqua","italic":false}
-data modify storage swrg:lang skill.d2 set value {"text":"Вампир","color":"aqua","italic":false}
+data modify storage swrg:lang skill.d1 set value {"text":"Громовержец","color":"red","italic":false}
+data modify storage swrg:lang skill.d2 set value {"text":"Вампир","color":"red","italic":false}
 #
 data modify storage swrg:lang lore.skill.a1 set value {Lore:[{"text":"- Накладывает эффект отравления на обидчика","color":"gray","italic":false}]}
 data modify storage swrg:lang lore.skill.a2 set value {Lore:[{"text":"- При падении наносит противникам урон","color":"gray","italic":false}]}
@@ -242,6 +243,7 @@ data modify storage swrg:lang lore.skill.d2 set value {Lore:[{"text":"- Шанс
 data modify storage swrg:lang reward.kit set value [{"text":"Получен ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" набор "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.skill set value [{"text":"Получен ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" навык "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.coin set value [{"text":"Получен ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" предмет "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
+data modify storage swrg:lang reward.memcoin set value [{"text":"Получен ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" предмет "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.bar set value [{"text":"Получен ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" предмет - клетка "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.sound set value [{"text":"Получен ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" предмет - предсмертный звук "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 #

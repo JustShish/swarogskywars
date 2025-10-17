@@ -8,7 +8,7 @@ data modify storage swrg:lang item.kit12_0 set value {Name:{"text":"Splash potio
 data modify storage swrg:lang item.kit12_1 set value {Name:{"text":"Splash potion of nausea","italic":false}}
 data modify storage swrg:lang item.kit12_2 set value {Name:{"text":"Splash potion of blindness","italic":false}}
 
-data modify storage swrg:lang item.kit18 set value {Name:{"text":"Anonymous mask","color":"aqua","italic":false}}
+data modify storage swrg:lang item.kit18 set value {Name:{"text":"Anonymous mask","color":"red","italic":false}}
 #                                            gui
 data modify storage swrg:lang gui.balance set value {"text":"Balance: ","color":"white","italic":false}
 data modify storage swrg:lang gui.reset set value {Name:{"text":"Reset","color":"red","italic":false}}
@@ -18,6 +18,7 @@ data modify storage swrg:lang gui.next set value {Name:{"text":"Next","color":"r
 data modify storage swrg:lang gui.select set value {"text":"Selected","color":"green","italic":false}
 data modify storage swrg:lang gui.locked set value {"text":"Locked","color":"red","italic":false}
 data modify storage swrg:lang gui.coins set value {"text":"Coins","italic":false}
+data modify storage swrg:lang gui.memcoins set value {"text":"MemCoins","italic":false}
 #                                            stats
 data modify storage swrg:lang stat.profile set value {"text":"Player statistics ","color":"green","italic":false}
 data modify storage swrg:lang stat.game_played set value {"text":"Games played: ","color":"green","italic":false}
@@ -67,7 +68,7 @@ data modify storage swrg:lang page0.s13 set value {Name:{"text":"Cases","color":
 data modify storage swrg:lang page0.s14 set value {Name:{"text":"Skills","color":"aqua","italic":false}}
 data modify storage swrg:lang page0.s17 set value {Name:{"text":"Open Build Manager","color":"aqua","italic":false}}
 data modify storage swrg:lang page0.s17_old set value {Name:{"text":"Connect to our Govnovival Server! (CLICK)","color":"aqua","italic":false}}
-data modify storage swrg:lang page0.s26 set value {Name:{"text":"Map information","color":"aqua","italic":false},Lore:[[{"text":"Main developer - ","color":"green","italic":false},{"text":"_Swarog","color":"aqua","italic":false}],[{"text":"Developer of lucky blocks - ","color":"green","italic":false},{"text":"BaffledHedgehog","color":"aqua","italic":false}],{"text":"Discord Server: https://discord.gg/RVqrP3ZaYV","color":"blue","italic":false,"underlined":true},{"text":"Planet Minecraft: planetminecraft.com/member/swarog","color":"dark_green","italic":false,"underlined":true}]}
+data modify storage swrg:lang page0.s26 set value {Name:{"text":"Map information","color":"aqua","italic":false},Lore:[[{"text":"Main developer - ","color":"green","italic":false},{"text":"_Swarog","color":"aqua","italic":false}],[{"text":"Developer of lucky blocks - ","color":"green","italic":false},{"text":"BaffledHedgehog","color":"aqua","italic":false}],{"text":"Discord Server: https://discord.gg/RVqrP3ZaYV","color":"aqua","italic":false,"underlined":true},{"text":"Planet Minecraft: planetminecraft.com/member/swarog","color":"dark_green","italic":false,"underlined":true}]}
 # page 1000
 data modify storage swrg:lang page1000.s0-1 set value {Name:[{"text":"PvP system - 1.8","color":"white","italic":false},{"text":" "}]}
 data modify storage swrg:lang page1000.s0-2 set value {Name:[{"text":"PvP system - 1.9","color":"white","italic":false},{"text":" "}]}
@@ -138,9 +139,9 @@ data modify storage swrg:lang page6000.s9 set value {Name:{"text":"Cosmetics cas
 data modify storage swrg:lang page6000.s10 set value {Name:{"text":"Cosmetics case","color":"light_purple","italic":false},Lore:[{"text":"Keys х5","color":"white","italic":false},[{"text":"Price: ","color":"white","italic":false},{"text":"800 ","color":"gold","italic":false},{"text":"1000","color":"gold","italic":false,"strikethrough":true}]]}
 data modify storage swrg:lang page6000.s11 set value {Name:{"text":"Cosmetics case","color":"light_purple","italic":false},Lore:[{"text":"Keys х10","color":"white","italic":false},[{"text":"Price: ","color":"white","italic":false},{"text":"1400 ","color":"gold","italic":false},{"text":"2000","color":"gold","italic":false,"strikethrough":true}]]}
 
-#data modify storage swrg:lang page6000.s12 set value {Name:{"text":"Lucky Token","color":"light_purple","italic":false},Lore:[{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false},[{"text":"Price: ","color":"white","italic":false},{"text":"50 ","color":"gold","italic":false}]]}
-#data modify storage swrg:lang page6000.s13 set value {Name:{"text":"Lucky Token x10","color":"light_purple","italic":false},Lore:[{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false},[{"text":"Price: ","color":"white","italic":false},{"text":"400 ","color":"gold","italic":false},{"text":"500","color":"gold","italic":false,"strikethrough":true}]]}
-#data modify storage swrg:lang page6000.s14 set value {Name:{"text":"Lucky Token x100","color":"light_purple","italic":false},Lore:[{"text":"You can use it to activate a Lucky-Tweak","color":"white","italic":false},[{"text":"Price: ","color":"white","italic":false},{"text":"3000 ","color":"gold","italic":false},{"text":"5000","color":"gold","italic":false,"strikethrough":true}]]}
+data modify storage swrg:lang page6000.s12 set value {Name:{"text":"Pandora's Key","color":"light_purple","italic":false},Lore:[{"text":"You can use it to open Event Box","color":"white","italic":false},[{"text":"Price: ","color":"white","italic":false},{"text":"100 Memcoins","color":"gold","italic":false}]]}
+data modify storage swrg:lang page6000.s13 set value {Name:{"text":"Pandora's Key x5","color":"light_purple","italic":false},Lore:[{"text":"You can use it to open Event Box","color":"white","italic":false},[{"text":"Price: ","color":"white","italic":false},{"text":"400 ","color":"gold","italic":false},{"text":"500","color":"gold","italic":false,"strikethrough":true},{"text":" Memcoins","color":"gold","italic":false,"strikethrough":false}]]}
+data modify storage swrg:lang page6000.s14 set value {Name:{"text":"Pandora's Key x10","color":"light_purple","italic":false},Lore:[{"text":"You can use it to open Event Box","color":"white","italic":false},[{"text":"Price: ","color":"white","italic":false},{"text":"750 ","color":"gold","italic":false},{"text":"1000","color":"gold","italic":false,"strikethrough":true},{"text":" Memcoins","color":"gold","italic":false,"strikethrough":false}]]}
 
 # page 7000
 data modify storage swrg:lang page7000.s12 set value {Name:{"text":"Death sounds","color":"gray","italic":false}}
@@ -149,18 +150,18 @@ data modify storage swrg:lang page7000.s14 set value {Name:{"text":"Starting cel
 data modify storage swrg:lang page7200.s0 set value {Name:{"text":"Classic","color":"white","italic":false}}
 
 # kits
-data modify storage swrg:lang rare.a set value {"text":"Common","color":"blue","italic":false}
+data modify storage swrg:lang rare.a set value {"text":"Common","color":"aqua","italic":false}
 data modify storage swrg:lang rare.b set value {"text":"Rare","color":"gold","italic":false}
 data modify storage swrg:lang rare.c set value {"text":"Epic","color":"light_purple","italic":false}
-data modify storage swrg:lang rare.d set value {"text":"Legendary","color":"aqua","italic":false}
+data modify storage swrg:lang rare.d set value {"text":"Legendary","color":"red","italic":false}
 
-data modify storage swrg:lang kit.a1 set value {"text":"Bomber","color":"blue","italic":false}
-data modify storage swrg:lang kit.a2 set value {"text":"Dog lover","color":"blue","italic":false}
-data modify storage swrg:lang kit.a3 set value {"text":"Alchemist","color":"blue","italic":false}
-data modify storage swrg:lang kit.a4 set value {"text":"Batter","color":"blue","italic":false}
-data modify storage swrg:lang kit.a5 set value {"text":"Glutton","color":"blue","italic":false}
-data modify storage swrg:lang kit.a6 set value {"text":"Hedgehog","color":"blue","italic":false}
-data modify storage swrg:lang kit.a7 set value {"text":"Persistent","color":"blue","italic":false}
+data modify storage swrg:lang kit.a1 set value {"text":"Bomber","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a2 set value {"text":"Dog lover","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a3 set value {"text":"Alchemist","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a4 set value {"text":"Batter","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a5 set value {"text":"Glutton","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a6 set value {"text":"Hedgehog","color":"aqua","italic":false}
+data modify storage swrg:lang kit.a7 set value {"text":"Persistent","color":"aqua","italic":false}
 
 data modify storage swrg:lang kit.b1 set value {"text":"Spider","color":"gold","italic":false}
 data modify storage swrg:lang kit.b2 set value {"text":"Piglin","color":"gold","italic":false}
@@ -174,9 +175,9 @@ data modify storage swrg:lang kit.c3 set value {"text":"A secretive killer","col
 data modify storage swrg:lang kit.c4 set value {"text":"Phoenix","color":"light_purple","italic":false}
 data modify storage swrg:lang kit.c5 set value {"text":"King of Parties","color":"light_purple","italic":false}
 
-data modify storage swrg:lang kit.d1 set value {"text":"Anonymous","color":"aqua","italic":false}
-data modify storage swrg:lang kit.d2 set value {"text":"Golden Fighter","color":"aqua","italic":false}
-data modify storage swrg:lang kit.d3 set value {"text":"Half-blocks","color":"aqua","italic":false}
+data modify storage swrg:lang kit.d1 set value {"text":"Anonymous","color":"red","italic":false}
+data modify storage swrg:lang kit.d2 set value {"text":"Golden Fighter","color":"red","italic":false}
+data modify storage swrg:lang kit.d3 set value {"text":"Half-blocks","color":"red","italic":false}
 ####
 data modify storage swrg:lang lore.kit.a1 set value {Lore:[{"text":"- TNT x8","color":"gray","italic":false},{"text":"- Flint and steel","color":"gray","italic":false},{"text":"- Golden chestplate","color":"gray","italic":false}]}
 data modify storage swrg:lang lore.kit.a2 set value {Lore:[{"text":"- Wolf spawn egg x2","color":"gray","italic":false},{"text":"- Bone x16","color":"gray","italic":false}]}
@@ -202,10 +203,10 @@ data modify storage swrg:lang lore.kit.d1 set value {Lore:[{"text":"- Anonymous 
 data modify storage swrg:lang lore.kit.d2 set value {Lore:[{"text":"- Golden sword (Fire Aspect I)","color":"gray","italic":false},{"text":"- Golden apple","color":"gray","italic":false},{"text":"- Golden armor","color":"gray","italic":false},{"text":"- Gold ore x10","color":"gray","italic":false}]}
 data modify storage swrg:lang lore.kit.d3 set value {Lore:[{"text":"- Oak slab (Sharpness V)","color":"gray","italic":false},{"text":"- Cobblestone slab x16","color":"gray","italic":false}]}
 # skills
-data modify storage swrg:lang skill.a1 set value {"text":"Spider","color":"blue","italic":false}
-data modify storage swrg:lang skill.a2 set value {"text":"Heavyweight","color":"blue","italic":false}
-data modify storage swrg:lang skill.a3 set value {"text":"Runner","color":"blue","italic":false}
-data modify storage swrg:lang skill.a4 set value {"text":"Omnivorous","color":"blue","italic":false}
+data modify storage swrg:lang skill.a1 set value {"text":"Spider","color":"aqua","italic":false}
+data modify storage swrg:lang skill.a2 set value {"text":"Heavyweight","color":"aqua","italic":false}
+data modify storage swrg:lang skill.a3 set value {"text":"Runner","color":"aqua","italic":false}
+data modify storage swrg:lang skill.a4 set value {"text":"Omnivorous","color":"aqua","italic":false}
 
 data modify storage swrg:lang skill.b1 set value {"text":"Berserk","color":"gold","italic":false}
 data modify storage swrg:lang skill.b2 set value {"text":"Shooter","color":"gold","italic":false}
@@ -214,8 +215,8 @@ data modify storage swrg:lang skill.b3 set value {"text":"Furious","color":"gold
 data modify storage swrg:lang skill.c1 set value {"text":"Phoenix","color":"light_purple","italic":false}
 data modify storage swrg:lang skill.c2 set value {"text":"Maniac","color":"light_purple","italic":false}
 
-data modify storage swrg:lang skill.d1 set value {"text":"Thunderer","color":"aqua","italic":false}
-data modify storage swrg:lang skill.d2 set value {"text":"Vampire","color":"aqua","italic":false}
+data modify storage swrg:lang skill.d1 set value {"text":"Thunderer","color":"red","italic":false}
+data modify storage swrg:lang skill.d2 set value {"text":"Vampire","color":"red","italic":false}
 #
 data modify storage swrg:lang lore.skill.a1 set value {Lore:[{"text":"- Imposes the effect of poisoning on the offender","color":"gray","italic":false}]}
 data modify storage swrg:lang lore.skill.a2 set value {Lore:[{"text":"- Causes damage to enemies when falling","color":"gray","italic":false}]}
@@ -235,6 +236,7 @@ data modify storage swrg:lang lore.skill.d2 set value {Lore:[{"text":"- With a 2
 data modify storage swrg:lang reward.kit set value [{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" kit "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.skill set value [{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" skill "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.coin set value [{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" item "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
+data modify storage swrg:lang reward.memcoin set value [{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" item "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.bar set value [{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" item - cell "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.sound set value [{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" item - death sound "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 #

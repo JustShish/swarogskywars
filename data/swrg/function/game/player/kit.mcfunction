@@ -76,3 +76,5 @@ give @a[scores={swrg.kit=20}] minecraft:oak_slab[minecraft:enchantments={"minecr
 give @a[scores={swrg.kit=20}] minecraft:cobblestone_slab 16
 #
 loot give @a[scores={swrg.kit=21}] loot swrg:game/kit/halloween_pies
+#
+give @a[scores={swrg.kit=22}] minecraft:mace[enchantments={"wind_burst":1},attribute_modifiers=[{amount:3,id:"minecraft:base_attack_damage",slot:"mainhand",operation:"add_value",type:"minecraft:attack_damage"},{amount:-2.4,id:"minecraft:base_attack_speed",slot:"mainhand",operation:"add_value",type:"minecraft:attack_speed"}]] 1

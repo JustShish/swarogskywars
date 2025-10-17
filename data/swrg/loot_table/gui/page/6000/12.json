@@ -32,11 +32,15 @@
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "nbt": "page6000.s12.Name",
-                                "storage": "swrg:lang",
-                                "interpret": true,
-                                "source": "storage",
-                                "type": "nbt"
+                                "translate": "key_unknown",
+                                "italic": false,
+                                "color":"#9c6894"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "item_model": "lbc:unknown_key"
                             }
                         }
                     ]

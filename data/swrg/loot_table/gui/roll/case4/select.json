@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "swrg:gui/roll/case4/common",
+                    "weight": 50
+                },
+                {
+                    "type": "loot_table",
+                    "value": "swrg:gui/roll/case4/rare",
+                    "weight": 30
+                },
+                {
+                    "type": "loot_table",
+                    "value": "swrg:gui/roll/case4/epic",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "value": "swrg:gui/roll/case4/legendary",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

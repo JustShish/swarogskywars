@@ -11,7 +11,7 @@
                             "function": "minecraft:set_name",
                             "name": {
                                 "translate": "block.minecraft.orange_stained_glass",
-                                "color": "blue",
+                                "color": "aqua",
                                 "italic": false
                             }
                         },

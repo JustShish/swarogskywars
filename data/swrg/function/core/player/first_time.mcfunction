@@ -11,10 +11,12 @@ scoreboard players set @s swrg.stat_wins 0
 scoreboard players set @s swrg.stat_games 0
 scoreboard players set @s swrg.stat_kills 0
 scoreboard players set @s swrg.coins 0
+scoreboard players set @s swrg.memcoins 0
 scoreboard players set @s swrg.keys0 0
 scoreboard players set @s swrg.keys1 0
 scoreboard players set @s swrg.keys2 0
 scoreboard players set @s swrg.keys3 0
+scoreboard players set @s swrg.keys4 0
 
 scoreboard players set @s swrg.death 0
 

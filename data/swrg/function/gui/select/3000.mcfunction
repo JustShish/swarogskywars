@@ -19,9 +19,11 @@ scoreboard players set @s[tag=swrg.kit18,scores={swrg.gui_select=17}] swrg.kit 1
 scoreboard players set @s[tag=swrg.kit19,scores={swrg.gui_select=19}] swrg.kit 19
 scoreboard players set @s[tag=swrg.kit20,scores={swrg.gui_select=20}] swrg.kit 20
 scoreboard players set @s[advancements={lbc:true_advancements/event/eat_halloween_food=true},scores={swrg.gui_select=21}] swrg.kit 21
+scoreboard players set @s[advancements={lbc:true_advancements/event/halloween_mace=true},scores={swrg.gui_select=22}] swrg.kit 22
 
 
 tellraw @s[advancements={lbc:true_advancements/event/eat_halloween_food=false},scores={swrg.gui_select=21}] {"translate":"lbc.adv.event.eat_halloween_food.lore"}
+tellraw @s[advancements={lbc:true_advancements/event/halloween_mace=false},scores={swrg.gui_select=22}] {"translate":"lbc.adv.event.halloween_mace.lore"}
 
 
 #

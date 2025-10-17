@@ -9,6 +9,16 @@ scoreboard players set @s[tag=swrg.skill8,scores={swrg.gui_select=7}] swrg.skill
 scoreboard players set @s[tag=swrg.skill9,scores={swrg.gui_select=8}] swrg.skill 9
 scoreboard players set @s[tag=swrg.skill10,scores={swrg.gui_select=9}] swrg.skill 10
 scoreboard players set @s[tag=swrg.skill11,scores={swrg.gui_select=10}] swrg.skill 11
+scoreboard players set @s[advancements={lbc:true_advancements/event/wind_wand=true},scores={swrg.gui_select=11}] swrg.skill 12
+
+
+
+
+tellraw @s[advancements={lbc:true_advancements/event/wind_wand=false},scores={swrg.gui_select=11}] {"translate":"lbc.adv.event.vex_wand.lore"}
+
+
+
+
 
 scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 0
 scoreboard players set @s[scores={swrg.gui_select=26}] swrg.skill 0

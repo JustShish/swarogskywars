@@ -10,6 +10,12 @@
                         {
                             "function": "minecraft:set_custom_data",
                             "tag": "{HideFlags:127,rewardcoin:4}"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "item_model": "lbc:coin_d"
+                            }
                         }
                     ]
                 }
@@ -58,10 +64,10 @@
                         "nbt": "gui.coins",
                         "storage": "swrg:lang",
                         "interpret": true,
-                        "color": "aqua",
+                        "color": "red",
                         "extra": [
                             {
-                                "text": " x500",
+                                "text": " x1000",
                                 "type": "text"
                             }
                         ],

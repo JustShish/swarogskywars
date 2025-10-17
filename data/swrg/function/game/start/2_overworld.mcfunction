@@ -1,0 +1,1 @@
+execute if score halloween lbc.event matches 1 run function swrg:game/start/2_halloween

@@ -1,5 +1,5 @@
-loot replace entity @s enderchest.0 loot swrg:gui/page/7300/24
-loot replace entity @s enderchest.1 loot swrg:gui/page/7300/25
+loot replace entity @s[advancements={swrg:rewards/suffix_25=true}] enderchest.0 loot swrg:gui/page/7300/24
+loot replace entity @s[advancements={swrg:rewards/suffix_26=true}] enderchest.1 loot swrg:gui/page/7300/25
 #
 item modify entity @s[scores={swrg.suffix=25}] enderchest.0 swrg:select
 item modify entity @s[scores={swrg.suffix=26}] enderchest.1 swrg:select
@@ -25,14 +25,9 @@ item modify entity @s[scores={swrg.suffix=45}] enderchest.21 swrg:select
 item modify entity @s[scores={swrg.suffix=46}] enderchest.22 swrg:select
 item modify entity @s[scores={swrg.suffix=47}] enderchest.23 swrg:select
 item modify entity @s[scores={swrg.suffix=48}] enderchest.24 swrg:select
-#
-item replace entity @s[advancements={swrg:rewards/suffix_25=false}] enderchest.0 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked_case_pandora"]
-item replace entity @s[advancements={swrg:rewards/suffix_26=false}] enderchest.1 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked_case_pandora"]
 
 #
-item modify entity @s[advancements={swrg:rewards/suffix_25=false}] enderchest.0 swrg:locked_suffix_pandora
-item modify entity @s[advancements={swrg:rewards/suffix_26=false}] enderchest.1 swrg:locked_suffix_pandora
-#
+execute unless score halloween lbc.event matches 1 run function swrg:gui/page/7310_default
 execute if score halloween lbc.event matches 1 run function swrg:gui/page/7310_halloween
 
 loot replace entity @s enderchest.18 loot swrg:gui/back

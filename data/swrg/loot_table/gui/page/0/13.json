@@ -17,6 +17,12 @@
                                 "source": "storage",
                                 "type": "nbt"
                             }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "lbc:cases"
+                            }
                         }
                     ]
                 }

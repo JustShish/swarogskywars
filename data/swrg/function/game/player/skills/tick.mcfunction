@@ -26,7 +26,8 @@ execute if entity @s[scores={swrg.skill=10},nbt={HurtTime:10s}] if predicate swr
 effect give @s[scores={swrg.skill=11},advancements={swrg:core/attacking=true}] minecraft:regeneration 5 1 true
 execute if entity @s[scores={swrg.skill=11},advancements={swrg:core/attacking=true}] if predicate swrg:core/chance_25 run effect give @s minecraft:instant_health 1 0 true
 # Крылья ветра
-execute if score @s[predicate=swrg:sprint,predicate=!swrg:on_ground] swrg.skill matches 12 rotated ~ 0 run function swrg:game/player/skills/wind_rider
+execute unless score legacy lbc.math matches 1 if score @s[predicate=swrg:sprint,predicate=!swrg:on_ground] swrg.skill matches 12 rotated ~ 0 run function swrg:game/player/skills/wind_rider
+execute unless score legacy lbc.math matches 1 if score @s[predicate=swrg:sprint,predicate=!swrg:on_ground] swrg.skill matches 1200 rotated ~ 0 run function swrg:game/player/skills/wind_rider_gay
 
 scoreboard players set @a swrg.fall_damage 0
 advancement revoke @a only swrg:core/attacking

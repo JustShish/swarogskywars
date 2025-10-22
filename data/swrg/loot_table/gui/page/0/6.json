@@ -10,7 +10,6 @@
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
-                            
                             "name": {
                                 "nbt": "page0.s6",
                                 "storage": "swrg:lang",
@@ -43,6 +42,12 @@
                                 }
                             ],
                             "mode": "replace_all"
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_model": "lbc:shop"
+                            }
                         }
                     ]
                 }

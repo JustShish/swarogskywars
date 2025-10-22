@@ -235,10 +235,10 @@ data modify storage swrg:lang lore.skill.b2 set value {Lore:[{"text":"- Полу
 data modify storage swrg:lang lore.skill.b3 set value {Lore:[{"text":"- Получает эффект силы при малом количестве хп","color":"gray","italic":false}]}
 
 data modify storage swrg:lang lore.skill.c1 set value {Lore:[{"text":"- Получает силу и сопротивление к урону, когда горит","color":"gray","italic":false}]}
-data modify storage swrg:lang lore.skill.c2 set value {Lore:[{"text":"- Ослепляет жертву при атаке","color":"gray","italic":false}]}
+data modify storage swrg:lang lore.skill.c2 set value {Lore:[{"text":"- Накладывает тьму на жертву при атаке","color":"gray","italic":false}]}
 
 data modify storage swrg:lang lore.skill.d1 set value {Lore:[{"text":"- Призывает молнии при получении урона и при атаке","color":"gray","italic":false}]}
-data modify storage swrg:lang lore.skill.d2 set value {Lore:[{"text":"- Шансом 20% восстанавливает здоровье при атаке","color":"gray","italic":false}]}
+data modify storage swrg:lang lore.skill.d2 set value {Lore:[{"text":"- Шанс 100% Регенерация 2 на 5 с. и 25% Моментальное исцеление 1 при атаке","color":"gray","italic":false}]}
 #
 data modify storage swrg:lang reward.kit set value [{"text":"Получен ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" набор "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.skill set value [{"text":"Получен ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" навык "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]

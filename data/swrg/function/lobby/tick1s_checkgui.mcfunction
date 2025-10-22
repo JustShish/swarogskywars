@@ -1,0 +1,1 @@
+function swrg:gui/page

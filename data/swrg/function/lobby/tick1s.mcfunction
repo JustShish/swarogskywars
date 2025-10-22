@@ -3,6 +3,8 @@ effect give @a minecraft:weakness 2 100 true
 effect give @a minecraft:regeneration 2 100 true
 effect give @a minecraft:saturation 40 0 true
 effect give @a minecraft:resistance 2 4 true
+execute as @a run function swrg:lobby/tick1s_checkgui
+
 
 xp add @a -10000 levels
 

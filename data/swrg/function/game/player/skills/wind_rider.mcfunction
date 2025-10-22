@@ -1,4 +1,4 @@
-data modify storage lbc.math cmd set value "motion add ^ ^.016 ^.1 @s"
+data modify storage lbc.math cmd set value "motion add ^ ^-0.01 ^.1 @s"
 particle gust ~ ~ ~ 0.1 0 0.1 0 1 normal
 particle soul ~ ~ ~ 0 0 0 0 1 normal
 playsound block.wool.step block @a ~ ~ ~ 0.5 0.8

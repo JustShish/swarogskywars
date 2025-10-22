@@ -16,14 +16,16 @@ scoreboard players set @s[tag=swrg.kit15,scores={swrg.gui_select=14}] swrg.kit 1
 scoreboard players set @s[tag=swrg.kit16,scores={swrg.gui_select=15}] swrg.kit 16
 scoreboard players set @s[tag=swrg.kit17,scores={swrg.gui_select=16}] swrg.kit 17
 scoreboard players set @s[tag=swrg.kit18,scores={swrg.gui_select=17}] swrg.kit 18
-scoreboard players set @s[tag=swrg.kit19,scores={swrg.gui_select=19}] swrg.kit 19
-scoreboard players set @s[tag=swrg.kit20,scores={swrg.gui_select=20}] swrg.kit 20
-scoreboard players set @s[advancements={lbc:true_advancements/event/eat_halloween_food=true},scores={swrg.gui_select=21}] swrg.kit 21
-scoreboard players set @s[advancements={lbc:true_advancements/event/halloween_mace=true},scores={swrg.gui_select=22}] swrg.kit 22
+scoreboard players set @s[tag=swrg.kit19,scores={swrg.gui_select=19}] swrg.kit 20
+scoreboard players set @s[tag=swrg.kit20,scores={swrg.gui_select=20}] swrg.kit 21
+scoreboard players set @s[advancements={lbc:true_advancements/event/eat_halloween_food=true},scores={swrg.gui_select=21}] swrg.kit 22
+scoreboard players set @s[advancements={lbc:true_advancements/event/halloween_mace=true},scores={swrg.gui_select=22}] swrg.kit 23
+scoreboard players set @s[advancements={lbc:true_advancements/event/wind_wand_upgraded=true},scores={swrg.gui_select=23}] swrg.kit 24
 
 
 tellraw @s[advancements={lbc:true_advancements/event/eat_halloween_food=false},scores={swrg.gui_select=21}] {"translate":"lbc.adv.event.eat_halloween_food.lore"}
 tellraw @s[advancements={lbc:true_advancements/event/halloween_mace=false},scores={swrg.gui_select=22}] {"translate":"lbc.adv.event.halloween_mace.lore"}
+tellraw @s[advancements={lbc:true_advancements/event/wind_wand_upgraded=false},scores={swrg.gui_select=23}] {"translate":"lbc.adv.event.upgraded_wind_wand.lore"}
 
 
 #

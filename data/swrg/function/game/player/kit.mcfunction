@@ -64,17 +64,21 @@ give @a[scores={swrg.kit=17}] minecraft:golden_sword
 #
 loot give @a[scores={swrg.kit=18}] loot swrg:game/kit/18
 #
-give @a[scores={swrg.kit=19}] minecraft:golden_sword[minecraft:enchantments={"minecraft:fire_aspect":1}]
-give @a[scores={swrg.kit=19}] minecraft:golden_helmet
-give @a[scores={swrg.kit=19}] minecraft:golden_chestplate
-give @a[scores={swrg.kit=19}] minecraft:golden_leggings
-give @a[scores={swrg.kit=19}] minecraft:golden_boots
-give @a[scores={swrg.kit=19}] minecraft:gold_ore 10
-give @a[scores={swrg.kit=19}] minecraft:golden_apple
+give @a[scores={swrg.kit=20}] minecraft:golden_sword[minecraft:enchantments={"minecraft:fire_aspect":1}]
+give @a[scores={swrg.kit=20}] minecraft:golden_helmet
+give @a[scores={swrg.kit=20}] minecraft:golden_chestplate
+give @a[scores={swrg.kit=20}] minecraft:golden_leggings
+give @a[scores={swrg.kit=20}] minecraft:golden_boots
+give @a[scores={swrg.kit=20}] minecraft:gold_ore 10
+give @a[scores={swrg.kit=20}] minecraft:golden_apple
 #
-give @a[scores={swrg.kit=20}] minecraft:oak_slab[minecraft:enchantments={"minecraft:sharpness":5}]
-give @a[scores={swrg.kit=20}] minecraft:cobblestone_slab 16
+give @a[scores={swrg.kit=21}] minecraft:oak_slab[minecraft:enchantments={"minecraft:sharpness":5}]
+give @a[scores={swrg.kit=21}] minecraft:cobblestone_slab 16
+
+execute if score legacy lbc.math matches 1 run return fail
 #
-loot give @a[scores={swrg.kit=21}] loot swrg:game/kit/halloween_pies
+loot give @a[scores={swrg.kit=22}] loot swrg:game/kit/halloween_pies
 #
-give @a[scores={swrg.kit=22}] minecraft:mace[enchantments={"wind_burst":1},attribute_modifiers=[{amount:3,id:"minecraft:base_attack_damage",slot:"mainhand",operation:"add_value",type:"minecraft:attack_damage"},{amount:-2.4,id:"minecraft:base_attack_speed",slot:"mainhand",operation:"add_value",type:"minecraft:attack_speed"}]] 1
+give @a[scores={swrg.kit=23}] minecraft:mace[enchantments={"wind_burst":1},attribute_modifiers=[{amount:3,id:"minecraft:base_attack_damage",slot:"mainhand",operation:"add_value",type:"minecraft:attack_damage"},{amount:-2.4,id:"minecraft:base_attack_speed",slot:"mainhand",operation:"add_value",type:"minecraft:attack_speed"}]] 1
+#
+give @a[scores={swrg.kit=24}] wind_charge[max_stack_size=99] 12

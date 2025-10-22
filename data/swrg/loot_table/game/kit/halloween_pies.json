@@ -34,7 +34,24 @@
                                 "components": {
                                     "item_model": "lbc:golden_pumpkin",
                                     "consumable": {
-                                        "consume_seconds": 0.5
+                                        "consume_seconds": 0.5,
+                                        "on_consume_effects": [
+                                            {
+                                                "type": "minecraft:apply_effects",
+                                                "effects": [
+                                                    {
+                                                        "id": "minecraft:instant_health",
+                                                        "amplifier": 0,
+                                                        "duration": 1
+                                                    },
+                                                    {
+                                                        "id": "minecraft:absorption",
+                                                        "amplifier": 0,
+                                                        "duration": 1000
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 }
                             },

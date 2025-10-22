@@ -231,7 +231,7 @@ data modify storage swrg:lang lore.skill.c1 set value {Lore:[{"text":"-Gains str
 data modify storage swrg:lang lore.skill.c2 set value {Lore:[{"text":"- With a 100% chance, it blinds the victim when attacking","color":"gray","italic":false}]}
 
 data modify storage swrg:lang lore.skill.d1 set value {Lore:[{"text":"- Summons lightning when taking damage and when attacking","color":"gray","italic":false}]}
-data modify storage swrg:lang lore.skill.d2 set value {Lore:[{"text":"- With a 20% chance, it restores health when attacking","color":"gray","italic":false}]}
+data modify storage swrg:lang lore.skill.d2 set value {Lore:[{"text":"- Attack: Regeneration II (5 sec.) and 25% for Instant Health I","color":"gray","italic":false}]}
 #
 data modify storage swrg:lang reward.kit set value [{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" kit "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]
 data modify storage swrg:lang reward.skill set value [{"text":"Received ","color":"green"},{"nbt":"Items[{Slot:2b}].components.minecraft:lore[]","block":"~ ~ ~","interpret":true},{"text":" skill "},{"nbt":"Items[{Slot:2b}].components.minecraft:custom_name","block":"~ ~ ~","interpret":true}]

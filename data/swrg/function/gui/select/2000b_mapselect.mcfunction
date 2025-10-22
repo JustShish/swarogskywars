@@ -1,4 +1,7 @@
 execute if score #if_map_loaded swrg.math matches 0 run return run schedule function swrg:gui/select/2000b_mapselect 1s
+
+
+
 kill @e[tag=strict_map_object]
 kill @e[distance=0..,predicate=swrg:core/maploader]
 kill @e[distance=0..,type=!minecraft:player,predicate=!swrg:core/lobby]
@@ -34,5 +37,24 @@ execute if score map_selected swrg.math matches 24 run function swrg:maploader/m
 execute if score map_selected swrg.math matches 25 run function swrg:maploader/map/25b
 execute if score map_selected swrg.math matches 0..25 unless score map_selected swrg.math matches 18 run function swrg:maploader/map/alwayspastb
 scoreboard players operation saved_map swrg.math = map_selected swrg.math
+scoreboard players reset #team1 swrg.math
+scoreboard players reset #team2 swrg.math
+scoreboard players reset #team3 swrg.math
+scoreboard players reset #team4 swrg.math
+scoreboard players reset #team5 swrg.math
+scoreboard players reset #team6 swrg.math
+scoreboard players reset #team7 swrg.math
+scoreboard players reset #team8 swrg.math
+scoreboard players reset #team9 swrg.math
+scoreboard players reset #team10 swrg.math
+scoreboard players reset #team11 swrg.math
+scoreboard players reset #team12 swrg.math
+scoreboard players reset #team13 swrg.math
+scoreboard players reset #team14 swrg.math
+scoreboard players reset #team15 swrg.math
+scoreboard players reset #team16 swrg.math
+execute as @e[type=marker,tag=bedwars_bed] at @s run function swrg:gui/page/15000_check_beds
+
 execute in minecraft:imprinted run function swrg:maploader/map_select_imprintedb
 execute in minecraft:white run function swrg:maploader/map_select_whiteb
+

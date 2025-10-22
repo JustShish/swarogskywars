@@ -16,6 +16,7 @@ execute if entity @s[scores={swrg.gui_page=7100}] run function swrg:gui/page/710
 execute if entity @s[scores={swrg.gui_page=7200}] run function swrg:gui/page/7200
 execute if entity @s[scores={swrg.gui_page=7300}] run function swrg:gui/page/7300
 execute if entity @s[scores={swrg.gui_page=7310}] run function swrg:gui/page/7310
+execute if entity @s[scores={swrg.gui_page=7400}] run function swrg:gui/page/7400
 execute if entity @s[scores={swrg.gui_page=8000}] run function lbc:swrg_kit_integration/gui/page/8000
 execute if entity @s[scores={swrg.gui_page=9000}] run function lbc:swrg_kit_integration/gui/page/9000
 execute if entity @s[scores={swrg.gui_page=10000}] run function lbc:swrg_kit_integration/gui/page/10000

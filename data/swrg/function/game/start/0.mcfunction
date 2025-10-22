@@ -14,6 +14,22 @@ execute unless score #gamemode swrg.math matches 3..4 run function swrg:develope
 execute as @a run function swrg:core/player/reset_attributes
 execute as @a run function lbc:resets
 function lbc:end_resets
+scoreboard players reset #team1 swrg.math
+scoreboard players reset #team2 swrg.math
+scoreboard players reset #team3 swrg.math
+scoreboard players reset #team4 swrg.math
+scoreboard players reset #team5 swrg.math
+scoreboard players reset #team6 swrg.math
+scoreboard players reset #team7 swrg.math
+scoreboard players reset #team8 swrg.math
+scoreboard players reset #team9 swrg.math
+scoreboard players reset #team10 swrg.math
+scoreboard players reset #team11 swrg.math
+scoreboard players reset #team12 swrg.math
+scoreboard players reset #team13 swrg.math
+scoreboard players reset #team14 swrg.math
+scoreboard players reset #team15 swrg.math
+scoreboard players reset #team16 swrg.math
 execute if score #gamemode swrg.math matches 2 run function lbc:start
 execute if score #gamemode swrg.math matches 3..4 run return run function lbc:start_bedwars
 

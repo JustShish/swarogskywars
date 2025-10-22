@@ -8,255 +8,255 @@ scoreboard players set #map swrg.math 1005
 
 
 
-place template swrg:6b-1 -96 48 -96 none none 0.75
-place template swrg:6b-2 -48 48 -96 none none 0.75
-place template swrg:6b-3 0 48 -96 none none 0.75
-place template swrg:6b-4 48 48 -96 none none 0.75
-place template swrg:6b-5 -96 48 -48 none none 0.75
-place template swrg:6b-6 -48 48 -48 none none 0.75
-place template swrg:6b-7 0 48 -48 none none 0.75
-place template swrg:6b-8 48 48 -48 none none 0.75
-place template swrg:6b-9 -96 48 0 none none 0.75
-place template swrg:6b-10 -48 48 0 none none 0.75
-place template swrg:6b-11 0 48 0 none none 0.75
-place template swrg:6b-12 48 48 0 none none 0.75
-place template swrg:6b-13 -96 48 48 none none 0.75
-place template swrg:6b-14 -48 48 48 none none 0.75
-place template swrg:6b-15 0 48 48 none none 0.75
-place template swrg:6b-16 48 48 48 none none 0.75
+place template swrg:6b-1 -96 48 -96 none none 0.75 1 strict
+place template swrg:6b-2 -48 48 -96 none none 0.75 1 strict
+place template swrg:6b-3 0 48 -96 none none 0.75 1 strict
+place template swrg:6b-4 48 48 -96 none none 0.75 1 strict
+place template swrg:6b-5 -96 48 -48 none none 0.75 1 strict
+place template swrg:6b-6 -48 48 -48 none none 0.75 1 strict
+place template swrg:6b-7 0 48 -48 none none 0.75 1 strict
+place template swrg:6b-8 48 48 -48 none none 0.75 1 strict
+place template swrg:6b-9 -96 48 0 none none 0.75 1 strict
+place template swrg:6b-10 -48 48 0 none none 0.75 1 strict
+place template swrg:6b-11 0 48 0 none none 0.75 1 strict
+place template swrg:6b-12 48 48 0 none none 0.75 1 strict
+place template swrg:6b-13 -96 48 48 none none 0.75 1 strict
+place template swrg:6b-14 -48 48 48 none none 0.75 1 strict
+place template swrg:6b-15 0 48 48 none none 0.75 1 strict
+place template swrg:6b-16 48 48 48 none none 0.75 1 strict
 
-place template swrg:6b-17 -144 48 -144 none none 0.75
-place template swrg:6b-18 -144 48 -96 none none 0.75
-place template swrg:6b-19 -144 48 -48 none none 0.75
-place template swrg:6b-20 -144 48 0 none none 0.75
-place template swrg:6b-21 -144 48 48 none none 0.75
-place template swrg:6b-22 -144 48 96 none none 0.75
-place template swrg:6b-23 96 48 -144 none none 0.75
-place template swrg:6b-24 96 48 -96 none none 0.75
-place template swrg:6b-25 96 48 -48 none none 0.75
-place template swrg:6b-26 96 48 0 none none 0.75
-place template swrg:6b-27 96 48 48 none none 0.75
-place template swrg:6b-28 96 48 96 none none 0.75
-place template swrg:6b-29 -96 48 -144 none none 0.75
-place template swrg:6b-30 -48 48 -144 none none 0.75
-place template swrg:6b-31 0 48 -144 none none 0.75
-place template swrg:6b-32 48 48 -144 none none 0.75
-place template swrg:6b-33 -96 48 96 none none 0.75
-place template swrg:6b-34 -48 48 96 none none 0.75
-place template swrg:6b-35 0 48 96 none none 0.75
-place template swrg:6b-36 48 48 96 none none 0.75
-
-
-
-
-place template swrg:6b-1up -96 96 -96 none none 0.75
-place template swrg:6b-2up -48 96 -96 none none 0.75
-place template swrg:6b-3up 0 96 -96 none none 0.75
-place template swrg:6b-4up 48 96 -96 none none 0.75
-place template swrg:6b-5up -96 96 -48 none none 0.75
-place template swrg:6b-6up -48 96 -48 none none 0.75
-place template swrg:6b-7up 0 96 -48 none none 0.75
-place template swrg:6b-8up 48 96 -48 none none 0.75
-place template swrg:6b-9up -96 96 0 none none 0.75
-place template swrg:6b-10up -48 96 0 none none 0.75
-place template swrg:6b-11up 0 96 0 none none 0.75
-place template swrg:6b-12up 48 96 0 none none 0.75
-place template swrg:6b-13up -96 96 48 none none 0.75
-place template swrg:6b-14up -48 96 48 none none 0.75
-place template swrg:6b-15up 0 96 48 none none 0.75
-place template swrg:6b-16up 48 96 48 none none 0.75
-
-place template swrg:6b-17up -144 96 -144 none none 0.75
-place template swrg:6b-18up -144 96 -96 none none 0.75
-place template swrg:6b-19up -144 96 -48 none none 0.75
-place template swrg:6b-20up -144 96 0 none none 0.75
-place template swrg:6b-21up -144 96 48 none none 0.75
-place template swrg:6b-22up -144 96 96 none none 0.75
-place template swrg:6b-23up 96 96 -144 none none 0.75
-place template swrg:6b-24up 96 96 -96 none none 0.75
-place template swrg:6b-25up 96 96 -48 none none 0.75
-place template swrg:6b-26up 96 96 0 none none 0.75
-place template swrg:6b-27up 96 96 48 none none 0.75
-place template swrg:6b-28up 96 96 96 none none 0.75
-place template swrg:6b-29up -96 96 -144 none none 0.75
-place template swrg:6b-30up -48 96 -144 none none 0.75
-place template swrg:6b-31up 0 96 -144 none none 0.75
-place template swrg:6b-32up 48 96 -144 none none 0.75
-place template swrg:6b-33up -96 96 96 none none 0.75
-place template swrg:6b-34up -48 96 96 none none 0.75
-place template swrg:6b-35up 0 96 96 none none 0.75
-place template swrg:6b-36up 48 96 96 none none 0.75
-
-
-place template swrg:6b-1up2 -96 144 -96 none none 0.75
-place template swrg:6b-2up2 -48 144 -96 none none 0.75
-place template swrg:6b-3up2 0 144 -96 none none 0.75
-place template swrg:6b-4up2 48 144 -96 none none 0.75
-place template swrg:6b-5up2 -96 144 -48 none none 0.75
-place template swrg:6b-6up2 -48 144 -48 none none 0.75
-place template swrg:6b-7up2 0 144 -48 none none 0.75
-place template swrg:6b-8up2 48 144 -48 none none 0.75
-place template swrg:6b-9up2 -96 144 0 none none 0.75
-place template swrg:6b-10up2 -48 144 0 none none 0.75
-place template swrg:6b-11up2 0 144 0 none none 0.75
-place template swrg:6b-12up2 48 144 0 none none 0.75
-place template swrg:6b-13up2 -96 144 48 none none 0.75
-place template swrg:6b-14up2 -48 144 48 none none 0.75
-place template swrg:6b-15up2 0 144 48 none none 0.75
-place template swrg:6b-16up2 48 144 48 none none 0.75
-
-place template swrg:6b-17up2 -144 144 -144 none none 0.75
-place template swrg:6b-18up2 -144 144 -96 none none 0.75
-place template swrg:6b-19up2 -144 144 -48 none none 0.75
-place template swrg:6b-20up2 -144 144 0 none none 0.75
-place template swrg:6b-21up2 -144 144 48 none none 0.75
-place template swrg:6b-22up2 -144 144 96 none none 0.75
-place template swrg:6b-23up2 96 144 -144 none none 0.75
-place template swrg:6b-24up2 96 144 -96 none none 0.75
-place template swrg:6b-25up2 96 144 -48 none none 0.75
-place template swrg:6b-26up2 96 144 0 none none 0.75
-place template swrg:6b-27up2 96 144 48 none none 0.75
-place template swrg:6b-28up2 96 144 96 none none 0.75
-place template swrg:6b-29up2 -96 144 -144 none none 0.75
-place template swrg:6b-30up2 -48 144 -144 none none 0.75
-place template swrg:6b-31up2 0 144 -144 none none 0.75
-place template swrg:6b-32up2 48 144 -144 none none 0.75
-place template swrg:6b-33up2 -96 144 96 none none 0.75
-place template swrg:6b-34up2 -48 144 96 none none 0.75
-place template swrg:6b-35up2 0 144 96 none none 0.75
-place template swrg:6b-36up2 48 144 96 none none 0.75
-
-
-
-place template swrg:6b-37 -192 48 -192 none none 0.75
-place template swrg:6b-38 -192 48 -144 none none 0.75
-place template swrg:6b-39 -192 48 -96 none none 0.75
-place template swrg:6b-40 -192 48 -48 none none 0.75
-place template swrg:6b-41 -192 48 0 none none 0.75
-place template swrg:6b-42 -192 48 48 none none 0.75
-place template swrg:6b-43 -192 48 96 none none 0.75
-place template swrg:6b-44 -192 48 144 none none 0.75
-place template swrg:6b-45 144 48 -192 none none 0.75
-place template swrg:6b-46 -144 48 -192 none none 0.75
-place template swrg:6b-47 96 48 -192 none none 0.75
-place template swrg:6b-48 -96 48 -192 none none 0.75
-place template swrg:6b-49 48 48 -192 none none 0.75
-place template swrg:6b-50 -48 48 -192 none none 0.75
-place template swrg:6b-51 0 48 -192 none none 0.75
-place template swrg:6b-52 144 48 -144 none none 0.75
-place template swrg:6b-53 144 48 -96 none none 0.75
-place template swrg:6b-54 144 48 -48 none none 0.75
-place template swrg:6b-55 144 48 0 none none 0.75
-place template swrg:6b-56 144 48 48 none none 0.75
-place template swrg:6b-57 144 48 96 none none 0.75
-place template swrg:6b-58 144 48 144 none none 0.75
-place template swrg:6b-59 96 48 144 none none 0.75
-place template swrg:6b-60 48 48 144 none none 0.75
-place template swrg:6b-61 0 48 144 none none 0.75
-place template swrg:6b-62 -48 48 144 none none 0.75
-place template swrg:6b-63 -96 48 144 none none 0.75
-place template swrg:6b-64 -144 48 144 none none 0.75
-place template swrg:6b-65 -240 48 -240 none none 0.75
-place template swrg:6b-66 -240 48 -192 none none 0.75
-place template swrg:6b-67 -240 48 -144 none none 0.75
-place template swrg:6b-68 -240 48 -96 none none 0.75
-place template swrg:6b-69 -240 48 -48 none none 0.75
-place template swrg:6b-70 -240 48 0 none none 0.75
-place template swrg:6b-71 -240 48 48 none none 0.75
-place template swrg:6b-72 -240 48 96 none none 0.75
-place template swrg:6b-73 -240 48 144 none none 0.75
-place template swrg:6b-74 -240 48 192 none none 0.75
-place template swrg:6b-75 -192 48 192 none none 0.75
-place template swrg:6b-76 -144 48 192 none none 0.75
-place template swrg:6b-77 -96 48 192 none none 0.75
-place template swrg:6b-78 -48 48 192 none none 0.75
-place template swrg:6b-79 0 48 192 none none 0.75
-place template swrg:6b-80 48 48 192 none none 0.75
-place template swrg:6b-81 96 48 192 none none 0.75
-place template swrg:6b-82 144 48 192 none none 0.75
-place template swrg:6b-83 192 48 192 none none 0.75
-place template swrg:6b-84 192 48 144 none none 0.75
-place template swrg:6b-85 192 48 96 none none 0.75
-place template swrg:6b-86 192 48 48 none none 0.75
-place template swrg:6b-87 192 48 0 none none 0.75
-place template swrg:6b-88 192 48 -48 none none 0.75
-place template swrg:6b-89 192 48 -96 none none 0.75
-place template swrg:6b-90 192 48 -144 none none 0.75
-place template swrg:6b-91 192 48 -192 none none 0.75
-place template swrg:6b-92 192 48 -240 none none 0.75
-place template swrg:6b-93 144 48 -240 none none 0.75
-place template swrg:6b-94 96 48 -240 none none 0.75
-place template swrg:6b-95 48 48 -240 none none 0.75
-place template swrg:6b-96 0 48 -240 none none 0.75
-place template swrg:6b-97 -48 48 -240 none none 0.75
-place template swrg:6b-98 -96 48 -240 none none 0.75
-place template swrg:6b-99 -144 48 -240 none none 0.75
-place template swrg:6b-100 -192 48 -240 none none 0.75
+place template swrg:6b-17 -144 48 -144 none none 0.75 1 strict
+place template swrg:6b-18 -144 48 -96 none none 0.75 1 strict
+place template swrg:6b-19 -144 48 -48 none none 0.75 1 strict
+place template swrg:6b-20 -144 48 0 none none 0.75 1 strict
+place template swrg:6b-21 -144 48 48 none none 0.75 1 strict
+place template swrg:6b-22 -144 48 96 none none 0.75 1 strict
+place template swrg:6b-23 96 48 -144 none none 0.75 1 strict
+place template swrg:6b-24 96 48 -96 none none 0.75 1 strict
+place template swrg:6b-25 96 48 -48 none none 0.75 1 strict
+place template swrg:6b-26 96 48 0 none none 0.75 1 strict
+place template swrg:6b-27 96 48 48 none none 0.75 1 strict
+place template swrg:6b-28 96 48 96 none none 0.75 1 strict
+place template swrg:6b-29 -96 48 -144 none none 0.75 1 strict
+place template swrg:6b-30 -48 48 -144 none none 0.75 1 strict
+place template swrg:6b-31 0 48 -144 none none 0.75 1 strict
+place template swrg:6b-32 48 48 -144 none none 0.75 1 strict
+place template swrg:6b-33 -96 48 96 none none 0.75 1 strict
+place template swrg:6b-34 -48 48 96 none none 0.75 1 strict
+place template swrg:6b-35 0 48 96 none none 0.75 1 strict
+place template swrg:6b-36 48 48 96 none none 0.75 1 strict
 
 
 
 
-place template swrg:6b-37up -192 96 -192 none none 0.75
-place template swrg:6b-38up -192 96 -144 none none 0.75
-place template swrg:6b-39up -192 96 -96 none none 0.75
-place template swrg:6b-40up -192 96 -48 none none 0.75
-place template swrg:6b-41up -192 96 0 none none 0.75
-place template swrg:6b-42up -192 96 48 none none 0.75
-place template swrg:6b-43up -192 96 96 none none 0.75
-place template swrg:6b-44up -192 96 144 none none 0.75
-place template swrg:6b-45up 144 96 -192 none none 0.75
-place template swrg:6b-46up -144 96 -192 none none 0.75
-place template swrg:6b-47up 96 96 -192 none none 0.75
-place template swrg:6b-48up -96 96 -192 none none 0.75
-place template swrg:6b-49up 48 96 -192 none none 0.75
-place template swrg:6b-50up -48 96 -192 none none 0.75
-place template swrg:6b-51up 0 96 -192 none none 0.75
-place template swrg:6b-52up 144 96 -144 none none 0.75
-place template swrg:6b-53up 144 96 -96 none none 0.75
-place template swrg:6b-54up 144 96 -48 none none 0.75
-place template swrg:6b-55up 144 96 0 none none 0.75
-place template swrg:6b-56up 144 96 48 none none 0.75
-place template swrg:6b-57up 144 96 96 none none 0.75
-place template swrg:6b-58up 144 96 144 none none 0.75
-place template swrg:6b-59up 96 96 144 none none 0.75
-place template swrg:6b-60up 48 96 144 none none 0.75
-place template swrg:6b-61up 0 96 144 none none 0.75
-place template swrg:6b-62up -48 96 144 none none 0.75
-place template swrg:6b-63up -96 96 144 none none 0.75
-place template swrg:6b-64up -144 96 144 none none 0.75
-place template swrg:6b-65up -240 96 -240 none none 0.75
-place template swrg:6b-66up -240 96 -192 none none 0.75
-place template swrg:6b-67up -240 96 -144 none none 0.75
-place template swrg:6b-68up -240 96 -96 none none 0.75
-place template swrg:6b-69up -240 96 -48 none none 0.75
-place template swrg:6b-70up -240 96 0 none none 0.75
-place template swrg:6b-71up -240 96 48 none none 0.75
-place template swrg:6b-72up -240 96 96 none none 0.75
-place template swrg:6b-73up -240 96 144 none none 0.75
-place template swrg:6b-74up -240 96 192 none none 0.75
-place template swrg:6b-75up -192 96 192 none none 0.75
-place template swrg:6b-76up -144 96 192 none none 0.75
-place template swrg:6b-77up -96 96 192 none none 0.75
-place template swrg:6b-78up -48 96 192 none none 0.75
-place template swrg:6b-79up 0 96 192 none none 0.75
-place template swrg:6b-80up 48 96 192 none none 0.75
-place template swrg:6b-81up 96 96 192 none none 0.75
-place template swrg:6b-82up 144 96 192 none none 0.75
-place template swrg:6b-83up 192 96 192 none none 0.75
-place template swrg:6b-84up 192 96 144 none none 0.75
-place template swrg:6b-85up 192 96 96 none none 0.75
-place template swrg:6b-86up 192 96 48 none none 0.75
-place template swrg:6b-87up 192 96 0 none none 0.75
-place template swrg:6b-88up 192 96 -48 none none 0.75
-place template swrg:6b-89up 192 96 -96 none none 0.75
-place template swrg:6b-90up 192 96 -144 none none 0.75
-place template swrg:6b-91up 192 96 -192 none none 0.75
-place template swrg:6b-92up 192 96 -240 none none 0.75
-place template swrg:6b-93up 144 96 -240 none none 0.75
-place template swrg:6b-94up 96 96 -240 none none 0.75
-place template swrg:6b-95up 48 96 -240 none none 0.75
-place template swrg:6b-96up 0 96 -240 none none 0.75
-place template swrg:6b-97up -48 96 -240 none none 0.75
-place template swrg:6b-98up -96 96 -240 none none 0.75
-place template swrg:6b-99up -144 96 -240 none none 0.75
-place template swrg:6b-100up -192 96 -240 none none 0.75
+place template swrg:6b-1up -96 96 -96 none none 0.75 1 strict
+place template swrg:6b-2up -48 96 -96 none none 0.75 1 strict
+place template swrg:6b-3up 0 96 -96 none none 0.75 1 strict
+place template swrg:6b-4up 48 96 -96 none none 0.75 1 strict
+place template swrg:6b-5up -96 96 -48 none none 0.75 1 strict
+place template swrg:6b-6up -48 96 -48 none none 0.75 1 strict
+place template swrg:6b-7up 0 96 -48 none none 0.75 1 strict
+place template swrg:6b-8up 48 96 -48 none none 0.75 1 strict
+place template swrg:6b-9up -96 96 0 none none 0.75 1 strict
+place template swrg:6b-10up -48 96 0 none none 0.75 1 strict
+place template swrg:6b-11up 0 96 0 none none 0.75 1 strict
+place template swrg:6b-12up 48 96 0 none none 0.75 1 strict
+place template swrg:6b-13up -96 96 48 none none 0.75 1 strict
+place template swrg:6b-14up -48 96 48 none none 0.75 1 strict
+place template swrg:6b-15up 0 96 48 none none 0.75 1 strict
+place template swrg:6b-16up 48 96 48 none none 0.75 1 strict
+
+place template swrg:6b-17up -144 96 -144 none none 0.75 1 strict
+place template swrg:6b-18up -144 96 -96 none none 0.75 1 strict
+place template swrg:6b-19up -144 96 -48 none none 0.75 1 strict
+place template swrg:6b-20up -144 96 0 none none 0.75 1 strict
+place template swrg:6b-21up -144 96 48 none none 0.75 1 strict
+place template swrg:6b-22up -144 96 96 none none 0.75 1 strict
+place template swrg:6b-23up 96 96 -144 none none 0.75 1 strict
+place template swrg:6b-24up 96 96 -96 none none 0.75 1 strict
+place template swrg:6b-25up 96 96 -48 none none 0.75 1 strict
+place template swrg:6b-26up 96 96 0 none none 0.75 1 strict
+place template swrg:6b-27up 96 96 48 none none 0.75 1 strict
+place template swrg:6b-28up 96 96 96 none none 0.75 1 strict
+place template swrg:6b-29up -96 96 -144 none none 0.75 1 strict
+place template swrg:6b-30up -48 96 -144 none none 0.75 1 strict
+place template swrg:6b-31up 0 96 -144 none none 0.75 1 strict
+place template swrg:6b-32up 48 96 -144 none none 0.75 1 strict
+place template swrg:6b-33up -96 96 96 none none 0.75 1 strict
+place template swrg:6b-34up -48 96 96 none none 0.75 1 strict
+place template swrg:6b-35up 0 96 96 none none 0.75 1 strict
+place template swrg:6b-36up 48 96 96 none none 0.75 1 strict
+
+
+place template swrg:6b-1up2 -96 144 -96 none none 0.75 1 strict
+place template swrg:6b-2up2 -48 144 -96 none none 0.75 1 strict
+place template swrg:6b-3up2 0 144 -96 none none 0.75 1 strict
+place template swrg:6b-4up2 48 144 -96 none none 0.75 1 strict
+place template swrg:6b-5up2 -96 144 -48 none none 0.75 1 strict
+place template swrg:6b-6up2 -48 144 -48 none none 0.75 1 strict
+place template swrg:6b-7up2 0 144 -48 none none 0.75 1 strict
+place template swrg:6b-8up2 48 144 -48 none none 0.75 1 strict
+place template swrg:6b-9up2 -96 144 0 none none 0.75 1 strict
+place template swrg:6b-10up2 -48 144 0 none none 0.75 1 strict
+place template swrg:6b-11up2 0 144 0 none none 0.75 1 strict
+place template swrg:6b-12up2 48 144 0 none none 0.75 1 strict
+place template swrg:6b-13up2 -96 144 48 none none 0.75 1 strict
+place template swrg:6b-14up2 -48 144 48 none none 0.75 1 strict
+place template swrg:6b-15up2 0 144 48 none none 0.75 1 strict
+place template swrg:6b-16up2 48 144 48 none none 0.75 1 strict
+
+place template swrg:6b-17up2 -144 144 -144 none none 0.75 1 strict
+place template swrg:6b-18up2 -144 144 -96 none none 0.75 1 strict
+place template swrg:6b-19up2 -144 144 -48 none none 0.75 1 strict
+place template swrg:6b-20up2 -144 144 0 none none 0.75 1 strict
+place template swrg:6b-21up2 -144 144 48 none none 0.75 1 strict
+place template swrg:6b-22up2 -144 144 96 none none 0.75 1 strict
+place template swrg:6b-23up2 96 144 -144 none none 0.75 1 strict
+place template swrg:6b-24up2 96 144 -96 none none 0.75 1 strict
+place template swrg:6b-25up2 96 144 -48 none none 0.75 1 strict
+place template swrg:6b-26up2 96 144 0 none none 0.75 1 strict
+place template swrg:6b-27up2 96 144 48 none none 0.75 1 strict
+place template swrg:6b-28up2 96 144 96 none none 0.75 1 strict
+place template swrg:6b-29up2 -96 144 -144 none none 0.75 1 strict
+place template swrg:6b-30up2 -48 144 -144 none none 0.75 1 strict
+place template swrg:6b-31up2 0 144 -144 none none 0.75 1 strict
+place template swrg:6b-32up2 48 144 -144 none none 0.75 1 strict
+place template swrg:6b-33up2 -96 144 96 none none 0.75 1 strict
+place template swrg:6b-34up2 -48 144 96 none none 0.75 1 strict
+place template swrg:6b-35up2 0 144 96 none none 0.75 1 strict
+place template swrg:6b-36up2 48 144 96 none none 0.75 1 strict
+
+
+
+place template swrg:6b-37 -192 48 -192 none none 0.75 1 strict
+place template swrg:6b-38 -192 48 -144 none none 0.75 1 strict
+place template swrg:6b-39 -192 48 -96 none none 0.75 1 strict
+place template swrg:6b-40 -192 48 -48 none none 0.75 1 strict
+place template swrg:6b-41 -192 48 0 none none 0.75 1 strict
+place template swrg:6b-42 -192 48 48 none none 0.75 1 strict
+place template swrg:6b-43 -192 48 96 none none 0.75 1 strict
+place template swrg:6b-44 -192 48 144 none none 0.75 1 strict
+place template swrg:6b-45 144 48 -192 none none 0.75 1 strict
+place template swrg:6b-46 -144 48 -192 none none 0.75 1 strict
+place template swrg:6b-47 96 48 -192 none none 0.75 1 strict
+place template swrg:6b-48 -96 48 -192 none none 0.75 1 strict
+place template swrg:6b-49 48 48 -192 none none 0.75 1 strict
+place template swrg:6b-50 -48 48 -192 none none 0.75 1 strict
+place template swrg:6b-51 0 48 -192 none none 0.75 1 strict
+place template swrg:6b-52 144 48 -144 none none 0.75 1 strict
+place template swrg:6b-53 144 48 -96 none none 0.75 1 strict
+place template swrg:6b-54 144 48 -48 none none 0.75 1 strict
+place template swrg:6b-55 144 48 0 none none 0.75 1 strict
+place template swrg:6b-56 144 48 48 none none 0.75 1 strict
+place template swrg:6b-57 144 48 96 none none 0.75 1 strict
+place template swrg:6b-58 144 48 144 none none 0.75 1 strict
+place template swrg:6b-59 96 48 144 none none 0.75 1 strict
+place template swrg:6b-60 48 48 144 none none 0.75 1 strict
+place template swrg:6b-61 0 48 144 none none 0.75 1 strict
+place template swrg:6b-62 -48 48 144 none none 0.75 1 strict
+place template swrg:6b-63 -96 48 144 none none 0.75 1 strict
+place template swrg:6b-64 -144 48 144 none none 0.75 1 strict
+place template swrg:6b-65 -240 48 -240 none none 0.75 1 strict
+place template swrg:6b-66 -240 48 -192 none none 0.75 1 strict
+place template swrg:6b-67 -240 48 -144 none none 0.75 1 strict
+place template swrg:6b-68 -240 48 -96 none none 0.75 1 strict
+place template swrg:6b-69 -240 48 -48 none none 0.75 1 strict
+place template swrg:6b-70 -240 48 0 none none 0.75 1 strict
+place template swrg:6b-71 -240 48 48 none none 0.75 1 strict
+place template swrg:6b-72 -240 48 96 none none 0.75 1 strict
+place template swrg:6b-73 -240 48 144 none none 0.75 1 strict
+place template swrg:6b-74 -240 48 192 none none 0.75 1 strict
+place template swrg:6b-75 -192 48 192 none none 0.75 1 strict
+place template swrg:6b-76 -144 48 192 none none 0.75 1 strict
+place template swrg:6b-77 -96 48 192 none none 0.75 1 strict
+place template swrg:6b-78 -48 48 192 none none 0.75 1 strict
+place template swrg:6b-79 0 48 192 none none 0.75 1 strict
+place template swrg:6b-80 48 48 192 none none 0.75 1 strict
+place template swrg:6b-81 96 48 192 none none 0.75 1 strict
+place template swrg:6b-82 144 48 192 none none 0.75 1 strict
+place template swrg:6b-83 192 48 192 none none 0.75 1 strict
+place template swrg:6b-84 192 48 144 none none 0.75 1 strict
+place template swrg:6b-85 192 48 96 none none 0.75 1 strict
+place template swrg:6b-86 192 48 48 none none 0.75 1 strict
+place template swrg:6b-87 192 48 0 none none 0.75 1 strict
+place template swrg:6b-88 192 48 -48 none none 0.75 1 strict
+place template swrg:6b-89 192 48 -96 none none 0.75 1 strict
+place template swrg:6b-90 192 48 -144 none none 0.75 1 strict
+place template swrg:6b-91 192 48 -192 none none 0.75 1 strict
+place template swrg:6b-92 192 48 -240 none none 0.75 1 strict
+place template swrg:6b-93 144 48 -240 none none 0.75 1 strict
+place template swrg:6b-94 96 48 -240 none none 0.75 1 strict
+place template swrg:6b-95 48 48 -240 none none 0.75 1 strict
+place template swrg:6b-96 0 48 -240 none none 0.75 1 strict
+place template swrg:6b-97 -48 48 -240 none none 0.75 1 strict
+place template swrg:6b-98 -96 48 -240 none none 0.75 1 strict
+place template swrg:6b-99 -144 48 -240 none none 0.75 1 strict
+place template swrg:6b-100 -192 48 -240 none none 0.75 1 strict
+
+
+
+
+place template swrg:6b-37up -192 96 -192 none none 0.75 1 strict
+place template swrg:6b-38up -192 96 -144 none none 0.75 1 strict
+place template swrg:6b-39up -192 96 -96 none none 0.75 1 strict
+place template swrg:6b-40up -192 96 -48 none none 0.75 1 strict
+place template swrg:6b-41up -192 96 0 none none 0.75 1 strict
+place template swrg:6b-42up -192 96 48 none none 0.75 1 strict
+place template swrg:6b-43up -192 96 96 none none 0.75 1 strict
+place template swrg:6b-44up -192 96 144 none none 0.75 1 strict
+place template swrg:6b-45up 144 96 -192 none none 0.75 1 strict
+place template swrg:6b-46up -144 96 -192 none none 0.75 1 strict
+place template swrg:6b-47up 96 96 -192 none none 0.75 1 strict
+place template swrg:6b-48up -96 96 -192 none none 0.75 1 strict
+place template swrg:6b-49up 48 96 -192 none none 0.75 1 strict
+place template swrg:6b-50up -48 96 -192 none none 0.75 1 strict
+place template swrg:6b-51up 0 96 -192 none none 0.75 1 strict
+place template swrg:6b-52up 144 96 -144 none none 0.75 1 strict
+place template swrg:6b-53up 144 96 -96 none none 0.75 1 strict
+place template swrg:6b-54up 144 96 -48 none none 0.75 1 strict
+place template swrg:6b-55up 144 96 0 none none 0.75 1 strict
+place template swrg:6b-56up 144 96 48 none none 0.75 1 strict
+place template swrg:6b-57up 144 96 96 none none 0.75 1 strict
+place template swrg:6b-58up 144 96 144 none none 0.75 1 strict
+place template swrg:6b-59up 96 96 144 none none 0.75 1 strict
+place template swrg:6b-60up 48 96 144 none none 0.75 1 strict
+place template swrg:6b-61up 0 96 144 none none 0.75 1 strict
+place template swrg:6b-62up -48 96 144 none none 0.75 1 strict
+place template swrg:6b-63up -96 96 144 none none 0.75 1 strict
+place template swrg:6b-64up -144 96 144 none none 0.75 1 strict
+place template swrg:6b-65up -240 96 -240 none none 0.75 1 strict
+place template swrg:6b-66up -240 96 -192 none none 0.75 1 strict
+place template swrg:6b-67up -240 96 -144 none none 0.75 1 strict
+place template swrg:6b-68up -240 96 -96 none none 0.75 1 strict
+place template swrg:6b-69up -240 96 -48 none none 0.75 1 strict
+place template swrg:6b-70up -240 96 0 none none 0.75 1 strict
+place template swrg:6b-71up -240 96 48 none none 0.75 1 strict
+place template swrg:6b-72up -240 96 96 none none 0.75 1 strict
+place template swrg:6b-73up -240 96 144 none none 0.75 1 strict
+place template swrg:6b-74up -240 96 192 none none 0.75 1 strict
+place template swrg:6b-75up -192 96 192 none none 0.75 1 strict
+place template swrg:6b-76up -144 96 192 none none 0.75 1 strict
+place template swrg:6b-77up -96 96 192 none none 0.75 1 strict
+place template swrg:6b-78up -48 96 192 none none 0.75 1 strict
+place template swrg:6b-79up 0 96 192 none none 0.75 1 strict
+place template swrg:6b-80up 48 96 192 none none 0.75 1 strict
+place template swrg:6b-81up 96 96 192 none none 0.75 1 strict
+place template swrg:6b-82up 144 96 192 none none 0.75 1 strict
+place template swrg:6b-83up 192 96 192 none none 0.75 1 strict
+place template swrg:6b-84up 192 96 144 none none 0.75 1 strict
+place template swrg:6b-85up 192 96 96 none none 0.75 1 strict
+place template swrg:6b-86up 192 96 48 none none 0.75 1 strict
+place template swrg:6b-87up 192 96 0 none none 0.75 1 strict
+place template swrg:6b-88up 192 96 -48 none none 0.75 1 strict
+place template swrg:6b-89up 192 96 -96 none none 0.75 1 strict
+place template swrg:6b-90up 192 96 -144 none none 0.75 1 strict
+place template swrg:6b-91up 192 96 -192 none none 0.75 1 strict
+place template swrg:6b-92up 192 96 -240 none none 0.75 1 strict
+place template swrg:6b-93up 144 96 -240 none none 0.75 1 strict
+place template swrg:6b-94up 96 96 -240 none none 0.75 1 strict
+place template swrg:6b-95up 48 96 -240 none none 0.75 1 strict
+place template swrg:6b-96up 0 96 -240 none none 0.75 1 strict
+place template swrg:6b-97up -48 96 -240 none none 0.75 1 strict
+place template swrg:6b-98up -96 96 -240 none none 0.75 1 strict
+place template swrg:6b-99up -144 96 -240 none none 0.75 1 strict
+place template swrg:6b-100up -192 96 -240 none none 0.75 1 strict

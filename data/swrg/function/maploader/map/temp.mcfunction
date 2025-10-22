@@ -1,37 +1,37 @@
-place template swrg:7b-1up5 -96 288 -96
-place template swrg:7b-2up5 -48 288 -96
-place template swrg:7b-3up5 0 288 -96
-place template swrg:7b-4up5 48 288 -96
-place template swrg:7b-5up5 -96 288 -48
-place template swrg:7b-6up5 -48 288 -48
-place template swrg:7b-7up5 0 288 -48
-place template swrg:7b-8up5 48 288 -48
-place template swrg:7b-9up5 -96 288 0
-place template swrg:7b-10up5 -48 288 0
-place template swrg:7b-11up5 0 288 0
-place template swrg:7b-12up5 48 288 0
-place template swrg:7b-13up5 -96 288 48
-place template swrg:7b-14up5 -48 288 48
-place template swrg:7b-15up5 0 288 48
-place template swrg:7b-16up5 48 288 48
+place template swrg:7b-1up5 -96 288 -96 none none 1 1 strict
+place template swrg:7b-2up5 -48 288 -96 none none 1 1 strict
+place template swrg:7b-3up5 0 288 -96 none none 1 1 strict
+place template swrg:7b-4up5 48 288 -96 none none 1 1 strict
+place template swrg:7b-5up5 -96 288 -48 none none 1 1 strict
+place template swrg:7b-6up5 -48 288 -48 none none 1 1 strict
+place template swrg:7b-7up5 0 288 -48 none none 1 1 strict
+place template swrg:7b-8up5 48 288 -48 none none 1 1 strict
+place template swrg:7b-9up5 -96 288 0 none none 1 1 strict
+place template swrg:7b-10up5 -48 288 0 none none 1 1 strict
+place template swrg:7b-11up5 0 288 0 none none 1 1 strict
+place template swrg:7b-12up5 48 288 0 none none 1 1 strict
+place template swrg:7b-13up5 -96 288 48 none none 1 1 strict
+place template swrg:7b-14up5 -48 288 48 none none 1 1 strict
+place template swrg:7b-15up5 0 288 48 none none 1 1 strict
+place template swrg:7b-16up5 48 288 48 none none 1 1 strict
 
-place template swrg:7b-17up5 -144 288 -144
-place template swrg:7b-18up5 -144 288 -96
-place template swrg:7b-19up5 -144 288 -48
-place template swrg:7b-20up5 -144 288 0
-place template swrg:7b-21up5 -144 288 48
-place template swrg:7b-22up5 -144 288 96
-place template swrg:7b-23up5 96 288 -144
-place template swrg:7b-24up5 96 288 -96
-place template swrg:7b-25up5 96 288 -48
-place template swrg:7b-26up5 96 288 0
-place template swrg:7b-27up5 96 288 48
-place template swrg:7b-28up5 96 288 96
-place template swrg:7b-29up5 -96 288 -144
-place template swrg:7b-30up5 -48 288 -144
-place template swrg:7b-31up5 0 288 -144
-place template swrg:7b-32up5 48 288 -144
-place template swrg:7b-33up5 -96 288 96
-place template swrg:7b-34up5 -48 288 96
-place template swrg:7b-35up5 0 288 96
-place template swrg:7b-36up5 48 288 96
+place template swrg:7b-17up5 -144 288 -144 none none 1 1 strict
+place template swrg:7b-18up5 -144 288 -96 none none 1 1 strict
+place template swrg:7b-19up5 -144 288 -48 none none 1 1 strict
+place template swrg:7b-20up5 -144 288 0 none none 1 1 strict
+place template swrg:7b-21up5 -144 288 48 none none 1 1 strict
+place template swrg:7b-22up5 -144 288 96 none none 1 1 strict
+place template swrg:7b-23up5 96 288 -144 none none 1 1 strict
+place template swrg:7b-24up5 96 288 -96 none none 1 1 strict
+place template swrg:7b-25up5 96 288 -48 none none 1 1 strict
+place template swrg:7b-26up5 96 288 0 none none 1 1 strict
+place template swrg:7b-27up5 96 288 48 none none 1 1 strict
+place template swrg:7b-28up5 96 288 96 none none 1 1 strict
+place template swrg:7b-29up5 -96 288 -144 none none 1 1 strict
+place template swrg:7b-30up5 -48 288 -144 none none 1 1 strict
+place template swrg:7b-31up5 0 288 -144 none none 1 1 strict
+place template swrg:7b-32up5 48 288 -144 none none 1 1 strict
+place template swrg:7b-33up5 -96 288 96 none none 1 1 strict
+place template swrg:7b-34up5 -48 288 96 none none 1 1 strict
+place template swrg:7b-35up5 0 288 96 none none 1 1 strict
+place template swrg:7b-36up5 48 288 96 none none 1 1 strict

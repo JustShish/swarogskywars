@@ -6,6 +6,22 @@ execute as @a run function swrg:gui/clear
 execute as @a run function swrg:gui/page
 execute in minecraft:overworld run function lbc:end_resets
 execute in minecraft:overworld run function lbc:only_end_resets
+scoreboard players reset #team1 swrg.math
+scoreboard players reset #team2 swrg.math
+scoreboard players reset #team3 swrg.math
+scoreboard players reset #team4 swrg.math
+scoreboard players reset #team5 swrg.math
+scoreboard players reset #team6 swrg.math
+scoreboard players reset #team7 swrg.math
+scoreboard players reset #team8 swrg.math
+scoreboard players reset #team9 swrg.math
+scoreboard players reset #team10 swrg.math
+scoreboard players reset #team11 swrg.math
+scoreboard players reset #team12 swrg.math
+scoreboard players reset #team13 swrg.math
+scoreboard players reset #team14 swrg.math
+scoreboard players reset #team15 swrg.math
+scoreboard players reset #team16 swrg.math
 scoreboard players set #quickstartstat swrg.math 1
 function lbc:only_end_resets_once
 ### БАФФЛЕД ЕБЛАН

@@ -13,6 +13,7 @@ scoreboard objectives add swrg.kit dummy
 scoreboard objectives add swrg.suffix dummy
 scoreboard objectives add swrg.skill dummy
 scoreboard objectives add swrg.hp_display dummy
+scoreboard objectives add swrg.kill_effect dummy
 # gui
 scoreboard objectives add swrg.case_id dummy
 scoreboard objectives add swrg.gui_page dummy

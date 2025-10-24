@@ -29,5 +29,5 @@ execute if entity @s[scores={swrg.skill=11},advancements={swrg:core/attacking=tr
 execute unless score legacy lbc.math matches 1 if score @s[predicate=swrg:sprint,predicate=!swrg:on_ground] swrg.skill matches 12 rotated ~ 0 run function swrg:game/player/skills/wind_rider
 execute unless score legacy lbc.math matches 1 if score @s[predicate=swrg:sprint,predicate=!swrg:on_ground] swrg.skill matches 1200 rotated ~ 0 run function swrg:game/player/skills/wind_rider_gay
 
-scoreboard players set @a swrg.fall_damage 0
-advancement revoke @a only swrg:core/attacking
+execute unless score legacy lbc.math matches 1 if score @s[nbt={HurtTime:5s}] swrg.skill matches 13 run function swrg:game/player/skills/summon_vex
+

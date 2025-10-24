@@ -10,6 +10,7 @@ loot replace entity @s[tag=swrg.skill9] enderchest.8 loot swrg:gui/page/4000/8
 loot replace entity @s[tag=swrg.skill10] enderchest.9 loot swrg:gui/page/4000/9
 loot replace entity @s[tag=swrg.skill11] enderchest.10 loot swrg:gui/page/4000/10
 loot replace entity @s[advancements={lbc:true_advancements/event/wind_wand=true}] enderchest.11 loot swrg:gui/page/4000/11
+loot replace entity @s[advancements={lbc:true_advancements/event/soulcorrupt_wand=true}] enderchest.12 loot swrg:gui/page/4000/12
 #
 item modify entity @s[scores={swrg.skill=1}] enderchest.0 swrg:select
 item modify entity @s[scores={swrg.skill=2}] enderchest.1 swrg:select
@@ -50,6 +51,7 @@ item replace entity @s[tag=!swrg.skill9] enderchest.8 with minecraft:repeating_c
 item replace entity @s[tag=!swrg.skill10] enderchest.9 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked_case"]
 item replace entity @s[tag=!swrg.skill11] enderchest.10 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked_case"]
 item replace entity @s[advancements={lbc:true_advancements/event/wind_wand=false}] enderchest.11 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/event/soulcorrupt_wand=false}] enderchest.12 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 
 
 
@@ -66,6 +68,7 @@ item modify entity @s[tag=!swrg.skill9] enderchest.8 swrg:locked_skill_default
 item modify entity @s[tag=!swrg.skill10] enderchest.9 swrg:locked_skill_default
 item modify entity @s[tag=!swrg.skill11] enderchest.10 swrg:locked_skill_default
 item modify entity @s[advancements={lbc:true_advancements/event/wind_wand=false}] enderchest.11 swrg:locked/wind_wand
+item modify entity @s[advancements={lbc:true_advancements/event/soulcorrupt_wand=false}] enderchest.12 swrg:locked/soulcorrupt_wand
 
 
 loot replace entity @s enderchest.18 loot swrg:gui/back

@@ -1,0 +1,18 @@
+summon vex ~ ~1 ~ {Health:5,attributes:[{"id":"minecraft:follow_range",base:100}]}
+execute positioned ~ ~1 ~ if entity @s[team=1] run team join 1 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=2] run team join 2 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=3] run team join 3 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=4] run team join 4 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=5] run team join 5 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=6] run team join 6 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=7] run team join 7 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=8] run team join 8 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=9] run team join 9 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=10] run team join 10 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=11] run team join 11 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=12] run team join 12 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=13] run team join 13 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=14] run team join 14 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=15] run team join 15 @e[type=vex,distance=..0.01]
+execute positioned ~ ~1 ~ if entity @s[team=16] run team join 16 @e[type=vex,distance=..0.01]
+particle cloud ~ ~1 ~ 0.3 0.6 0.3 0 3 normal

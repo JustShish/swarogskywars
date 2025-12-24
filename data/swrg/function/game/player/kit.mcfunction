@@ -16,7 +16,7 @@ give @a[scores={swrg.kit=5}] minecraft:golden_apple
 give @a[scores={swrg.kit=5}] minecraft:bread 8
 give @a[scores={swrg.kit=5}] minecraft:golden_carrot 2
 #
-give @a[scores={swrg.kit=6}] minecraft:chainmail_chestplate[minecraft:enchantments={"minecraft:thorns":1}]
+give @a[scores={swrg.kit=6}] minecraft:chainmail_chestplate[minecraft:enchantments={"minecraft:thorns":4}]
 #
 give @a[scores={swrg.kit=7}] minecraft:golden_chestplate[minecraft:enchantments={"minecraft:protection":4},minecraft:attribute_modifiers=[{id:"34f9eab4-c40b-4ae2-be4e-501ae2e4d57a",type:"minecraft:knockback_resistance",amount:3,operation:"add_value",slot:"chest"},{id:"2b4d9ea4-5855-4792-90d8-0338c0e6492b",type:"minecraft:armor",amount:5,operation:"add_value",slot:"chest"}]]
 #

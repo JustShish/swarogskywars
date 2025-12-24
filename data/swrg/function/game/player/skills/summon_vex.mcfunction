@@ -1,4 +1,4 @@
-summon vex ~ ~1 ~ {Health:5,attributes:[{"id":"minecraft:follow_range",base:100}]}
+summon vex ~ ~1 ~ {Health:0.1,attributes:[{"id":"minecraft:follow_range",base:50}]}
 execute positioned ~ ~1 ~ if entity @s[team=1] run team join 1 @e[type=vex,distance=..0.01]
 execute positioned ~ ~1 ~ if entity @s[team=2] run team join 2 @e[type=vex,distance=..0.01]
 execute positioned ~ ~1 ~ if entity @s[team=3] run team join 3 @e[type=vex,distance=..0.01]

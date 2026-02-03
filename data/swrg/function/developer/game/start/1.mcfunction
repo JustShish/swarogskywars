@@ -15,6 +15,6 @@ execute if score #lbcskill swrg.math matches 1 as @a at @s run function lbc:swrg
 execute if score #lbc.challenge swrg.math matches 1 as @a at @s run function lbc:swrg_kit_integration/game/challenge_content_select
 execute at @e[type=minecraft:marker,tag=swrg.spawn] run gamemode survival @p[distance=..2]
 
-gamerule doMobLoot true
-gamerule doTileDrops true
-gamerule doEntityDrops true
+gamerule mob_drops true
+gamerule block_drops true
+gamerule entity_drops true

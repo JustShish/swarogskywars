@@ -5,12 +5,12 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:chain",
+                    "name": "minecraft:iron_chain",
                     "functions": [
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "translate": "block.minecraft.chain",
+                                "translate": "block.minecraft.iron_chain",
                                 "color": "light_purple",
                                 "italic": false
                             }

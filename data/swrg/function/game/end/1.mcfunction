@@ -33,7 +33,7 @@ scoreboard players set @a swrg.case_id 0
 ###
 effect give @a minecraft:absorption 1 0 true
 gamemode adventure @a
-execute in minecraft:overworld run gamerule fallDamage false
+execute in minecraft:overworld run gamerule fall_damage false
 execute in minecraft:overworld run worldborder set 2000000
 execute in minecraft:overworld run tp @a 0 127 0
 execute in minecraft:overworld run function swrg:gui/roll/player

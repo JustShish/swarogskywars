@@ -3,9 +3,9 @@ bossbar set swrg:gametimer visible false
 execute if score #count swrg.math matches 0 run tellraw @a {"nbt":"title.draw","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 execute if score #count swrg.math matches 1 run tellraw @a {"nbt":"title.player_win","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}
 #
-gamerule doMobLoot false
-gamerule doTileDrops false
-gamerule doEntityDrops false
+gamerule mob_drops false
+gamerule block_drops false
+gamerule entity_drops false
 #
 # reward
 tellraw @p[gamemode=!spectator] {"nbt":"reward.win","storage":"swrg:lang","interpret":true,"source":"storage","type":"nbt"}

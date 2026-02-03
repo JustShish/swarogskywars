@@ -18,7 +18,7 @@ item replace entity @s[tag=swrg.bars15] enderchest.15 with minecraft:red_stained
 item replace entity @s[tag=swrg.bars16] enderchest.16 with minecraft:black_stained_glass[minecraft:item_name={"color":"aqua","italic":false,"translate":"block.minecraft.black_stained_glass"}]
 item replace entity @s[tag=swrg.bars17] enderchest.17 with minecraft:barrier[minecraft:item_name={"color":"light_purple","italic":false,"translate":"block.minecraft.barrier"}]
 item replace entity @s[tag=swrg.bars18] enderchest.19 with minecraft:ice[minecraft:item_name={"color":"light_purple","italic":false,"translate":"block.minecraft.ice"}]
-item replace entity @s[tag=swrg.bars19] enderchest.20 with minecraft:chain[minecraft:item_name={"color":"light_purple","italic":false,"translate":"block.minecraft.chain"}]
+item replace entity @s[tag=swrg.bars19] enderchest.20 with minecraft:iron_chain[minecraft:item_name={"color":"light_purple","italic":false,"translate":"block.minecraft.iron_chain"}]
 item replace entity @s[tag=swrg.bars20] enderchest.21 with minecraft:crying_obsidian[minecraft:item_name={"color":"red","italic":false,"text":"LGBT"}]
 #
 item modify entity @s[scores={swrg.bars=0}] enderchest.0 swrg:select

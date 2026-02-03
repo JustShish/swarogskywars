@@ -6,5 +6,5 @@ loot replace entity @s[scores={swrg.case_id=5}] enderchest.9 9 mine 10241024 5 1
 loot replace entity @s[scores={swrg.case_id=6}] enderchest.9 9 mine 10241024 6 10241024 minecraft:stone[minecraft:custom_data={a:1}]
 loot replace entity @s[scores={swrg.case_id=7}] enderchest.9 9 mine 10241024 7 10241024 minecraft:stone[minecraft:custom_data={a:1}]
 loot replace entity @s[scores={swrg.case_id=8}] enderchest.9 9 mine 10241024 8 10241024 minecraft:stone[minecraft:custom_data={a:1}]
-item replace entity @s enderchest.2 with chain[tooltip_display={hide_tooltip:true}]
-item replace entity @s enderchest.20 with chain[tooltip_display={hide_tooltip:true}]
+item replace entity @s enderchest.2 with iron_chain[tooltip_display={hide_tooltip:true}]
+item replace entity @s enderchest.20 with iron_chain[tooltip_display={hide_tooltip:true}]

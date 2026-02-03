@@ -1,7 +1,9 @@
 {
     "pack": {
-        "pack_format": 81,
-        "description": "Made by _Swarog"
+        
+        "min_format": 84,
+        "max_format": 84,
+        "description": "Made by _Swarog & BaffledHedgehog"
     },
     "filter": {
         "block": [

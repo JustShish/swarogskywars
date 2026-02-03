@@ -19,10 +19,10 @@ execute as @a[scores={swrg.bars=18}] at @s run fill ~-1 ~-2 ~-1 ~1 ~4 ~1 minecra
 #
 execute as @a[scores={swrg.bars=19}] at @s run fill ~-1 ~-2 ~-1 ~1 ~4 ~1 minecraft:barrier replace minecraft:glass
 
-execute as @a[scores={swrg.bars=19}] at @s run fill ~1 ~-2 ~1 ~1 ~3 ~1 minecraft:chain
-execute as @a[scores={swrg.bars=19}] at @s run fill ~1 ~-2 ~-1 ~1 ~3 ~-1 minecraft:chain
-execute as @a[scores={swrg.bars=19}] at @s run fill ~-1 ~-2 ~-1 ~-1 ~3 ~-1 minecraft:chain
-execute as @a[scores={swrg.bars=19}] at @s run fill ~-1 ~-2 ~1 ~-1 ~3 ~1 minecraft:chain
+execute as @a[scores={swrg.bars=19}] at @s run fill ~1 ~-2 ~1 ~1 ~3 ~1 minecraft:iron_chain
+execute as @a[scores={swrg.bars=19}] at @s run fill ~1 ~-2 ~-1 ~1 ~3 ~-1 minecraft:iron_chain
+execute as @a[scores={swrg.bars=19}] at @s run fill ~-1 ~-2 ~-1 ~-1 ~3 ~-1 minecraft:iron_chain
+execute as @a[scores={swrg.bars=19}] at @s run fill ~-1 ~-2 ~1 ~-1 ~3 ~1 minecraft:iron_chain
 #
 execute as @a[scores={swrg.bars=20}] at @s run fill ~-1 ~-2 ~-1 ~1 ~-2 ~1 minecraft:red_stained_glass replace minecraft:glass
 execute as @a[scores={swrg.bars=20}] at @s run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:yellow_stained_glass replace minecraft:glass

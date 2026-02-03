@@ -18,6 +18,6 @@ scoreboard players set game_started lbc.math 1
 function lbc:start_after_all
 execute at @e[type=minecraft:marker,tag=swrg.spawn] run gamemode survival @p[distance=..2]
 
-gamerule doMobLoot true
-gamerule doTileDrops true
-gamerule doEntityDrops true
+gamerule mob_drops true
+gamerule block_drops true
+gamerule entity_drops true

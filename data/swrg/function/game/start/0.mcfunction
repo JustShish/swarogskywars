@@ -30,6 +30,23 @@ scoreboard players reset #team13 swrg.math
 scoreboard players reset #team14 swrg.math
 scoreboard players reset #team15 swrg.math
 scoreboard players reset #team16 swrg.math
+scoreboard players reset #team17 swrg.math
+scoreboard players reset #team18 swrg.math
+scoreboard players reset #team19 swrg.math
+scoreboard players reset #team20 swrg.math
+scoreboard players reset #team21 swrg.math
+scoreboard players reset #team22 swrg.math
+scoreboard players reset #team23 swrg.math
+scoreboard players reset #team24 swrg.math
+scoreboard players reset #team25 swrg.math
+scoreboard players reset #team26 swrg.math
+scoreboard players reset #team27 swrg.math
+scoreboard players reset #team28 swrg.math
+scoreboard players reset #team29 swrg.math
+scoreboard players reset #team30 swrg.math
+scoreboard players reset #team31 swrg.math
+scoreboard players reset #team32 swrg.math
+
 execute if score #gamemode swrg.math matches 2 run function lbc:start
 execute if score #gamemode swrg.math matches 3..4 run return run function lbc:start_bedwars
 
@@ -60,6 +77,23 @@ execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marke
 execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.14"]}
 execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.15"]}
 execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.16"]}
+
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.17"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.18"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.19"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.20"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.21"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.22"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.23"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.24"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.25"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.26"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.27"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.28"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.29"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.30"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.31"]}
+execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.32"]}
 execute unless score #gamemode swrg.math matches 3..4 run execute as @e[type=minecraft:marker,tag=swrg.team,sort=random] run function swrg:game/start/team_join
 ###
 scoreboard players set #temp swrg.math 1

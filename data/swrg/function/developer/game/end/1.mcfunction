@@ -22,6 +22,23 @@ scoreboard players reset #team13 swrg.math
 scoreboard players reset #team14 swrg.math
 scoreboard players reset #team15 swrg.math
 scoreboard players reset #team16 swrg.math
+scoreboard players reset #team17 swrg.math
+scoreboard players reset #team18 swrg.math
+scoreboard players reset #team19 swrg.math
+scoreboard players reset #team20 swrg.math
+scoreboard players reset #team21 swrg.math
+scoreboard players reset #team22 swrg.math
+scoreboard players reset #team23 swrg.math
+scoreboard players reset #team24 swrg.math
+scoreboard players reset #team25 swrg.math
+scoreboard players reset #team26 swrg.math
+scoreboard players reset #team27 swrg.math
+scoreboard players reset #team28 swrg.math
+scoreboard players reset #team29 swrg.math
+scoreboard players reset #team30 swrg.math
+scoreboard players reset #team31 swrg.math
+scoreboard players reset #team32 swrg.math
+
 scoreboard players set #quickstartstat swrg.math 1
 function lbc:only_end_resets_once
 ### БАФФЛЕД ЕБЛАН

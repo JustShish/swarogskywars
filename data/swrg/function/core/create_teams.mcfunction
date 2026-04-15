@@ -14,6 +14,22 @@ team remove 13
 team remove 14
 team remove 15
 team remove 16
+team remove 17
+team remove 18
+team remove 19
+team remove 20
+team remove 21
+team remove 22
+team remove 23
+team remove 24
+team remove 25
+team remove 26
+team remove 27
+team remove 28
+team remove 29
+team remove 30
+team remove 31
+team remove 32
 
 team add 1
 team add 2
@@ -31,6 +47,22 @@ team add 13
 team add 14
 team add 15
 team add 16
+team add 17
+team add 18
+team add 19
+team add 20
+team add 21
+team add 22
+team add 23
+team add 24
+team add 25
+team add 26
+team add 27
+team add 28
+team add 29
+team add 30
+team add 31
+team add 32
 
 team modify 1 color aqua
 team modify 2 color black
@@ -48,6 +80,22 @@ team modify 13 color light_purple
 team modify 14 color red
 team modify 15 color white
 team modify 16 color yellow
+team modify 17 color aqua
+team modify 18 color black
+team modify 19 color blue
+team modify 20 color dark_aqua
+team modify 21 color dark_blue
+team modify 22 color dark_gray
+team modify 23 color dark_green
+team modify 24 color dark_purple
+team modify 25 color dark_red
+team modify 26 color gold
+team modify 27 color gray
+team modify 28 color green
+team modify 29 color light_purple
+team modify 30 color red
+team modify 31 color white
+team modify 32 color yellow
 
 team modify 1 seeFriendlyInvisibles false
 team modify 2 seeFriendlyInvisibles false
@@ -65,6 +113,22 @@ team modify 13 seeFriendlyInvisibles false
 team modify 14 seeFriendlyInvisibles false
 team modify 15 seeFriendlyInvisibles false
 team modify 16 seeFriendlyInvisibles false
+team modify 17 seeFriendlyInvisibles false
+team modify 18 seeFriendlyInvisibles false
+team modify 19 seeFriendlyInvisibles false
+team modify 20 seeFriendlyInvisibles false
+team modify 21 seeFriendlyInvisibles false
+team modify 22 seeFriendlyInvisibles false
+team modify 23 seeFriendlyInvisibles false
+team modify 24 seeFriendlyInvisibles false
+team modify 25 seeFriendlyInvisibles false
+team modify 26 seeFriendlyInvisibles false
+team modify 27 seeFriendlyInvisibles false
+team modify 28 seeFriendlyInvisibles false
+team modify 29 seeFriendlyInvisibles false
+team modify 30 seeFriendlyInvisibles false
+team modify 31 seeFriendlyInvisibles false
+team modify 32 seeFriendlyInvisibles false
 
 team modify 1 deathMessageVisibility always
 team modify 2 deathMessageVisibility always
@@ -82,3 +146,19 @@ team modify 13 deathMessageVisibility always
 team modify 14 deathMessageVisibility always
 team modify 15 deathMessageVisibility always
 team modify 16 deathMessageVisibility always
+team modify 17 deathMessageVisibility always
+team modify 18 deathMessageVisibility always
+team modify 19 deathMessageVisibility always
+team modify 20 deathMessageVisibility always
+team modify 21 deathMessageVisibility always
+team modify 22 deathMessageVisibility always
+team modify 23 deathMessageVisibility always
+team modify 24 deathMessageVisibility always
+team modify 25 deathMessageVisibility always
+team modify 26 deathMessageVisibility always
+team modify 27 deathMessageVisibility always
+team modify 28 deathMessageVisibility always
+team modify 29 deathMessageVisibility always
+team modify 30 deathMessageVisibility always
+team modify 31 deathMessageVisibility always
+team modify 32 deathMessageVisibility always

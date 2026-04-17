@@ -124,3 +124,49 @@ place template swrg:60-33up2 -96 144 96 none none 0.75 1 strict
 place template swrg:60-34up2 -48 144 96 none none 0.75 1 strict
 place template swrg:60-35up2 0 144 96 none none 0.75 1 strict
 place template swrg:60-36up2 48 144 96 none none 0.75 1 strict
+
+
+
+
+
+
+
+
+
+place template swrg:60-1up3 -96 192 -96 none none 0.75 1 strict
+place template swrg:60-2up3 -48 192 -96 none none 0.75 1 strict
+place template swrg:60-3up3 0 192 -96 none none 0.75 1 strict
+place template swrg:60-4up3 48 192 -96 none none 0.75 1 strict
+place template swrg:60-5up3 -96 192 -48 none none 0.75 1 strict
+place template swrg:60-6up3 -48 192 -48 none none 0.75 1 strict
+place template swrg:60-7up3 0 192 -48 none none 0.75 1 strict
+place template swrg:60-8up3 48 192 -48 none none 0.75 1 strict
+place template swrg:60-9up3 -96 192 0 none none 0.75 1 strict
+place template swrg:60-10up3 -48 192 0 none none 0.75 1 strict
+place template swrg:60-11up3 0 192 0 none none 0.75 1 strict
+place template swrg:60-12up3 48 192 0 none none 0.75 1 strict
+place template swrg:60-13up3 -96 192 48 none none 0.75 1 strict
+place template swrg:60-14up3 -48 192 48 none none 0.75 1 strict
+place template swrg:60-15up3 0 192 48 none none 0.75 1 strict
+place template swrg:60-16up3 48 192 48 none none 0.75 1 strict
+
+place template swrg:60-17up3 -144 192 -144 none none 0.75 1 strict
+place template swrg:60-18up3 -144 192 -96 none none 0.75 1 strict
+place template swrg:60-19up3 -144 192 -48 none none 0.75 1 strict
+place template swrg:60-20up3 -144 192 0 none none 0.75 1 strict
+place template swrg:60-21up3 -144 192 48 none none 0.75 1 strict
+place template swrg:60-22up3 -144 192 96 none none 0.75 1 strict
+place template swrg:60-23up3 96 192 -144 none none 0.75 1 strict
+place template swrg:60-24up3 96 192 -96 none none 0.75 1 strict
+place template swrg:60-25up3 96 192 -48 none none 0.75 1 strict
+place template swrg:60-26up3 96 192 0 none none 0.75 1 strict
+place template swrg:60-27up3 96 192 48 none none 0.75 1 strict
+place template swrg:60-28up3 96 192 96 none none 0.75 1 strict
+place template swrg:60-29up3 -96 192 -144 none none 0.75 1 strict
+place template swrg:60-30up3 -48 192 -144 none none 0.75 1 strict
+place template swrg:60-31up3 0 192 -144 none none 0.75 1 strict
+place template swrg:60-32up3 48 192 -144 none none 0.75 1 strict
+place template swrg:60-33up3 -96 192 96 none none 0.75 1 strict
+place template swrg:60-34up3 -48 192 96 none none 0.75 1 strict
+place template swrg:60-35up3 0 192 96 none none 0.75 1 strict
+place template swrg:60-36up3 48 192 96 none none 0.75 1 strict

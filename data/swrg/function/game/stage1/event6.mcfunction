@@ -1,3 +1,7 @@
+execute at @e[type=minecraft:marker,tag=swrg.default] unless block ~ ~ ~ #chest run setblock ~ ~ ~ chest
+execute at @e[type=minecraft:marker,tag=swrg.midle] unless block ~ ~ ~ #chest run setblock ~ ~ ~ chest
+execute at @e[type=minecraft:marker,tag=swrg.center] unless block ~ ~ ~ #chest run setblock ~ ~ ~ chest
+
 execute as @e[type=minecraft:marker,predicate=swrg:core/chest] at @s run data remove block ~ ~ ~ Items
 execute as @e[type=minecraft:marker,tag=swrg.default] run data merge entity @s {Tags:["swrg.center"]}
 execute as @e[type=minecraft:marker,tag=swrg.midle] run data merge entity @s {Tags:["swrg.center"]}

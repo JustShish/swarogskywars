@@ -1,3 +1,7 @@
+execute if score ranked lbc.math matches 1 run return run function swrg:gui/select/3000_ranked
+# НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                  ^^^^^^^^^^^^^^^^^^^^
+
+
 scoreboard players set @s[tag=swrg.kit1,scores={swrg.gui_select=0}] swrg.kit 1
 scoreboard players set @s[tag=swrg.kit2,scores={swrg.gui_select=1}] swrg.kit 2
 scoreboard players set @s[tag=swrg.kit3,scores={swrg.gui_select=2}] swrg.kit 3

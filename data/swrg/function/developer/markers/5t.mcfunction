@@ -28,9 +28,9 @@ execute as @e[type=minecraft:marker,tag=swrg.spawn] at @s unless entity @e[type=
 execute as @e[type=minecraft:marker,tag=swrg.look] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:white_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
 
 
-execute as @e[type=minecraft:marker,tag=swrg.default] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:lime_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
-execute as @e[type=minecraft:marker,tag=swrg.midle] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:red_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
-execute as @e[type=minecraft:marker,tag=swrg.center] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:light_blue_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=swrg.default] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] align xyz positioned ~.5 ~ ~.5 run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:lime_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=swrg.midle] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] align xyz positioned ~.5 ~ ~.5 run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:red_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
+execute as @e[type=minecraft:marker,tag=swrg.center] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] align xyz positioned ~.5 ~ ~.5 run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:light_blue_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}
 
 
 execute as @e[type=minecraft:marker,tag=copper_generator] at @s unless entity @e[type=minecraft:falling_block,distance=..1,tag=marker] run summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:brown_concrete"},Time:1,Glowing:1b,Invulnerable:1b,Tags:["marker"],NoGravity:1b}

@@ -1,3 +1,6 @@
+execute if score ranked lbc.math matches 1 run return run function swrg:gui/page/3000_ranked
+# НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                    ^^^^^^^^^^^
+
 loot replace entity @s[tag=swrg.kit1] enderchest.0 loot swrg:gui/page/3000/0
 loot replace entity @s[tag=swrg.kit2] enderchest.1 loot swrg:gui/page/3000/1
 loot replace entity @s[tag=swrg.kit3] enderchest.2 loot swrg:gui/page/3000/2

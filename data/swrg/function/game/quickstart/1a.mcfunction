@@ -8,6 +8,8 @@ execute if score plcnt swrg.math matches ..4 run function swrg:game/quickstart/1
 execute if score plcnt swrg.math matches 5..8 run function swrg:game/quickstart/1_players_8
 execute if score plcnt swrg.math matches 9..12 run function swrg:game/quickstart/1_players_12
 execute if score plcnt swrg.math matches 13..16 run function swrg:game/quickstart/1_players_16
+execute if score plcnt swrg.math matches 17..20 run function swrg:game/quickstart/1_players_20
+execute if score plcnt swrg.math matches 21..24 run function swrg:game/quickstart/1_players_24
 
 function swrg:game/quickstart/2 with storage swrg:setup
 scoreboard players set #quickstartstat swrg.math 0

@@ -1,4 +1,5 @@
 loot replace entity @s[advancements={lbc:true_advancements/event/pumpkin_sword=true}] enderchest.0 loot swrg:gui/page/7400/0
+loot replace entity @s[advancements={swrg:rewards/turnir/trophy1=true}] enderchest.1 loot swrg:gui/page/7400/1
 #
 item modify entity @s[scores={swrg.death_effect=1}] enderchest.0 swrg:select
 item modify entity @s[scores={swrg.death_effect=2}] enderchest.1 swrg:select
@@ -27,6 +28,9 @@ item modify entity @s[scores={swrg.death_effect=24}] enderchest.24 swrg:select
 #
 item replace entity @s[advancements={lbc:true_advancements/event/pumpkin_sword=false}] enderchest.0 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item modify entity @s[advancements={lbc:true_advancements/event/pumpkin_sword=false}] enderchest.0 swrg:locked/pumpkin_sword
+
+item replace entity @s[advancements={swrg:rewards/turnir/trophy1=false}] enderchest.1 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item modify entity @s[advancements={swrg:rewards/turnir/trophy1=false}] enderchest.1 swrg:locked/turnir1
 #
 execute if score halloween lbc.event matches 1 run function swrg:gui/page/7400_halloween
 

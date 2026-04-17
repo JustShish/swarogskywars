@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:gold_ingot",count:1}}

@@ -24,5 +24,9 @@ $execute if score @s swrg.suffix matches 23 run team modify $(team) suffix {"col
 $execute if score @s swrg.suffix matches 24 run team modify $(team) suffix {"color":"#4E5C24","text":" \uE193","bold":false}
 $execute if score @s swrg.suffix matches 25 run team modify $(team) suffix {"color":"#4E5C24","text":" \uE194","bold":false}
 $execute if score @s swrg.suffix matches 26 run team modify $(team) suffix {"color":"#4E5C24","text":" \uE195","bold":false}
+
+$execute if score @s swrg.suffix matches 27 run team modify $(team) suffix {"color":"#4E5C24","text":" \uE207","bold":false}
+$execute if score @s swrg.suffix matches 28 run team modify $(team) suffix {"color":"#4E5C24","text":" \uE208","bold":false}
+$execute if score @s swrg.suffix matches 29 run team modify $(team) suffix {"color":"#4E5C24","text":" \uE209","bold":false}
 $execute unless score @s swrg.suffix matches -2147483648..2147483647 run team modify $(team) suffix ""
 $execute if score @s swrg.suffix matches 0 run team modify $(team) suffix ""

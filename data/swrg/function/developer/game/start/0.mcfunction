@@ -58,6 +58,7 @@ execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marke
 execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.32"]}
 
 execute unless score #gamemode swrg.math matches 3..4 run execute as @e[type=minecraft:marker,tag=swrg.team,sort=random] run function swrg:game/start/team_join
+
 ###
 scoreboard players set #temp swrg.math 1
 function swrg:game/start/team_prefix/select_for

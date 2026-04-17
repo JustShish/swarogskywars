@@ -1,6 +1,10 @@
 scoreboard players set @s[scores={swrg.gui_select=0},advancements={swrg:rewards/suffix_25=true}] swrg.suffix 25
 scoreboard players set @s[scores={swrg.gui_select=1},advancements={swrg:rewards/suffix_26=true}] swrg.suffix 26
 
+scoreboard players set @s[scores={swrg.gui_select=2},advancements={swrg:rewards/turnir/trophy1=true}] swrg.suffix 27
+scoreboard players set @s[scores={swrg.gui_select=3},advancements={swrg:rewards/turnir/trophy2=true}] swrg.suffix 28
+scoreboard players set @s[scores={swrg.gui_select=4},advancements={swrg:rewards/turnir/trophy3=true}] swrg.suffix 29
+
 
 
 #

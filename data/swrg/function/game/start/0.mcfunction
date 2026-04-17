@@ -59,7 +59,7 @@ execute as @e[tag=swrg.spawn,sort=random] at @s unless entity @p[distance=..1] r
 execute as @a at @s run tp @s ~ ~1 ~ facing entity @e[type=minecraft:marker,tag=swrg.look,limit=1]
 execute unless score #gamemode swrg.math matches 3..4 run function swrg:game/start/bars
 #
-
+team leave @a
 ###     Join teams
 execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.1"]}
 execute unless score #gamemode swrg.math matches 3..4 run summon minecraft:marker ~ ~ ~ {Tags:["swrg.team","swrg.2"]}

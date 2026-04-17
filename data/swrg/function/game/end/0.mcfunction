@@ -59,7 +59,7 @@ scoreboard players reset #team32 swrg.math
 scoreboard players set #gamestat swrg.math 5
 tp @a @e[tag=swrg.look,limit=1]
 clear @a
-execute unless score #gamemode swrg.math matches 3..4 run team leave @a
+
 gamemode creative @p[gamemode=!spectator]
 gamemode spectator @a[gamemode=!creative]
 schedule function swrg:game/end/1 10s

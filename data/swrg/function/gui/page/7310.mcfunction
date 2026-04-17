@@ -1,5 +1,8 @@
 loot replace entity @s[advancements={swrg:rewards/suffix_25=true}] enderchest.0 loot swrg:gui/page/7300/24
 loot replace entity @s[advancements={swrg:rewards/suffix_26=true}] enderchest.1 loot swrg:gui/page/7300/25
+loot replace entity @s[advancements={swrg:rewards/turnir/trophy1=true}] enderchest.2 loot swrg:gui/page/7300/26
+loot replace entity @s[advancements={swrg:rewards/turnir/trophy2=true}] enderchest.3 loot swrg:gui/page/7300/27
+loot replace entity @s[advancements={swrg:rewards/turnir/trophy3=true}] enderchest.4 loot swrg:gui/page/7300/28
 #
 item modify entity @s[scores={swrg.suffix=25}] enderchest.0 swrg:select
 item modify entity @s[scores={swrg.suffix=26}] enderchest.1 swrg:select
@@ -29,6 +32,18 @@ item modify entity @s[scores={swrg.suffix=48}] enderchest.24 swrg:select
 #
 execute unless score halloween lbc.event matches 1 run function swrg:gui/page/7310_default
 execute if score halloween lbc.event matches 1 run function swrg:gui/page/7310_halloween
+
+
+
+item replace entity @s[advancements={swrg:rewards/turnir/trophy1=false}] enderchest.2 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={swrg:rewards/turnir/trophy2=false}] enderchest.3 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={swrg:rewards/turnir/trophy3=false}] enderchest.4 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+
+
+
+item modify entity @s[advancements={swrg:rewards/turnir/trophy1=false}] enderchest.2 swrg:locked_event
+item modify entity @s[advancements={swrg:rewards/turnir/trophy2=false}] enderchest.3 swrg:locked_event
+item modify entity @s[advancements={swrg:rewards/turnir/trophy3=false}] enderchest.4 swrg:locked_event
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

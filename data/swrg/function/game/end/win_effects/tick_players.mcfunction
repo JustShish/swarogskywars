@@ -1,0 +1,1 @@
+execute if score @s swrg.death_effect matches 2 run return run function swrg:game/end/win_effects/golden_swo_player_tick

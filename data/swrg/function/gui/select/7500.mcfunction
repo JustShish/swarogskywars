@@ -4,6 +4,9 @@ tellraw @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/event/
 scoreboard players set @s[scores={swrg.gui_select=1},advancements={lbc:true_advancements/event/soulhunter_mace=true}] swrg.kill_effect 2
 tellraw @s[scores={swrg.gui_select=1},advancements={lbc:true_advancements/event/soulhunter_mace=false}] {"translate":"lbc.adv.event.soulhunter_mace.lore"}
 
+scoreboard players set @s[scores={swrg.gui_select=2},advancements={swrg:rewards/turnir/killer=true}] swrg.kill_effect 3
+tellraw @s[scores={swrg.gui_select=2},advancements={swrg:rewards/turnir/killer=false}] {"translate":"tournament_open"}
+
 #
 scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 7000
 scoreboard players set @s[scores={swrg.gui_select=25}] swrg.kill_effect 0

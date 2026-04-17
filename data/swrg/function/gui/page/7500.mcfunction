@@ -1,5 +1,6 @@
 loot replace entity @s[advancements={lbc:true_advancements/event/soulcorrupt_wand_upgraded=true}] enderchest.0 loot swrg:gui/page/7500/0
 loot replace entity @s[advancements={lbc:true_advancements/event/soulhunter_mace=true}] enderchest.1 loot swrg:gui/page/7500/1
+loot replace entity @s[advancements={swrg:rewards/turnir/killer=true}] enderchest.2 loot swrg:gui/page/7500/2
 #
 item modify entity @s[scores={swrg.kill_effect=1}] enderchest.0 swrg:select
 item modify entity @s[scores={swrg.kill_effect=2}] enderchest.1 swrg:select
@@ -31,6 +32,9 @@ item modify entity @s[advancements={lbc:true_advancements/event/soulcorrupt_wand
 
 item replace entity @s[advancements={lbc:true_advancements/event/soulhunter_mace=false}] enderchest.1 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item modify entity @s[advancements={lbc:true_advancements/event/soulhunter_mace=false}] enderchest.1 swrg:locked/soulhunter_mace
+
+item replace entity @s[advancements={swrg:rewards/turnir/killer=false}] enderchest.2 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item modify entity @s[advancements={swrg:rewards/turnir/killer=false}] enderchest.2 swrg:locked/turnir1
 
 #
 execute if score halloween lbc.event matches 1 run function swrg:gui/page/7500_halloween

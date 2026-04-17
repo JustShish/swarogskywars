@@ -9,7 +9,7 @@ item replace entity @s enderchest.7 with minecraft:cherry_sapling[minecraft:cust
 item replace entity @s enderchest.8 with minecraft:obsidian[minecraft:custom_name={"color":"gray","italic":false,"text":"End Pillars (20)"}]
 item replace entity @s enderchest.9 with minecraft:pink_wool[minecraft:custom_name={"color":"gray","italic":false,"text":"Blossom Meadows (16)"}]
 item replace entity @s enderchest.10 with minecraft:sand[minecraft:custom_name={"color":"gray","italic":false,"text":"Sand (20)"}]
-item replace entity @s enderchest.10 with minecraft:red_terracotta[minecraft:custom_name={"color":"gray","italic":false,"text":"Orcs (12)"}]
+item replace entity @s enderchest.11 with minecraft:red_terracotta[minecraft:custom_name={"color":"gray","italic":false,"text":"Orcs (12)"}]
 
 item replace entity @s enderchest.13 with minecraft:magma_cream[minecraft:custom_name={"color":"gray","italic":false,"text":"Dragonball (24)"}]
 

@@ -1,4 +1,4 @@
-execute if score ranked lbc.math matches 1 run return run function swrg:gui/select/3000_ranked
+execute if score ranked lbc.event matches 1 run return run function swrg:gui/select/3000_ranked
 # НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                  ^^^^^^^^^^^^^^^^^^^^
 
 

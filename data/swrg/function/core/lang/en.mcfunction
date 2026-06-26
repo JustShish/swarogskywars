@@ -335,8 +335,10 @@ data modify storage swrg:lang page1000.s17-10 set value {Name:{"text":"Lucky Tri
 data modify storage swrg:lang page1000.s17-11 set value {Name:{"text":"Lucky Trinkets per player - 11","color":"white","italic":false}}
 data modify storage swrg:lang page1000.s17-12 set value {Name:{"text":"Lucky Trinkets per player - 12 (MAX)","color":"white","italic":false}}
 
-data modify storage swrg:lang page0.s20 set value {Name:{"text":"Trinkets! (Can be stacked!)","color":"white","italic":false}}
-data modify storage swrg:lang page0.s21 set value {Name:{"text":"Level-Ups! (Choose multiple!)","color":"white","italic":false}}
+data modify storage swrg:lang page0.s20 set value {Name:{"text":"Trinkets! Choose ","color":"white","italic":false}}
+data modify storage swrg:lang page0.s201 set value {Name:{"text":", you can choose it in any way - different or stack same ones","color":"white","italic":false}}
+data modify storage swrg:lang page0.s21 set value {Name:{"text":"Level-Ups! Choose ","color":"white","italic":false}}
+data modify storage swrg:lang page0.s211 set value {Name:{"text":" different!","color":"white","italic":false}}
 data modify storage swrg:lang page0.s22 set value {Name:{"text":"Super-Kit!","color":"white","italic":false}}
 data modify storage swrg:lang page0.s23 set value {Name:{"text":"Super-Skill!","color":"white","italic":false}}
 data modify storage swrg:lang page0.s24 set value {Name:{"text":"-_\\Challenges/_-","color":"white","italic":false}}

@@ -347,8 +347,10 @@ data modify storage swrg:lang page1000.s24-4 set value {Name:{"text":"Здоро
 
 
 
-data modify storage swrg:lang page0.s20 set value {Name:{"text":"Тринкеты! (Можно много одинаковых!)","color":"white","italic":false}}
-data modify storage swrg:lang page0.s21 set value {Name:{"text":"Улучшения! (Можно несколько!)","color":"white","italic":false}}
+data modify storage swrg:lang page0.s20 set value {Name:{"text":"Тринкеты! Выберите ","color":"white","italic":false}}
+data modify storage swrg:lang page0.s201 set value {Name:{"text":", любым способом - можно стакать одинаковые","color":"white","italic":false}}
+data modify storage swrg:lang page0.s21 set value {Name:{"text":"Улучшения! Выберите ","color":"white","italic":false}}
+data modify storage swrg:lang page0.s211 set value {Name:{"text":" разных!","color":"white","italic":false}}
 data modify storage swrg:lang page0.s22 set value {Name:{"text":"Супер-Набор!","color":"white","italic":false}}
 data modify storage swrg:lang page0.s23 set value {Name:{"text":"Супер-Навык!","color":"white","italic":false}}
 data modify storage swrg:lang page0.s24 set value {Name:{"text":"-_\\Испытания/_-","color":"white","italic":false}}
